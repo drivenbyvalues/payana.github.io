@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | default: 'Professional Timeline' }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/resume.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/timeline.css' | relative_url }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="timeline-container">
+        <aside class="timeline-sidebar">
+            <div class="sidebar-header">
+                <a href="{{ '/' | relative_url }}" class="back-link">
+                    <i class="fas fa-arrow-left"></i> Back to Resume
+                </a>
+                <h2>Timeline</h2>
+            </div>
+            <nav class="year-nav">
+                <ul>
+                    {% for year in (2000..2025) reversed %}
+                        <li><a href="#year-{{ year }}">{{ year }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </aside>
+        
+        <main class="timeline-content">
+            {{ content }}
+        </main>
+    </div>
+</body>
+</html>

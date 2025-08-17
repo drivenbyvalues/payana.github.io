@@ -1,0 +1,78 @@
+---
+layout: resume
+---
+
+<header class="header">
+    <div class="header-content">
+        <div class="profile-section">
+            <div class="profile-info">
+                <h1>{{ page.title }}</h1>
+                <div class="title">{{ page.subtitle | default: "Professional Experience" }}</div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="year-range-page">
+    <div class="container">
+        <div class="content">
+            {{ content }}
+        </div>
+    </div>
+</div>
+
+<style>
+.year-range-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.year-range-page h1 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.year-range-page h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.year-range-page h3 {
+    color: #3498db;
+    margin: 20px 0 10px 0;
+}
+
+.year-range-page p, .year-range-page li {
+    color: #34495e;
+    line-height: 1.6;
+}
+
+.year-range-page ul {
+    padding-left: 20px;
+}
+
+.year-range-page li {
+    margin-bottom: 8px;
+}
+
+.highlight-box {
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .year-range-page {
+        padding: 10px;
+    }
+    
+    .year-range-page h1 {
+        font-size: 1.8em;
+    }
+}
+</style>

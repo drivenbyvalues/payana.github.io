@@ -4,7 +4,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5fd4643d-ecfc-4a6b-8e13-c9d20bd023d1" name="Changes" comment="" />
+    <list default="true" id="7453aae2-2ff1-47bc-b4fb-7858eee5d033" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/resume.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/-" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2000.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2001.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2002.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2003.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2004.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2005.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2006.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2007.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2008.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2009.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2010.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2011.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2012.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2013.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2014.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2015.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2016.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2017.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2018.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2019.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2020.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2021.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2022.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2023.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/2024.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/another-page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/css/print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/css/resume.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/images/body-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/images/download-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/images/github-button.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/images/header-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/images/highlight-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/images/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/assets/images/sidebar-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/certifications.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/docs/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/docs/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/docs/SUPPORT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/jekyll-theme-architect.gemspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/learning.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/resumes/Harish.Raghavendra.Product.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/resumes/Harish.Raghavendra.Resume.24.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/resumes/Harish.Raghavendra.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/resumes/Harish_Hulu(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/resumes/LinkedInProfile.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/script/bootstrap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/script/cibuild" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/script/release" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/script/validate-html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/skills.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/thumbnail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_site/timeline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/resume.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/profile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/certifications.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learning.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resumes/Harish.Raghavendra.Product.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resumes/Harish.Raghavendra.Resume.24.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resumes/Harish.Raghavendra.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resumes/Harish_Hulu(1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resumes/LinkedInProfile.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/skills.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/timeline.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,23 +92,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectCodeStyleSettingsMigration">
-    <option name="version" value="2" />
-  </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
-  <component name="ProjectId" id="2l4mMQN6DFpeWP1rMJ56oeXZHGD" />
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;drivenbyvalues&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:drivenbyvalues/drivenbyvalues.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;48bcddcd-8e69-41a0-8f41-1d5a4b1c7c30&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="31P2A7GhfV1QLXacqKv7Ui2j6qe" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/harish.raghav/Downloads/payana.github.io",
+    "last_opened_file_path": "/Users/harish.raghav/Documents/GitHub/drivenbyvalues.github.io/resumes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -40,26 +131,25 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/resumes" />
     </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.32" />
       </set>
     </attachedChunks>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5fd4643d-ecfc-4a6b-8e13-c9d20bd023d1" name="Changes" comment="" />
-      <created>1724447675351</created>
+      <changelist id="7453aae2-2ff1-47bc-b4fb-7858eee5d033" name="Changes" comment="" />
+      <created>1755411241575</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1724447675351</updated>
-      <workItem from="1724447676665" duration="5209000" />
+      <updated>1755411241575</updated>
+      <workItem from="1755411243687" duration="3117000" />
+      <workItem from="1755459803895" duration="8283000" />
     </task>
     <servers />
   </component>

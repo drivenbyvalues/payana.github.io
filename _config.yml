@@ -3,3 +3,22 @@ description: Personal Webpage for Career journey
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
+
+# Include all files in the _pages directory
+include:
+  - _pages
+
+# Set default front matter defaults
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      layout: "default"
+      permalink: /:title/
+
+# Exclude files from being processed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
