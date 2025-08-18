@@ -5,83 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7453aae2-2ff1-47bc-b4fb-7858eee5d033" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/-" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/resume.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_layouts/timeline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/-" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2000.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2001.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2002.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2003.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2004.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2005.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2006.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2007.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2008.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2009.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2010.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2011.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2012.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2013.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2014.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2015.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2016.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2017.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2018.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2019.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2020.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2021.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2022.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2023.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/2024.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/another-page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/css/print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/css/resume.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/css/timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/images/body-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/images/download-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/images/github-button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/images/header-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/images/highlight-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/images/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/assets/images/sidebar-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/certifications.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/docs/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/docs/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/docs/SUPPORT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/jekyll-theme-architect.gemspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/learning.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/resumes/Harish.Raghavendra.Product.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/resumes/Harish.Raghavendra.Resume.24.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/resumes/Harish.Raghavendra.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/resumes/Harish_Hulu(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/resumes/LinkedInProfile.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/script/bootstrap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/script/cibuild" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/script/release" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/script/validate-html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/skills.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/thumbnail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/timeline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/resume.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/timeline.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/profile.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/certifications.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learning.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resumes/Harish.Raghavendra.Product.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resumes/Harish.Raghavendra.Resume.24.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resumes/Harish.Raghavendra.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resumes/Harish_Hulu(1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resumes/LinkedInProfile.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/skills.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/timeline.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755411241575</updated>
       <workItem from="1755411243687" duration="3117000" />
-      <workItem from="1755459803895" duration="8283000" />
+      <workItem from="1755459803895" duration="9159000" />
     </task>
     <servers />
   </component>
