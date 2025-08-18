@@ -19,6 +19,9 @@ title: Harish Raghavendra - Director, Data and AI Platform
             <a href="{{ '/timeline' | relative_url }}" class="timeline-button">
                 <i class="fas fa-history"></i> View Timeline
             </a>
+            <a href="{{ '/years' | relative_url }}" class="years-button">
+                <i class="fas fa-calendar-alt"></i> Years
+            </a>
             <a href="{{ '/certifications' | relative_url }}" class="certification-button">
                 <i class="fas fa-certificate"></i> Certifications
             </a>

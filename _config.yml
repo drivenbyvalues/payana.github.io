@@ -4,6 +4,21 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-architect
 
+# Plugins
+plugins:
+  - jekyll-seo-tag
+
+# Enable plugins
+gems:
+  - jekyll-seo-tag
+
+# Plugin settings
+year_pages:
+  enabled: true
+  years:
+    start: 2000
+    end: 2025
+
 # Include all files in the _pages directory
 include:
   - _pages
