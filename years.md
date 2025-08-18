@@ -3,7 +3,8 @@ layout: resume
 title: Years (2000-2025)
 ---
 
-<div class="years-container">
+<div class="container">
+    <div class="years-container">
     <div class="years-sidebar">
         <h2>Years</h2>
         <nav class="years-nav">
@@ -11,7 +12,7 @@ title: Years (2000-2025)
             <ul>
                 {% for year in years %}
                     <li>
-                        <a href="{{ '/' | append: year | relative_url }}" class="{% if forloop.first %}active{% endif %}" data-year="{{ year }}">
+                        <a href="{{ '/' | append: year | append: '/' | relative_url }}" class="{% if page.url contains year %}active{% endif %}">
                             <i class="fas fa-calendar-day"></i> {{ year }}
                         </a>
                     </li>
@@ -21,18 +22,39 @@ title: Years (2000-2025)
     </div>
     
     <div class="years-content">
-        {% assign current_year = site.time | date: "%Y" %}
-        {% assign year_page = site.pages | where: 'path', '_pages/years/' | append: current_year | append: '.md' | first %}
-        
-        {% if year_page %}
-            {{ year_page.content | markdownify }}
-        {% else %}
-            <h1>{{ current_year }} - Year in Review</h1>
-            <div class="year-highlights">
-                <p>No content available for {{ current_year }} yet. Check back soon for updates!</p>
+        {% if page.url == '/years/' %}
+            <h1>Years Overview</h1>
+            <p>Select a year from the sidebar to view details about that year's activities and achievements.</p>
+            
+            <h2>Recent Years</h2>
+            <div class="recent-years">
+                {% assign recent_years = "2025,2024,2023,2022,2021" | split: "," %}
+                {% for year in recent_years %}
+                    <div class="year-card">
+                        <h3><a href="{{ '/' | append: year | append: '/' | relative_url }}">{{ year }}</a></h3>
+                        <p>Summary of activities and achievements in {{ year }}.</p>
+                    </div>
+                {% endfor %}
             </div>
+        {% else %}
+            {% assign year = page.url | remove: '/' | plus: 0 %}
+            {% if year >= 2000 and year <= 2025 %}
+                {% assign year_page = site.pages | where: 'path', '_pages/years/' | append: year | append: '.md' | first %}
+                {% if year_page %}
+                    {{ year_page.content | markdownify }}
+                {% else %}
+                    <h1>{{ year }} - Year in Review</h1>
+                    <div class="year-highlights">
+                        <p>No content available for {{ year }} yet. Check back soon for updates!</p>
+                    </div>
+                {% endif %}
+            {% else %}
+                <h1>Year Not Found</h1>
+                <p>The requested year is not available. Please select a year between 2000 and 2025.</p>
+            {% endif %}
         {% endif %}
     </div>
+</div>
 </div>
 
 <style>
@@ -45,16 +67,8 @@ title: Years (2000-2025)
 }
 
 .years-sidebar {
-    width: 200px;
+    width: 250px;
     flex-shrink: 0;
-}
-
-.years-sidebar h2 {
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    color: #2c3e50;
-    padding-bottom: 0.5rem;
-    border-bottom: 1px solid #f0f0f0;
 }
 
 .years-nav ul {
@@ -70,50 +84,61 @@ title: Years (2000-2025)
 .years-nav a {
     display: flex;
     align-items: center;
-    padding: 0.5rem 0.75rem;
-    color: #2c3e50;
+    padding: 0.5rem 1rem;
+    color: #333;
     text-decoration: none;
     border-radius: 4px;
-    transition: all 0.2s ease;
-    font-size: 0.95rem;
+    transition: background-color 0.2s;
 }
 
-.years-nav a:hover {
-    background-color: #f5f7fa;
-    color: #3498db;
-}
-
+.years-nav a:hover,
 .years-nav a.active {
-    background-color: #3498db;
-    color: white;
-    font-weight: 500;
+    background-color: #f5f5f5;
+    color: #000;
 }
 
 .years-nav a i {
     margin-right: 0.5rem;
-    width: 1rem;
+    width: 1.25rem;
     text-align: center;
-    font-size: 0.9rem;
 }
 
 .years-content {
-    flex: 1;
-    background: white;
-    border-radius: 8px;
+    flex-grow: 1;
+    background: #fff;
     padding: 2rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.years-content h1 {
-    color: #2c3e50;
+.recent-years {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.year-card {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #4285f4;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.year-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.year-card h3 {
     margin-top: 0;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #eee;
+    margin-bottom: 0.5rem;
 }
 
-.year-highlights {
-    margin-top: 1.5rem;
-    line-height: 1.6;
+.year-card p {
+    margin: 0;
+    color: #666;
 }
 
 /* Responsive styles */
@@ -124,131 +149,21 @@ title: Years (2000-2025)
     
     .years-sidebar {
         width: 100%;
-        margin-bottom: 2rem;
+        margin-bottom: 1.5rem;
     }
     
     .years-nav ul {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        display: flex;
+        flex-wrap: wrap;
         gap: 0.5rem;
     }
     
-    .years-content {
-        padding: 1.5rem;
+    .years-nav li {
+        margin: 0;
     }
-}
-
-/* Animation for year switching */
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-/* Add smooth scrolling to the page */
-html {
-    scroll-behavior: smooth;
-}
-
-.loading {
-    text-align: center;
-    padding: 2rem;
-    font-style: italic;
-    color: #666;
+    
+    .years-nav a {
+        padding: 0.5rem;
+    }
 }
 </style>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Get all year links and content container
-    const yearLinks = document.querySelectorAll('.years-nav a');
-    const yearsContent = document.querySelector('.years-content');
-    
-    // Function to update active state
-    function updateActiveYear(year) {
-        yearLinks.forEach(link => {
-            if (link.getAttribute('data-year') === year) {
-                link.classList.add('active');
-            } else {
-                link.classList.remove('active');
-            }
-        });
-    }
-    
-    // Function to load year content
-    async function loadYearContent(year) {
-        try {
-            // Show loading state
-            yearsContent.innerHTML = '<div class="loading">Loading...</div>';
-            
-            // Fetch the year page
-            const response = await fetch(`/${year}/`);
-            if (!response.ok) throw new Error('Year not found');
-            
-            const html = await response.text();
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, 'text/html');
-            
-            // Extract the main content
-            const mainContent = doc.querySelector('main');
-            if (mainContent) {
-                yearsContent.innerHTML = mainContent.innerHTML;
-            } else {
-                throw new Error('Content not found');
-            }
-            
-            // Update active state
-            updateActiveYear(year);
-            
-            // Update URL without page reload
-            history.pushState({ year }, '', `/${year}/`);
-            
-            // Scroll to top
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-            
-        } catch (error) {
-            console.error('Error loading year:', error);
-            yearsContent.innerHTML = `
-                <h1>${year} - Year in Review</h1>
-                <div class="year-highlights">
-                    <p>No content available for ${year} yet. Check back soon for updates!</p>
-                </div>
-            `;
-        }
-    }
-    
-    // Handle click on year links
-    yearLinks.forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const year = this.getAttribute('data-year');
-            loadYearContent(year);
-        });
-    });
-    
-    // Handle browser back/forward buttons
-    window.addEventListener('popstate', function(e) {
-        const currentPath = window.location.pathname;
-        const yearMatch = currentPath.match(/\/(\d{4})\/?/);
-        
-        if (yearMatch && yearMatch[1]) {
-            loadYearContent(yearMatch[1]);
-        } else {
-            // If no year in URL, load the current year
-            const currentYear = new Date().getFullYear().toString();
-            loadYearContent(currentYear);
-        }
-    });
-    
-    // Load content based on current URL
-    const currentPath = window.location.pathname;
-    const yearMatch = currentPath.match(/\/(\d{4})\/?/);
-    
-    if (yearMatch && yearMatch[1]) {
-        loadYearContent(yearMatch[1]);
-    } else {
-        // If no year in URL, load the current year
-        const currentYear = new Date().getFullYear().toString();
-        loadYearContent(currentYear);
-    }
-});
-</script>

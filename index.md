@@ -11,20 +11,15 @@ title: Harish Raghavendra - Director, Data and AI Platform
             </div>
             <div class="profile-info">
                 <h1>Harish Raghavendra</h1>
-                <div class="title">Director, Data and AI Platform | Technology Leader | Payments & FinTech Expert</div>
-                <div class="location"><i class="fas fa-map-marker-alt"></i> Fremont, CA | (818) 324-5080</div>
+                <div class="title">Director, Data, AI Policy Governance | Product Strategy Leader </div>
+                <div class="title">AI & Data Platform | Payments & FinTech Enabler</div>
+                <div class="location"><i class="fas fa-map-marker-alt"></i> San Francisco Bay Area, CA | USA</div>
             </div>
         </div>
         <div class="header-actions">
             <a href="{{ '/timeline' | relative_url }}" class="timeline-button">
                 <i class="fas fa-history"></i> View Timeline
-            </a>
-            <a href="{{ '/years' | relative_url }}" class="years-button">
-                <i class="fas fa-calendar-alt"></i> Years
-            </a>
-            <a href="{{ '/certifications' | relative_url }}" class="certification-button">
-                <i class="fas fa-certificate"></i> Certifications
-            </a>
+            </a> 
         </div>
     </div>
     
