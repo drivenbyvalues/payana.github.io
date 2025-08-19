@@ -9,29 +9,31 @@ title: Certifications & Training
         
         <div class="certification-item">
             <div class="certification-header">
-                <h3>AWS Certified Solutions Architect - Professional</h3>
+                <h3>Product Strategy - Improving Your Product Sense</h3>
+                <span class="certification-date">2025</span>
+            </div>
+            <div class="certification-issuer">Maven Academy</div>
+            <div class="certification-id">Verification ID: 
+                <a href="https://www.virtualbadge.io/certificate-validator?credential=faa638c1-72ae-41e6-b91f-ff7d11963c04" target="_blank"> faa638c1-72ae-41e6-b91f-ff7d11963c04 </a>
+            </div>
+        </div>
+
+        <div class="certification-item">
+            <div class="certification-header">
+                <h3>Managing your PM Career in 2025 and beyond</h3>
                 <span class="certification-date">2024</span>
             </div>
-            <div class="certification-issuer">Amazon Web Services</div>
-            <div class="certification-id">Verification ID: XYZ-12345</div>
-            <a href="#" class="certification-link" target="_blank">View Credential</a>
+            <div class="certification-issuer">Maven Academy - 
+            <a href="https://maven.com/certificate/TOeXjwfY" target="_blank">View Credential</a></div>
         </div>
 
         <div class="certification-item">
             <div class="certification-header">
-                <h3>Certified Kubernetes Administrator (CKA)</h3>
+                <h3>Introduction to Generative AI with GPT</h3>
                 <span class="certification-date">2023</span>
             </div>
-            <div class="certification-issuer">Cloud Native Computing Foundation</div>
-            <div class="certification-id">Verification ID: CKA-98765</div>
-        </div>
-
-        <div class="certification-item">
-            <div class="certification-header">
-                <h3>Professional Scrum Master I (PSM I)</h3>
-                <span class="certification-date">2022</span>
-            </div>
-            <div class="certification-issuer">Scrum.org</div>
+            <div class="certification-issuer">LinkedIn Learning - 
+             <a href="https://www.linkedin.com/learning/certificates/d9162913f24fd5d0e2d028bb8fb9d64c57aa5c28acefb067b4c1681472effd22" target="_blank">View Credential</a></div>
         </div>
     </section>
 
