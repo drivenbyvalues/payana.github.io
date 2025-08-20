@@ -259,32 +259,56 @@ title: Harish Raghavendra - Director, Data and AI Platform
     </div>
 </div>
 
-<div class="section">
-    <h2 class="section-title">Board & Advisory Roles</h2>
-    <div class="experience-item">
-        <div class="experience-header">
-            <h3>Technology Advisor</h3>
-            <div class="experience-date">2022 - Present</div>
-        </div>
-        <div class="company">TechStart Foundation, San Francisco, CA</div>
-        <ul>
-            <li>Advise on technology strategy and curriculum development for non-profit supporting underprivileged youth in tech</li>
-            <li>Mentor aspiring engineers from underrepresented backgrounds</li>
-        </ul>
-    </div>
-    
-    <div class="experience-item">
-        <div class="experience-header">
-            <h3>Technical Advisor</h3>
-            <div class="experience-date">2020 - Present</div>
-        </div>
-        <div class="company">Emerging AI Startup (Stealth Mode)</div>
-        <ul>
-            <li>Provide technical guidance on architecture and scaling strategies</li>
-            <li>Assist with technical hiring and team building</li>
-        </ul>
-    </div>
-</div>
+[//]: # (<div class="section">)
+
+[//]: # (    <h2 class="section-title">Board & Advisory Roles</h2>)
+
+[//]: # (    <div class="experience-item">)
+
+[//]: # (        <div class="experience-header">)
+
+[//]: # (            <h3>Technology Advisor</h3>)
+
+[//]: # (            <div class="experience-date">2022 - Present</div>)
+
+[//]: # (        </div>)
+
+[//]: # (        <div class="company">TechStart Foundation, San Francisco, CA</div>)
+
+[//]: # (        <ul>)
+
+[//]: # (            <li>Advise on technology strategy and curriculum development for non-profit supporting underprivileged youth in tech</li>)
+
+[//]: # (            <li>Mentor aspiring engineers from underrepresented backgrounds</li>)
+
+[//]: # (        </ul>)
+
+[//]: # (    </div>)
+
+[//]: # (    )
+[//]: # (    <div class="experience-item">)
+
+[//]: # (        <div class="experience-header">)
+
+[//]: # (            <h3>Technical Advisor</h3>)
+
+[//]: # (            <div class="experience-date">2020 - Present</div>)
+
+[//]: # (        </div>)
+
+[//]: # (        <div class="company">Emerging AI Startup &#40;Stealth Mode&#41;</div>)
+
+[//]: # (        <ul>)
+
+[//]: # (            <li>Provide technical guidance on architecture and scaling strategies</li>)
+
+[//]: # (            <li>Assist with technical hiring and team building</li>)
+
+[//]: # (        </ul>)
+
+[//]: # (    </div>)
+
+[//]: # (</div>)
 
 <div class="section">
     <h2 class="section-title">Languages</h2>
