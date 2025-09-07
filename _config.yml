@@ -16,7 +16,7 @@ gems:
 year_pages:
   enabled: true
   years:
-    start: 2000
+    start: 1998
     end: 2025
 
 # Include all files in the _pages directory
