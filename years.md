@@ -1,117 +1,48 @@
 ---
 layout: resume
-title: Years (2000-2025)
+title: Years (1998-2025)
 ---
 
-<div class="container">
-    <div class="years-container">
-    <div class="years-sidebar">
-        <h2>Years</h2>
-        <nav class="years-nav">
-            {% assign years = "2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998" | split: "," %}
-            <ul>
-                {% for year in years %}
-                    <li>
-                        <a href="{{ '/' | append: year | append: '/' | relative_url }}" class="{% if page.url contains year %}active{% endif %}">
-                            <i class="fas fa-calendar-day"></i> {{ year }}
-                        </a>
-                    </li>
-                {% endfor %}
-            </ul>
-        </nav>
-    </div>
+<div class="years-page">
+    <h1>Years Overview</h1>
+    <p>Select a year to view details about that year's activities and achievements.</p>
     
-    <div class="years-content">
-        {% if page.url == '/years/' %}
-            <h1>Years Overview</h1>
-            <p>Select a year from the sidebar to view details about that year's activities and achievements.</p>
-            
-            <h2>Recent Years</h2>
-            <div class="recent-years">
-                {% assign recent_years = "2025,2024,2023,2022,2021" | split: "," %}
-                {% for year in recent_years %}
-                    <div class="year-card">
-                        <h3><a href="{{ '/' | append: year | append: '/' | relative_url }}">{{ year }}</a></h3>
-                        <p>Summary of activities and achievements in {{ year }}.</p>
-                    </div>
-                {% endfor %}
-            </div>
-        {% else %}
-            {% assign year = page.url | remove: '/' | plus: 0 %}
-            {% if year >= 2000 and year <= 2025 %}
-                {% assign year_page = site.pages | where: 'path', '_pages/years/' | append: year | append: '.md' | first %}
-                {% if year_page %}
-                    {{ year_page.content | markdownify }}
-                {% else %}
-                    <h1>{{ year }} - Year in Review</h1>
-                    <div class="year-highlights">
-                        <p>No content available for {{ year }} yet. Check back soon for updates!</p>
-                    </div>
-                {% endif %}
-            {% else %}
-                <h1>Year Not Found</h1>
-                <p>The requested year is not available. Please select a year between 2000 and 2025.</p>
-            {% endif %}
-        {% endif %}
+    <div class="years-grid">
+        {% assign years = "2025,2024,2023,2022,2021,2020,2019,2018,2017,2016,2015,2014,2013,2012,2011,2010,2009,2008,2007,2006,2005,2004,2003,2002,2001,2000,1999,1998" | split: "," %}
+        {% for year in years %}
+            <a href="{{ '/' | append: year | append: '/' | relative_url }}" class="year-card">
+                <div class="year-number">{{ year }}</div>
+                <div class="year-preview">
+                    {% assign year_page = site.pages | where: 'path', '_pages/years/' | append: year | append: '.md' | first %}
+                    {% if year_page and year_page.subtitle %}
+                        <div class="year-subtitle">{{ year_page.subtitle }}</div>
+                    {% endif %}
+                </div>
+            </a>
+        {% endfor %}
     </div>
-</div>
 </div>
 
 <style>
-.years-container {
-    display: flex;
+.years-page {
     max-width: 1200px;
-    margin: 2rem auto;
-    gap: 2rem;
-    padding: 0 1rem;
+    margin: 0 auto;
+    padding: 2rem 1rem;
 }
 
-.years-sidebar {
-    width: 250px;
-    flex-shrink: 0;
-}
-
-.years-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.years-nav li {
-    margin-bottom: 0.5rem;
-}
-
-.years-nav a {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem 1rem;
-    color: #333;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.2s;
-}
-
-.years-nav a:hover,
-.years-nav a.active {
-    background-color: #f5f5f5;
-    color: #000;
-}
-
-.years-nav a i {
-    margin-right: 0.5rem;
-    width: 1.25rem;
+.years-page h1 {
     text-align: center;
+    margin-bottom: 1rem;
+    color: #2c3e50;
 }
 
-.years-content {
-    flex-grow: 1;
-    background: #fff;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.years-page p {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #6a737d;
 }
 
-.recent-years {
+.years-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 1.5rem;
@@ -119,51 +50,47 @@ title: Years (2000-2025)
 }
 
 .year-card {
-    background: #f9f9f9;
-    padding: 1.5rem;
+    background: #fff;
     border-radius: 8px;
-    border-left: 4px solid #4285f4;
-    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 1.5rem;
+    text-decoration: none;
+    color: #2c3e50;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border: 1px solid #e1e4e8;
 }
 
 .year-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-decoration: none;
 }
 
-.year-card h3 {
-    margin-top: 0;
+.year-number {
+    font-size: 1.5rem;
+    font-weight: 600;
     margin-bottom: 0.5rem;
+    color: #3498db;
 }
 
-.year-card p {
-    margin: 0;
-    color: #666;
+.year-subtitle {
+    color: #6a737d;
+    font-size: 0.9rem;
+    margin-top: auto;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
-    .years-container {
-        flex-direction: column;
+    .years-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
-    
-    .years-sidebar {
-        width: 100%;
-        margin-bottom: 1.5rem;
-    }
-    
-    .years-nav ul {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.5rem;
-    }
-    
-    .years-nav li {
-        margin: 0;
-    }
-    
-    .years-nav a {
-        padding: 0.5rem;
+}
+
+@media (max-width: 480px) {
+    .years-grid {
+        grid-template-columns: 1fr;
     }
 }
 </style>

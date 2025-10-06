@@ -85,11 +85,14 @@ title: Harish Raghavendra - Director, Data and AI Platform
     
     <div class="experience-item">
         <div class="experience-header">
-            <h3>Director, Data and AI Platform</h3>
+            <h3>Director, Data and AI Governance</h3>
             <div class="experience-date">Jul 2019 - Present</div>
         </div>
         <div class="company">Visa Inc., Foster City, CA</div>
         <ul>
+            <li>Data Policy & Governance Deputy lead to manage reviews related to data, AI policies and governance. </li>
+            <li>Built <a href="https://grc-portal-production.up.railway.app" target="_blank">GRC assessment platform</a> using AI and LLMs. Ran multiple Rapid Learning Experiments (RLEs) to automate multiple processes</li>
+            <li>Extensive knowledge of building AI Agents, multiple models usage including OpenAI (GPT-4, 4.1, o1, o3, o4, 5), Claude Sonnet (3.5, 3.7, 4.0, 4.5), Gemini (2.5 Pro, Flash), DeepSeek to solve multiple business problem with appropriate models</li>
             <li>Lead development of Visa's next-generation merchant data platform, enabling global merchant data products using hyperlocal regional data sourcing and LLM/AI/ML models</li>
             <li>Pioneered VisaTravelInsights.AI, leveraging GPT-4 with RAG (Retrieval-Augmented Generation) to deliver actionable travel insights for airlines and airport operators</li>
             <li>Headed Technical Product Management, leading a team of senior product managers and growing the engineering team from 3 to 80+ members across 5 scrum teams</li>
