@@ -23,6 +23,20 @@ year_pages:
 include:
   - _pages
 
+nav_links:
+  - label: Resume
+    url: /
+  - label: Timeline
+    url: /timeline/
+  - label: Skills
+    url: /skills/
+  - label: Years
+    url: /years/
+  - label: Contact
+    url: /#contact
+
+formspree_id: your-form-id
+
 # Set default front matter defaults
 defaults:
   - scope:

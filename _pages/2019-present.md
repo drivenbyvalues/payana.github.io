@@ -1,65 +1,66 @@
 ---
 layout: year-range
 title: 2019-Present - Director, Data and AI Platform
-subtitle: Leading Innovation in Financial Data & AI at Visa
+subtitle: Leading Innovation in Financial Data, AI Governance & Agentic GRC at Visa
 permalink: /2019-present/
 nav_order: 6
 ---
 
 ## Director, Data and AI Platform
-**Visa Inc.**  
-*Foster City, CA | 2019 - Present*
+**Visa Inc.**
+*Foster City, CA · July 2019 – Present*
+
+Data & AI Governance is a client-focused team that assesses Visa-wide initiatives for governance and data use—across products, programs, and public engagements—working closely with Privacy, Competition, Affiliates, and IP legal teams to review and guide teams in different markets.
 
 <div class="highlight-box">
-    <h3>Key Achievements</h3>
+    <h3>Director — Key Achievements</h3>
     <ul>
-        <li>Data Policy & Governance Deputy lead to manage data, AI policies and governance across Visa. </li>
-        <li>Built entire [GRC assessment platform](https://grc-portal-production.up.railway.app/) using AI (Agents, multiple models including GPT 4.1, 5, Claude Sonnet 3.7, 4.0 4.5. Extensive AI usage to solve business problem</li>
-        <li>Leading development of Visa's next-generation merchant data platform processing 100M+ transactions daily with 99.999% availability</li>
-        <li>Pioneered VisaTravelInsights.AI using GPT-4 with RAG technology, generating $5M+ in annual revenue</li>
-        <li>Scaled engineering team from 3 to 80+ top-tier engineers across 5 scrum teams, maintaining <15% annual attrition rate</li>
-        <li>Architected self-service platform managing 100+ petabyte-scale clusters with 99.99% uptime</li>
-        <li>Developed app-builder framework enabling business teams to create 50+ applications with no-code/low-code capabilities</li>
+        <li><strong>AI-Driven GRC Platform:</strong> Built an Agentic AI platform of 40+ agents, 1M+ lines of code, 450+ APIs, and 100+ features. Enabled multi-million dollar revenue unlock by evolving governance to operate at the speed of business with trust and safety. <a href="https://grc-portal-production.up.railway.app/" target="_blank" rel="noopener">View live platform →</a></li>
+        <li><strong>Data &amp; AI Governance Deputy Lead</strong> navigating complex use cases to ensure Data Use Policy guidelines cover reviews; contributed to Responsible AI, Data Policy, and AI inventions.</li>
+        <li><strong>NextGen Merchant Data Platform:</strong> Envisioned a 3-year strategy capturing all relationships of entities participating in a VisaNet transaction (Merchants, PayFacs, Acquirers). Expanding merchant data products to cover 136M+ merchant locations globally with GenAI/LLM models for entity detection, recognition, classification, and hyperlocal data.</li>
+        <li><strong>Single Threaded Owner</strong> for a team of senior engineers and product managers overseeing 30+ big data products and data platforms at a scale of 215B+ transactions Visa-wide.</li>
+        <li><strong>Visa Self-Supported Core Hadoop 3.x:</strong> Drove vision, strategy, and execution of Visa's own internal Hadoop distribution. Scaled team from 3 to 80+ members and saved $85M+ over 5 years.</li>
+        <li><strong>Hadoop In-Place Upgrade:</strong> Presented 20+ roadshows across all Visa tech divisions for the 2-year upgrade journey covering 175+ data applications, 90+ clusters, and 100s of PB of storage.</li>
+        <li><strong>Self-Service API Platform:</strong> Led PM build of a highly scaled agent-based API platform managing 12K+ servers via 1,500+ APIs (NodeJS/ReactJS). Onboarded 14 teams to hosted governance, storage, queue, and cluster management—reducing dev time from months to weeks.</li>
+        <li><strong>External Audit:</strong> Presented and passed external audit of the Hadoop program with the Federal Reserve, FBA, and government agencies.</li>
+        <li><strong>Strategy:</strong> Defined 3–5 year product strategy for platforms covering core data, serving, storage (HDFS/GPFS), cluster insights, governance, and catalog—plus the cloud (GCP) adoption strategy.</li>
     </ul>
 </div>
 
 ## Leadership & Organizational Impact
-- Built and led high-performing engineering organization with focus on innovation and operational excellence
-- Established engineering career paths and growth framework, resulting in 30% internal promotions
-- Drove cultural transformation towards data-driven decision making across the organization
-- Led strategic technical partnerships with major cloud providers and AI startups
-- Established center of excellence for AI/ML, training 200+ engineers in advanced data technologies
+- Crafted team OKRs, ran 1:1s, team meetings, yearly product/capacity planning, customer interviews, UX reviews, and weekly leadership updates to VPs/SVPs.
+- Active contributor to engineering, product, and program calibration to grow and expand talent.
+- Maintained &lt;15% annual attrition across the 80+ engineering organization through clear growth paths and culture investment.
 
 ## Platform & Technical Initiatives
 <div class="highlight-box">
-    <h3>Next-Gen Merchant Data Platform</h3>
+    <h3>NextGen Merchant Data Platform</h3>
     <ul>
-        <li>Architected and built petabyte-scale data platform processing 100M+ transactions daily</li>
-        <li>Implemented real-time streaming architecture reducing data latency from hours to milliseconds</li>
-        <li>Developed multi-tenant, secure data sharing framework serving 1000+ internal and external clients</li>
+        <li>Architected to capture full Merchant ↔ PayFac ↔ Acquirer relationships across 136M+ merchant locations.</li>
+        <li>GenAI/LLM-powered entity detection, recognition, and classification for hyperlocal data.</li>
+        <li>Operating at 215B+ transactions Visa-wide with 99.999% availability targets.</li>
     </ul>
-    
-    <h3>AI/ML Innovation</h3>
+
+    <h3>AI / GRC Innovation</h3>
     <ul>
-        <li>Launched VisaTravelInsights.AI, the first GPT-4 powered travel analytics platform in payments industry</li>
-        <li>Built MLOps platform reducing model deployment time from weeks to hours</li>
-        <li>Implemented federated learning framework enabling secure model training across distributed data</li>
+        <li>Native agentic GRC platform with Agent Runs, Claims, multi-dimensional Rubrics, and Decision Traces.</li>
+        <li>Multi-LLM orchestration across GPT-4.1, GPT-5, Claude Sonnet 3.7 / 4.0 / 4.5.</li>
+        <li>Multi-million revenue unlock by reducing assessment time 95% (8 days → 30 minutes).</li>
     </ul>
-    
+
     <h3>Cloud & Platform Engineering</h3>
     <ul>
-        <li>Led migration of 200+ services to cloud-native architecture on GCP and Azure</li>
-        <li>Developed self-service data platform with 5000+ monthly active users</li>
-        <li>Implemented comprehensive data governance and security framework meeting PCI-DSS and SOC 2 compliance</li>
+        <li>Self-service big data platform with 1,500+ APIs and 14 teams onboarded.</li>
+        <li>Hadoop 3.x distribution and 2-year in-place upgrade across 90+ clusters and 175+ apps.</li>
+        <li>GCP cloud adoption strategy and external audit clearance with Fed Reserve, FBA, and government agencies.</li>
     </ul>
 </div>
 
 ## Business Impact & Innovation
-- Drove $50M+ in annual cost savings through platform optimization and automation
-- Delivered 10+ AI-powered products generating $20M+ in new revenue streams
-- Reduced time-to-market for new data products by 70% through platform capabilities
-- Established AI ethics and responsible AI framework for financial services
-- Led creation of 15+ patents in AI/ML and data platform technologies
+- Multi-million dollar revenue unlock from the agentic GRC platform.
+- $85M+ savings over 5 years from the self-supported Core Hadoop 3.x distribution.
+- 5x faster go/no-go decisions; 95% reduction in assessment time; 100% framework adherence vs. 60–70% manual.
+- Active contributions to Responsible AI, Data Use Policy, and AI inventions at Visa.
 
 <div class="back-link">
     <a href="{{ '/timeline' | relative_url }}" class="button">← Back to Timeline</a>
@@ -86,4 +87,3 @@ nav_order: 6
     text-align: center;
 }
 </style>
-

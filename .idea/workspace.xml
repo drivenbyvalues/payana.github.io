@@ -5,33 +5,103 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7453aae2-2ff1-47bc-b4fb-7858eee5d033" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/years/1998.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_site/years/1999.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_pages/years/2026.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_pages/2019-present.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/2019-present.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head-custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head-custom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/default.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/year-range.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/year-range.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/1998.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/1998.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/1999.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/1999.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2000.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2000.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2001.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2001.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2002.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2002.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2003.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2003.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2004.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2004.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/years/2005.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2005.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/years/2006.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2006.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/years/2007.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2007.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2008.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2008.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2009.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2009.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2010.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2010.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2011.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2011.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2012.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2012.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2013.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2013.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2014.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2014.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2015.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2015.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2016.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2016.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2017.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2017.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2018.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2018.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2019.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2019.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2020.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2020.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2021.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2021.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2022.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2022.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2023.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2023.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2024.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2024.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/2025.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/2025.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/years/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/years/default.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/1998/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/1998/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/1999/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/1999/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2000/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2000/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2001/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2001/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2002-2005/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2002-2005/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2002/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2002/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2003/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2003/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2004/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2004/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2005-2007/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2005-2007/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2005/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2005/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2006/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2006/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2007-2009/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2007-2009/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2007/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2007/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2008/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2008/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2009-2016/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2009-2016/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2009/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2009/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2010/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2010/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2011/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2011/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2012/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2012/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2013/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2013/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2014/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2014/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2015/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2015/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2016-2019/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2016-2019/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2016/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2016/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2017/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2017/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2019-present/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019-present/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2019/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2019/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2020/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2020/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2021/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2021/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2022/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2022/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2023/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2023/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2024/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2024/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2025/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2025/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/:year/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/another-page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/another-page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_site/assets/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/_site/robots.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/years.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/years.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/timeline.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/timeline.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/resume.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/years.md" beforeDir="false" afterPath="$PROJECT_DIR$/years.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/timeline.md" beforeDir="false" afterPath="$PROJECT_DIR$/timeline.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/harish.raghav/Documents/GitHub/drivenbyvalues.github.io" value="31P2A7GhfV1QLXacqKv7Ui2j6qe" />
+    </persistenceIdMap>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="5789" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,25 +126,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.127.0.0.1:4000.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/harish.raghav/Documents/GitHub/drivenbyvalues.github.io/_pages/years&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.127.0.0.1:4000.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "javascript.preferred.runtime.type.id": "node",
+    "last_opened_file_path": "/Users/harish.raghav/Documents/GitHub/drivenbyvalues.github.io/_pages/years",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/_pages/years" />
@@ -97,7 +169,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-256f9dae541f-JavaScript-WS-253.22441.34" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.29346.53" />
       </set>
     </attachedChunks>
   </component>
@@ -118,11 +190,23 @@
       <workItem from="1759711022348" duration="662000" />
       <workItem from="1759721894504" duration="1586000" />
       <workItem from="1759724151404" duration="101000" />
-      <workItem from="1759724284746" duration="540000" />
+      <workItem from="1759724284746" duration="3221000" />
+      <workItem from="1760372791419" duration="7000" />
+      <workItem from="1762041135836" duration="171000" />
+      <workItem from="1762041320648" duration="12424000" />
+      <workItem from="1771902215176" duration="1715000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

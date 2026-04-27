@@ -1,0 +1,18 @@
+{% assign entries = include.items | split: '|' %}
+<div class="skill-card">
+  {% if include.icon %}
+  <span class="skill-card__icon"><i class="{{ include.icon }}"></i></span>
+  {% endif %}
+  <h3 class="skill-card__title">{{ include.title }}</h3>
+  {% if include.caption %}
+  <p class="skill-card__caption">{{ include.caption }}</p>
+  {% endif %}
+  <ul class="skill-card__list">
+    {% for entry in entries %}
+    {% assign item = entry | strip %}
+    {% if item != '' %}
+    <li>{{ item }}</li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>

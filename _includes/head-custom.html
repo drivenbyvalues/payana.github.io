@@ -3,7 +3,14 @@
 <!-- Setup Google Analytics -->
 {% include head-custom-google-analytics.html %}
 
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}" -->
+<link rel="icon" type="image/svg+xml" href="{{ '/assets/img/favicon.svg' | relative_url }}">
+<link rel="alternate icon" type="image/png" href="{{ '/assets/img/og-card.png' | relative_url }}">
+
+<meta name="theme-color" content="#2c3e50">
+<meta property="og:type" content="website">
+<meta property="og:image" content="{{ '/assets/img/og-card.png' | absolute_url }}">
+<meta property="og:image:alt" content="Harish Raghavendra - Data & AI Platform Leader">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ '/assets/img/og-card.png' | absolute_url }}">
 
 <!-- end custom head snippets -->

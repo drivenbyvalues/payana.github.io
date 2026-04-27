@@ -1,0 +1,36 @@
+{% assign stack = include.stack | default: '' %}
+<article class="year-project-card">
+  <header class="year-project-card__header">
+    <h3 class="year-project-card__title">{{ include.title }}</h3>
+    {% if include.focus %}
+    <span class="year-project-card__focus">{{ include.focus }}</span>
+    {% endif %}
+  </header>
+  {% if include.description %}
+  <p class="year-project-card__description">{{ include.description }}</p>
+  {% endif %}
+  {% if include.impact %}
+  <div class="year-project-card__impact">
+    <span class="eyebrow">Impact</span>
+    <p>{{ include.impact }}</p>
+  </div>
+  {% endif %}
+  {% if stack != '' %}
+  <ul class="year-project-card__stack">
+    {% assign stack_items = stack %}
+    {% if stack_items contains '|' %}
+      {% assign stack_items = stack | split: '|' %}
+    {% elsif stack_items contains ',' %}
+      {% assign stack_items = stack | split: ',' %}
+    {% else %}
+      {% assign stack_items = stack | split: ' ' %}
+    {% endif %}
+    {% for tech in stack_items %}
+    {% assign label = tech | strip %}
+    {% if label != '' %}
+    <li>{{ label }}</li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+</article>

@@ -57,41 +57,62 @@
     <div class="timeline-nav">
       <h3>Career Milestones</h3>
       <ul>
-        <li><a href="/2019-present/index.html" class="nav-link">2019-Present: Director, Data and AI Governance</a></li>
-        <li><a href="/2016-2019/index.html" class="nav-link">2016-2019: Sr. Tech Program Manager</a></li>
-        <li><a href="/2009-2016/index.html" class="nav-link">2009-2016: Senior Engineering Manager</a></li>
-        <li><a href="/2007-2009/index.html" class="nav-link">2007-2009: Technical Lead</a></li>
-        <li><a href="/2005-2007/index.html" class="nav-link">2005-2007: Sr. Software Consultant</a></li>
-        <li><a href="/2002-2005/index.html" class="nav-link">2002-2005: Research Engineer</a></li>
-        </ul>
+        <li><a href="/2019-present/index.html" class="nav-link" data-domains="grc,ai,platform"><i class="fas fa-shield-alt"></i><span>2019-Present</span><small>Data &amp; AI Governance</small></a></li>
+        <li><a href="/2016-2019/index.html" class="nav-link" data-domains="platform,fintech"><i class="fas fa-network-wired"></i><span>2016-2019</span><small>Sr. Tech Program Manager</small></a></li>
+        <li><a href="/2009-2016/index.html" class="nav-link" data-domains="platform,media"><i class="fas fa-tv"></i><span>2009-2016</span><small>Senior Engineering Manager</small></a></li>
+        <li><a href="/2007-2009/index.html" class="nav-link" data-domains="fintech"><i class="fas fa-credit-card"></i><span>2007-2009</span><small>Technical Lead</small></a></li>
+        <li><a href="/2005-2007/index.html" class="nav-link" data-domains="consulting,platform"><i class="fas fa-lightbulb"></i><span>2005-2007</span><small>Sr. Software Consultant</small></a></li>
+        <li><a href="/2002-2005/index.html" class="nav-link" data-domains="research,ai"><i class="fas fa-flask"></i><span>2002-2005</span><small>Research Engineer</small></a></li>
+      </ul>
     </div>
     
     <div class="timeline-content">
-      <div class="timeline-highlight">
+      <div class="timeline-filters" role="group" aria-label="Filter achievements by domain">
+        <button class="filter-button is-active" data-domain="all" aria-pressed="true">All</button>
+        <button class="filter-button" data-domain="grc" aria-pressed="false"><i class="fas fa-shield-alt"></i> GRC &amp; Risk</button>
+        <button class="filter-button" data-domain="ai" aria-pressed="false"><i class="fas fa-brain"></i> AI &amp; Data</button>
+        <button class="filter-button" data-domain="platform" aria-pressed="false"><i class="fas fa-layer-group"></i> Platform</button>
+        <button class="filter-button" data-domain="fintech" aria-pressed="false"><i class="fas fa-credit-card"></i> FinTech</button>
+      </div>
+
+      <div class="timeline-highlight" data-domains="grc,ai,platform">
+        <div class="timeline-badges">
+          <span class="domain-badge badge--grc"><i class="fas fa-shield-alt"></i> GRC</span>
+          <span class="domain-badge badge--ai"><i class="fas fa-brain"></i> AI</span>
+          <span class="domain-badge badge--platform"><i class="fas fa-layer-group"></i> Platform</span>
+        </div>
         <h2>Current Role</h2>
         <h3>Director, Data and AI Platform at Visa Inc.</h3>
         <p>Leading the development of next-generation data and AI platforms, managing a team of 80+ engineers, and driving innovation in financial technology.</p>
       </div>
       
-      <div class="timeline-highlight">
+      <div class="timeline-highlight" data-domains="platform,fintech,ai">
+        <div class="timeline-badges">
+          <span class="domain-badge badge--platform"><i class="fas fa-layer-group"></i> Platform</span>
+          <span class="domain-badge badge--ai"><i class="fas fa-brain"></i> AI</span>
+        </div>
         <h2>Key Achievements</h2>
         <ul>
-          <li>Scaled Hulu's infrastructure to support 25M+ users</li>
-          <li>Architected REST-based microservices at Intuit</li>
-          <li>Developed business formation products at MyCorporation</li>
-          <li>Created innovative data visualization solutions at P&amp;G</li>
-          <li>Published research in wireless networking</li>
+          <li>Scaled Hulu's infrastructure to support 25M+ users while preserving sub-second SLAs.</li>
+          <li>Architected REST-based microservices at Intuit powering high-volume SMB finance workflows.</li>
+          <li>Developed business formation products at MyCorporation with automated compliance checks.</li>
+          <li>Created innovative data visualization solutions at P&amp;G used across global executive dashboards.</li>
+          <li>Published research in wireless networking adopted by IEEE working groups.</li>
         </ul>
       </div>
       
-      <div class="timeline-highlight">
+      <div class="timeline-highlight" data-domains="grc,ai,platform">
+        <div class="timeline-badges">
+          <span class="domain-badge badge--grc"><i class="fas fa-shield-alt"></i> GRC</span>
+          <span class="domain-badge badge--ai"><i class="fas fa-brain"></i> AI</span>
+        </div>
         <h2>Technical Leadership</h2>
         <ul>
-          <li>Grew engineering teams from 3 to 80+ members</li>
-          <li>Architected petabyte-scale data platforms</li>
-          <li>Implemented AI/ML solutions with GPT-4 and RAG</li>
-          <li>Led cloud migrations and infrastructure scaling</li>
-          <li>Established engineering best practices and standards</li>
+          <li>Grew engineering teams from 3 to 80+ members across four continents.</li>
+          <li>Architected petabyte-scale data platforms with embedded policy automation.</li>
+          <li>Implemented AI/ML solutions with GPT-4, RAG, and domain-specific copilots for risk reviews.</li>
+          <li>Led cloud migrations and infrastructure scaling spanning AWS, GCP, and on-premise estates.</li>
+          <li>Established engineering standards adopted by 100+ product squads.</li>
         </ul>
       </div>
     </div>
@@ -146,29 +167,99 @@
 }
 
 .timeline-nav .nav-link {
-  display: block;
-  padding: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
+  padding: 12px 16px;
   color: #3498db;
   text-decoration: none;
-  border-radius: 4px;
-  transition: background-color 0.2s;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: background-color 0.2s, transform 0.2s, border-color 0.2s;
+}
+
+.timeline-nav .nav-link i {
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.timeline-nav .nav-link span {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+.timeline-nav .nav-link small {
+  color: #718096;
+  font-size: 0.8rem;
 }
 
 .timeline-nav .nav-link:hover {
   background-color: #f5f7fa;
   color: #2980b9;
+  border-color: rgba(52, 152, 219, 0.25);
+  transform: translateY(-1px);
+}
+
+.timeline-nav .nav-link.nav-link--dimmed {
+  opacity: 0.45;
+}
+
+.timeline-nav .nav-link.nav-link--active {
+  background-color: rgba(52, 152, 219, 0.08);
+  border-color: rgba(52, 152, 219, 0.35);
 }
 
 .timeline-content {
   flex-grow: 1;
 }
 
+.timeline-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.filter-button {
+  border: 1px solid rgba(52, 152, 219, 0.4);
+  background: #ffffff;
+  color: #2c3e50;
+  border-radius: 999px;
+  padding: 0.55rem 1.1rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.filter-button i {
+  color: #3498db;
+}
+
+.filter-button:hover {
+  transform: translateY(-1px);
+}
+
+.filter-button.is-active {
+  background: #3498db;
+  color: #ffffff;
+  border-color: #3498db;
+}
+
+.filter-button.is-active i {
+  color: #ffffff;
+}
+
 .timeline-highlight {
   background: #fff;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 25px;
   margin-bottom: 25px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  box-shadow: 0 10px 28px rgba(15, 23, 42, 0.08);
   border-left: 4px solid #3498db;
 }
 
@@ -189,6 +280,49 @@
   color: #34495e;
 }
 
+.timeline-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.domain-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #2c3e50;
+  background: rgba(52, 152, 219, 0.12);
+}
+
+.domain-badge i {
+  font-size: 0.95rem;
+}
+
+.badge--grc {
+  background: rgba(46, 204, 113, 0.18);
+  color: #1e7a46;
+}
+
+.badge--ai {
+  background: rgba(155, 89, 182, 0.18);
+  color: #6c2d89;
+}
+
+.badge--platform {
+  background: rgba(52, 152, 219, 0.18);
+  color: #1f4b6d;
+}
+
+.badge--fintech {
+  background: rgba(241, 196, 15, 0.22);
+  color: #9a7505;
+}
+
 .timeline-highlight ul {
   padding-left: 20px;
 }
@@ -196,6 +330,10 @@
 .timeline-highlight li {
   margin-bottom: 8px;
   line-height: 1.5;
+}
+
+.timeline-highlight.is-hidden {
+  display: none;
 }
 
 /* Responsive Design */
@@ -221,9 +359,16 @@
   }
   
   .timeline-nav .nav-link {
-    text-align: center;
-    padding: 8px 10px;
+    padding: 12px;
     font-size: 0.9em;
+  }
+  
+  .timeline-nav .nav-link span {
+    font-size: 1rem;
+  }
+  
+  .timeline-nav .nav-link small {
+    font-size: 0.8rem;
   }
 }
 
@@ -233,6 +378,55 @@
   }
 }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const filterButtons = document.querySelectorAll('.filter-button');
+  const highlights = document.querySelectorAll('.timeline-highlight');
+  const navLinks = document.querySelectorAll('.timeline-nav .nav-link');
+
+  function normalizeDomains(value) {
+    return (value || '')
+      .split(',')
+      .map(function (item) { return item.trim(); })
+      .filter(Boolean);
+  }
+
+  function applyFilter(targetDomain) {
+    highlights.forEach(function (card) {
+      const domains = normalizeDomains(card.dataset.domains);
+      const match = targetDomain === 'all' || domains.includes(targetDomain);
+      card.classList.toggle('is-hidden', !match);
+    });
+
+    navLinks.forEach(function (link) {
+      const domains = normalizeDomains(link.dataset.domains);
+      const match = targetDomain === 'all' || domains.includes(targetDomain);
+      link.classList.toggle('nav-link--dimmed', !match);
+      if (targetDomain === 'all') {
+        link.classList.remove('nav-link--active');
+      } else {
+        link.classList.toggle('nav-link--active', match);
+      }
+    });
+  }
+
+  filterButtons.forEach(function (button) {
+    button.addEventListener('click', function () {
+      const domain = button.dataset.domain;
+      filterButtons.forEach(function (btn) {
+        btn.classList.remove('is-active');
+        btn.setAttribute('aria-pressed', 'false');
+      });
+      button.classList.add('is-active');
+      button.setAttribute('aria-pressed', 'true');
+      applyFilter(domain);
+    });
+  });
+
+  applyFilter('all');
+});
+</script>
 
 
     </div>

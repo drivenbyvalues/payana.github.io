@@ -1,0 +1,22 @@
+{% assign items = include.items | default: '' | split: '|' %}
+<article class="highlight-card">
+  {% if include.icon %}
+  <span class="highlight-card__icon">
+    <i class="{{ include.icon }}"></i>
+  </span>
+  {% endif %}
+  <h3 class="highlight-card__title">{{ include.title }}</h3>
+  {% if include.description %}
+  <p class="highlight-card__description">{{ include.description }}</p>
+  {% endif %}
+  {% if include.items %}
+  <ul class="highlight-card__list">
+    {% for entry in items %}
+    {% assign text = entry | strip %}
+    {% if text != '' %}
+    <li>{{ text }}</li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+  {% endif %}
+</article>

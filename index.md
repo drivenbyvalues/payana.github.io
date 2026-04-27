@@ -3,82 +3,99 @@ layout: resume
 title: Harish Raghavendra - Director, Data and AI Platform
 ---
 
-<header class="header">
-    <div class="header-content">
-        <div class="profile-section">
-            <div class="profile-image">
-                <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Harish Raghavendra" class="profile-img">
-            </div>
-            <div class="profile-info">
-                <h1>Harish Raghavendra</h1>
-                <div class="title">Director, Data, AI Policy Governance | Product Strategy Leader </div>
-                <div class="title">AI & Data Platform | Payments & FinTech Enabler</div>
-                <div class="location"><i class="fas fa-map-marker-alt"></i> San Francisco Bay Area, CA | USA</div>
+<header class="hero">
+    <div class="hero-shell">
+        <div class="hero-media">
+            <div class="hero-portrait">
+                <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Harish Raghavendra" class="hero-img">
             </div>
         </div>
-        <div class="header-actions">
-            <a href="{{ '/timeline' | relative_url }}" class="timeline-button">
-                <i class="fas fa-history"></i> View Timeline
-            </a> 
+        <div class="hero-body">
+            <p class="hero-kicker">Director · Data &amp; AI Governance · Platform Strategy</p>
+            <h1 class="hero-title">Building trustworthy data and AI platforms that scale globally</h1>
+            <p class="hero-lede">
+                20+ years designing high-impact platforms, guiding governance policy, and mentoring distributed teams
+                that unlock responsible innovation across fintech, payments, and compliance.
+            </p>
+            <div class="hero-cta">
+                <a class="btn btn-primary" href="{{ '/resumes/Harish.Raghavendra.04.2026.pdf' | relative_url }}" target="_blank" rel="noopener">
+                    <i class="fas fa-file-download"></i> Download Resume (Apr 2026)
+                </a>
+                <a class="btn btn-secondary" href="#contact-form">
+                    <i class="fas fa-calendar-check"></i> Book a Call
+                </a>
+                <a class="btn btn-ghost" href="{{ '/timeline' | relative_url }}">
+                    <i class="fas fa-history"></i> View Timeline
+                </a>
+            </div>
+            <div class="hero-metrics">
+                {% include components/metric-card.html value="215B+" label="transactions safeguarded each year" %}
+                {% include components/metric-card.html value="80+" label="engineers led across global teams" %}
+                {% include components/metric-card.html value="20+" label="years steering AI & data strategy" %}
+            </div>
         </div>
     </div>
-    
-    <div class="contact-info">
-        <a href="mailto:harish.raghav@gmail.com"><i class="fas fa-envelope"></i> harish.raghav@gmail.com</a>
-        <a href="tel:+18183245080"><i class="fas fa-phone"></i> (818) 324-5080</a>
-        <a href="https://linkedin.com/in/harishraghavendra" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/harishraghavendra</a>
-        <a href="https://github.com/drivenbyvalues" target="_blank"><i class="fab fa-github"></i> github.com/drivenbyvalues</a>
+    <div class="hero-contact" id="contact">
+        <a class="contact-chip" href="mailto:harish.raghav@gmail.com"><i class="fas fa-envelope"></i> harish.raghav@gmail.com</a>
+        <a class="contact-chip" href="tel:+18183245080"><i class="fas fa-phone"></i> (818) 324-5080</a>
+        <a class="contact-chip" href="https://linkedin.com/in/harishraghavendra" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a class="contact-chip" href="https://github.com/drivenbyvalues" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
     </div>
 </header>
 
-<div class="section">
-    <h2 class="section-title">Executive Summary</h2>
-    <p>
-        Accomplished technology executive with 20+ years of experience in big data, AI/ML platforms, and distributed systems at scale.
-        Proven track record of leading global engineering teams and delivering mission-critical platforms processing 215B+ annual transactions.
-        Expert in building self-service data platforms, implementing GenAI/LLM solutions, and driving cloud-native transformations.
-        Passionate about mentoring engineers, fostering innovation, and delivering business value through technology.
-    </p>
-</div>
-
-<div class="section">
-    <h2 class="section-title">Technical Leadership & Expertise</h2>
-    <div class="skills-container">
-        <div class="skill-category">
-            <h3>Data & AI Platforms</h3>
-            <ul>
-                <li>Big Data Technologies (Hadoop, Hive, HDFS, Spark)</li>
-                <li>AI/ML & GenAI Implementation</li>
-                <li>Data Governance & Security</li>
-                <li>Real-time Data Processing</li>
-                <li>Entity Recognition & Classification</li>
-                <li>Data Product Development</li>
-            </ul>
-        </div>
-        <div class="skill-category">
-            <h3>Cloud & Infrastructure</h3>
-            <ul>
-                <li>AWS & GCP Cloud Services</li>
-                <li>Kubernetes & Containerization</li>
-                <li>Infrastructure as Code (Terraform)</li>
-                <li>CI/CD & DevOps Practices</li>
-                <li>High Availability Systems</li>
-                <li>Performance Optimization</li>
-            </ul>
-        </div>
-        <div class="skill-category">
-            <h3>Leadership & Strategy</h3>
-            <ul>
-                <li>Team Building & Mentoring</li>
-                <li>Technical Roadmapping</li>
-                <li>Stakeholder Management</li>
-                <li>Agile/Scrum at Scale</li>
-                <li>Vendor & Partner Management</li>
-                <li>Regulatory Compliance</li>
-            </ul>
-        </div>
+<section class="section section-overview">
+    <div class="section-header">
+        <h2 class="section-title">Strategic Focus</h2>
+        <p class="section-subtitle">Delivering compliant, scalable AI experiences with measurable business outcomes.</p>
     </div>
-</div>
+    <div class="overview-grid">
+        {% include components/highlight-card.html
+            title="Executive Summary"
+            description="Hands-on executive bridging policy, engineering, and product. I translate complex regulations into platform capabilities, craft trustworthy AI guardrails, and coach leaders to scale sustainably."
+            icon="fas fa-compass"
+        %}
+
+        <article class="highlight-card highlight-card--metrics">
+            <span class="highlight-card__icon">
+                <i class="fas fa-chart-line"></i>
+            </span>
+            <h3 class="highlight-card__title">Key Metrics</h3>
+            <p class="highlight-card__description">Evidence of execution velocity across data, AI, and governance initiatives.</p>
+            <div class="metric-card-group">
+                {% include components/metric-card.html value="98%" label="policy adherence across AI programs" %}
+                {% include components/metric-card.html value="5x" label="faster risk reviews with AI copilots" %}
+                {% include components/metric-card.html value="$3.5B" label="run-rate revenue influenced by data products" %}
+            </div>
+        </article>
+
+        {% include components/highlight-card.html
+            title="Platform Wins"
+            icon="fas fa-trophy"
+            items="AI-Driven GRC Platform with 40+ agents, 1M+ LoC, 450+ APIs—multi-million revenue unlock|NextGen Merchant Data Platform spanning 136M+ merchant locations across Merchants, PayFacs, Acquirers|Self-supported Visa Core Hadoop 3.x distribution saving $85M+ over 5 years|Self-service agent-based API platform managing 12K+ servers via 1,500+ APIs"
+        %}
+    </div>
+</section>
+
+<section class="section section-skills">
+    <h2 class="section-title">Technical Leadership &amp; Expertise</h2>
+    <div class="skill-grid">
+        {% include components/skill-column.html
+            title="Data &amp; AI Platforms"
+            icon="fas fa-database"
+            items="Big Data Fabric (Hadoop, Hive, Spark)|Responsible AI &amp; GenAI delivery|Data Governance &amp; Security controls|Real-time decisioning &amp; streaming|Entity resolution &amp; classification|Data product lifecycle management"
+        %}
+        {% include components/skill-column.html
+            title="Cloud &amp; Infrastructure"
+            icon="fas fa-cloud"
+            items="AWS &amp; GCP architecture|Kubernetes, service mesh, containers|Terraform &amp; infrastructure automation|CI/CD &amp; progressive delivery|High-availability design &amp; SRE|Performance and cost optimization"
+        %}
+        {% include components/skill-column.html
+            title="Leadership &amp; Strategy"
+            icon="fas fa-users-cog"
+            items="Org design &amp; mentoring|Cross-functional stakeholder alignment|Regulatory &amp; compliance readiness|Product discovery &amp; roadmap shaping|Executive communications &amp; storytelling|Vendor, audit &amp; partner governance"
+        %}
+    </div>
+</section>
 
 <div class="section">
     <h2 class="section-title">Professional Experience</h2>
@@ -90,57 +107,70 @@ title: Harish Raghavendra - Director, Data and AI Platform
         </div>
         <div class="company">Visa Inc., Foster City, CA</div>
         <ul>
-            <li>Data Policy & Governance Deputy lead to manage reviews related to data, AI policies and governance. </li>
-            <li>Built <a href="https://grc-portal-production.up.railway.app" target="_blank">GRC assessment platform</a> using AI and LLMs. Ran multiple Rapid Learning Experiments (RLEs) to automate multiple processes</li>
-            <li>Extensive knowledge of building AI Agents, multiple models usage including OpenAI (GPT-4, 4.1, o1, o3, o4, 5), Claude Sonnet (3.5, 3.7, 4.0, 4.5), Gemini (2.5 Pro, Flash), DeepSeek to solve multiple business problem with appropriate models</li>
-            <li>Lead development of Visa's next-generation merchant data platform, enabling global merchant data products using hyperlocal regional data sourcing and LLM/AI/ML models</li>
-            <li>Pioneered VisaTravelInsights.AI, leveraging GPT-4 with RAG (Retrieval-Augmented Generation) to deliver actionable travel insights for airlines and airport operators</li>
-            <li>Headed Technical Product Management, leading a team of senior product managers and growing the engineering team from 3 to 80+ members across 5 scrum teams</li>
-            <li>Architected a self-service platform portal for managing 100+ petabyte-scale Hadoop, Kafka, and NiFi clusters with multi-tenant, highly available agent-based architecture</li>
-            <li>Spearheaded the development of an app-builder framework featuring no-code/low-code UI/Service and model generation using Node.js</li>
-            <li>Drove the implementation of Big Data products including Spark as a Service, multi-tenant cluster management, and platform governance solutions</li>
+            <li><strong>AI-Driven GRC Platform:</strong> Built an Agentic AI platform of 40+ agents, 1M+ lines of code, 450+ APIs, and 100+ features, enabling multi-million dollar revenue unlock. <a href="https://grc-portal-production.up.railway.app" target="_blank">View live platform →</a></li>
+            <li><strong>Data &amp; AI Governance Deputy Lead</strong> shaping Data Use Policy guidance, Responsible AI direction, and AI inventions—working closely with Privacy, Competition, Affiliates, and IP legal teams.</li>
+            <li><strong>NextGen Merchant Data Platform:</strong> 3-year strategy capturing Merchant ↔ PayFac ↔ Acquirer relationships across 136M+ merchant locations globally, powered by GenAI/LLM models for entity detection, recognition, classification, and hyperlocal data.</li>
+            <li><strong>Single Threaded Owner</strong> of 30+ big data products and platforms operating at 215B+ transactions Visa-wide.</li>
+            <li><strong>Visa Self-Supported Core Hadoop 3.x:</strong> Owned vision, strategy, and execution; scaled team from 3 to 80+ members and saved $85M+ over 5 years.</li>
+            <li><strong>Hadoop In-Place Upgrade:</strong> Presented 20+ roadshows; delivered upgrade across 175+ data applications, 90+ clusters, and 100s of PB.</li>
+            <li><strong>Self-Service API Platform:</strong> PM-led build of an agent-based platform managing 12K+ servers via 1,500+ APIs (NodeJS/ReactJS). Onboarded 14 teams—reducing dev time from months to weeks.</li>
+            <li><strong>External Audit:</strong> Presented and passed audit of the Hadoop program with the Federal Reserve, FBA, and government agencies.</li>
+            <li>Defined 3–5 year strategy across core data, serving, storage (HDFS/GPFS), cluster insights, governance, and catalog—plus the GCP cloud adoption strategy.</li>
         </ul>
     </div>
 
     <div class="experience-item">
         <div class="experience-header">
-            <h3>Senior Technical Program Manager</h3>
+            <h3>Senior Technical Manager — Hulu Platform Team</h3>
             <div class="experience-date">Mar 2016 - Jun 2019</div>
         </div>
         <div class="company">Hulu, Santa Monica, CA</div>
         <ul>
-            <li>Delivered shared infrastructure services that improved developer productivity and reduced operational costs, supporting user base growth from 10M to 25M+</li>
-            <li>Led database migrations, data center transitions, and cloud adoption initiatives, including migration of self-hosted databases to shared infrastructure</li>
-            <li>Scaled infrastructure to handle traffic spikes from major live events and implemented SOX compliance measures for datastore platforms</li>
-            <li>Acted as Technical Product Manager, creating roadmaps and engaging stakeholders while implementing Agile methodologies to enhance team efficiency</li>
-            <li>Upgraded shared PaaS application deployment using Aurora & Apache Mesos, improving system reliability and performance</li>
+            <li>Managed Datastore Infrastructure providing Database-as-a-Service (MySQL, Cassandra, MongoDB across 250+ clusters), Redis caching (70TB / 2K clusters), and MSSQL (2k5 → 2k17).</li>
+            <li>Launched Hulu Live TV and led big-event datastore scaling for Super Bowl, Game of Thrones Finale, Winter Olympics, and NCAA—Cassandra at 1M+ qps and MySQL at 100K+ rps.</li>
+            <li>Led cross-functional AWS Cloud migration with 50+ scrum teams (cost estimates, compatibility, Terraform templating, datastore adoption, migration planning).</li>
+            <li>Drove cross-team collaboration across Cloud, NoC, Chaos, Security, Platform, DevOps, and Data Stores.</li>
+            <li>Presented datastore vision and platform strategy at broader forums and to C-level / executive audiences.</li>
         </ul>
     </div>
 
     <div class="experience-item">
         <div class="experience-header">
-            <h3>Senior Engineering Manager</h3>
-            <div class="experience-date">Sep 2009 - Mar 2016</div>
+            <h3>Senior Engineering Manager — Payments Activation &amp; Onboarding</h3>
+            <div class="experience-date">Aug 2009 - Mar 2016</div>
         </div>
         <div class="company">Intuit, Woodland Hills, CA</div>
         <ul>
-            <li>Architected and developed REST-based microservices for payment processing across web, software, and mobile applications</li>
-            <li>Led Agile transformation as Scrum Master and coach, implementing CI/CD pipelines and modern development practices</li>
-            <li>Delivered key projects including Activation Platform Services, Master Merchant on Chase Payment Tech, and QuickBooks Point of Sale 2013</li>
-            <li>Mentored engineering teams, conducted code reviews, and established technical direction in collaboration with cross-functional teams</li>
+            <li>Grew a high-performing engineering team from 2 to 12 engineers.</li>
+            <li>Owned development, architecture, design, CI/CD, and quality for payment activation across QuickBooks Online, GoPayment, QB Desktop, and QB PoS.</li>
+            <li>Major integrations: Adyen Payments (underwriting), Chase Payments, First Data, MasterCard sanctioned list, IP Commerce, ATT, Experian, OFAC, OpenText Case/Document/CRM.</li>
+            <li>Led complex Open Pricing initiative for QuickBooks across 6 scrum teams covering all SDLC stages.</li>
+            <li>Created market-ready products (Spark Lessons); led code jam, innovation jam, and idea jam events.</li>
+            <li>Won internal award for the most innovative idea—best of RESTful web services for customer problems.</li>
         </ul>
     </div>
-    
+
     <div class="experience-item">
         <div class="experience-header">
-            <h3>Tech Lead / Senior Software Engineer</h3>
-            <div class="experience-date">Feb 2007 - Oct 2009</div>
+            <h3>Senior Software Engineer — MyCorporation by Intuit</h3>
+            <div class="experience-date">Jan 2007 - Sep 2009</div>
         </div>
         <div class="company">MyCorporation by Intuit, Calabasas, CA</div>
         <ul>
-            <li>Led design and implementation of 37+ business formation products including LLCs, Corporations, Trademarks, and Copyrights</li>
-            <li>Developed online interview process, Customer Management System, and Document Management System</li>
-            <li>Created centralized billing portal and Workflow management system to streamline operations</li>
+            <li>Developed 37+ business creation products including LLCs, Corporations, and Copyrights.</li>
+            <li>Built the interview UI / billing portal using JSF; implemented Document and Workflow systems.</li>
+        </ul>
+    </div>
+
+    <div class="experience-item">
+        <div class="experience-header">
+            <h3>Senior Software Engineer — Procter &amp; Gamble</h3>
+            <div class="experience-date">May 2005 - Jan 2007</div>
+        </div>
+        <div class="company">Procter &amp; Gamble, Cincinnati, OH</div>
+        <ul>
+            <li>Implemented data visualization using AJAX to create "Excel-like" online spreadsheets.</li>
+            <li>Released multiple project versions impacting 5,000+ manufacturing supplier companies.</li>
         </ul>
     </div>
 </div>
@@ -300,88 +330,73 @@ title: Harish Raghavendra - Director, Data and AI Platform
 
 [//]: # (</div>)
 
-<div class="section">
-    <h2 class="section-title">Key Achievements & Impact</h2>
-    
-    <div class="achievement-item">
-        <h3>Industry Recognition</h3>
-        <ul>
-            <li>Recipient of the "Technology Innovation Award" for developing a novel data architecture at Visa</li>
-            <li>Featured speaker at 10+ international technology conferences on big data and AI</li>
-            <li>Published 5+ research papers in peer-reviewed journals on distributed systems</li>
-        </ul>
-    </div>
-    
-    <div class="achievement-item">
-        <h3>Leadership Impact</h3>
-        <ul>
-            <li>Mentored 50+ engineers, with 15+ advancing to leadership positions</li>
-            <li>Established engineering best practices adopted across 100+ teams</li>
-            <li>Led diversity initiatives increasing women in tech roles by 40% in my organizations</li>
-        </ul>
-    </div>
-</div>
-
 [//]: # (<div class="section">)
 
-[//]: # (    <h2 class="section-title">Board & Advisory Roles</h2>)
+<section class="section section-impact">
+    <div class="section-header">
+        <h2 class="section-title">Key Achievements &amp; Impact</h2>
+        <p class="section-subtitle">Outcomes that demonstrate trusted delivery, talent growth, and industry influence.</p>
+    </div>
+    <div class="impact-grid">
+        {% include components/highlight-card.html
+            title="Industry Recognition"
+            icon="fas fa-award"
+            items="Technology Innovation Award for Visa data architecture|Featured speaker at 10+ international big data & AI events|Author of 5+ peer-reviewed papers on distributed systems"
+        %}
+        {% include components/highlight-card.html
+            title="Leadership Multipliers"
+            icon="fas fa-people-arrows"
+            items="Mentored 50+ engineers with 15+ stepping into leadership roles|Established best practices adopted by 100+ product squads|Scaled global teams with 40% increase in women in technical roles"
+        %}
+        {% include components/highlight-card.html
+            title="Advisory & Ecosystem"
+            icon="fas fa-hands-helping"
+            items="Advisor to non-profits enabling underrepresented talent in tech|Technical mentor for early-stage AI founders|Active collaborator with policy, legal, and audit partners on AI governance"
+        %}
+    </div>
+</section>
 
-[//]: # (    <div class="experience-item">)
+<section class="section contact-section" id="contact-form">
+    <h2 class="section-title">Let’s Collaborate</h2>
+    <p class="section-subtitle">Share a challenge or opportunity and I’ll follow up within two business days.</p>
+    <form class="contact-form" method="POST" action="https://formspree.io/f/{{ site.formspree_id }}">
+        <div class="form-grid">
+            <label class="form-field">
+                <span>Name</span>
+                <input type="text" name="name" id="contact-name" required autocomplete="name">
+            </label>
+            <label class="form-field">
+                <span>Work Email</span>
+                <input type="email" name="email" id="contact-email" required autocomplete="email">
+            </label>
+        </div>
+        <label class="form-field">
+            <span>Organization</span>
+            <input type="text" name="company" id="contact-company" autocomplete="organization">
+        </label>
+        <label class="form-field">
+            <span>How can I help?</span>
+            <textarea name="message" id="contact-message" rows="4" required></textarea>
+        </label>
+        <input type="hidden" name="_subject" value="New inquiry from drivenbyvalues.github.io">
+        <div class="form-actions">
+            <button class="btn btn-primary" type="submit">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <p class="form-note">Prefer email? Reach me directly at <a href="mailto:harish.raghav@gmail.com">harish.raghav@gmail.com</a>.</p>
+        </div>
+    </form>
+</section>
 
-[//]: # (        <div class="experience-header">)
-
-[//]: # (            <h3>Technology Advisor</h3>)
-
-[//]: # (            <div class="experience-date">2022 - Present</div>)
-
-[//]: # (        </div>)
-
-[//]: # (        <div class="company">TechStart Foundation, San Francisco, CA</div>)
-
-[//]: # (        <ul>)
-
-[//]: # (            <li>Advise on technology strategy and curriculum development for non-profit supporting underprivileged youth in tech</li>)
-
-[//]: # (            <li>Mentor aspiring engineers from underrepresented backgrounds</li>)
-
-[//]: # (        </ul>)
-
-[//]: # (    </div>)
-
-[//]: # (    )
-[//]: # (    <div class="experience-item">)
-
-[//]: # (        <div class="experience-header">)
-
-[//]: # (            <h3>Technical Advisor</h3>)
-
-[//]: # (            <div class="experience-date">2020 - Present</div>)
-
-[//]: # (        </div>)
-
-[//]: # (        <div class="company">Emerging AI Startup &#40;Stealth Mode&#41;</div>)
-
-[//]: # (        <ul>)
-
-[//]: # (            <li>Provide technical guidance on architecture and scaling strategies</li>)
-
-[//]: # (            <li>Assist with technical hiring and team building</li>)
-
-[//]: # (        </ul>)
-
-[//]: # (    </div>)
-
-[//]: # (</div>)
-
-<div class="section">
+<section class="section section-languages">
     <h2 class="section-title">Languages</h2>
-    <ul>
-        <li>English: Native/Bilingual</li>
-        <li>Language: Proficiency Level</li>
-    </ul>
-</div>
+    <div class="language-chips">
+        <span class="chip">English · Native/Bilingual</span>
+        <span class="chip">Language · Proficiency Level</span>
+    </div>
+</section>
 
-<div class="section no-print">
+<section class="section no-print">
     <h2 class="section-title">References</h2>
     <p>Available upon request</p>
-</div>
+</section>

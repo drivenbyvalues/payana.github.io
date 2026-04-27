@@ -1,0 +1,49 @@
+<h1 id="repository-guidelines">Repository Guidelines</h1>
+
+<h2 id="project-structure--module-organization">Project Structure &amp; Module Organization</h2>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">_pages/</code> holds primary site content; individual year narratives live in <code class="language-plaintext highlighter-rouge">_pages/years/####.md</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">_layouts/</code> and <code class="language-plaintext highlighter-rouge">_includes/</code> define Jekyll Liquid templates; reuse existing layouts (<code class="language-plaintext highlighter-rouge">default</code>, <code class="language-plaintext highlighter-rouge">resume</code>, <code class="language-plaintext highlighter-rouge">year-range</code>) instead of duplicating markup.</li>
+  <li><code class="language-plaintext highlighter-rouge">_sass/</code> and <code class="language-plaintext highlighter-rouge">assets/css/</code> manage styles; keep new partials under <code class="language-plaintext highlighter-rouge">_sass</code> and import them via <code class="language-plaintext highlighter-rouge">assets/css/style.scss</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">assets/img/</code> and <code class="language-plaintext highlighter-rouge">assets/js/</code> store media and scripts. Favor descriptive, kebab-case filenames.</li>
+  <li><code class="language-plaintext highlighter-rouge">_site/</code> is the generated output; never edit or commit changes there. Run <code class="language-plaintext highlighter-rouge">ruby generate_year_pages.rb 2026</code> to scaffold the next year when needed.</li>
+</ul>
+
+<h2 id="build-test-and-development-commands">Build, Test, and Development Commands</h2>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">bundle install</code> — install Ruby gems defined in <code class="language-plaintext highlighter-rouge">Gemfile</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve --livereload</code> — start the local server with automatic browser refresh at <code class="language-plaintext highlighter-rouge">http://127.0.0.1:4000</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">bundle exec jekyll serve --incremental</code> — faster rebuilds during heavy content edits.</li>
+  <li><code class="language-plaintext highlighter-rouge">bundle exec jekyll build</code> — produce a production-ready site in <code class="language-plaintext highlighter-rouge">_site/</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">bundle exec jekyll clean</code> — clear <code class="language-plaintext highlighter-rouge">_site/</code> and <code class="language-plaintext highlighter-rouge">.jekyll-cache/</code> when builds feel stale.</li>
+  <li><code class="language-plaintext highlighter-rouge">JEKYLL_ENV=production bundle exec jekyll build</code> — mirror GitHub Pages’ production build locally.</li>
+</ul>
+
+<h2 id="coding-style--naming-conventions">Coding Style &amp; Naming Conventions</h2>
+<ul>
+  <li>Use YAML front matter with <code class="language-plaintext highlighter-rouge">title</code>, <code class="language-plaintext highlighter-rouge">layout</code>, and <code class="language-plaintext highlighter-rouge">permalink</code>; keep the current field order.</li>
+  <li>Write Markdown with sentence-case headings and ~80-character wraps for readability.</li>
+  <li>Liquid blocks and includes use two-space indentation; keep template logic thin.</li>
+  <li>Prefer kebab-case filenames (<code class="language-plaintext highlighter-rouge">career-highlights.md</code>) and SCSS variables/mixins instead of inline styles.</li>
+</ul>
+
+<h2 id="testing-guidelines">Testing Guidelines</h2>
+<ul>
+  <li>Before opening a PR, run <code class="language-plaintext highlighter-rouge">bundle exec jekyll build</code>; the build must complete cleanly.</li>
+  <li>Review the rendered pages via <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve --livereload</code> and spot-check edited routes.</li>
+  <li>For new Liquid logic, inspect <code class="language-plaintext highlighter-rouge">_site/</code> output for correct navigation and metadata.</li>
+</ul>
+
+<h2 id="commit--pull-request-guidelines">Commit &amp; Pull Request Guidelines</h2>
+<ul>
+  <li>Write focused commits in present tense (“Add 2024 year summary”); avoid batching unrelated content and asset updates.</li>
+  <li>Reference related issues in commit bodies (e.g., <code class="language-plaintext highlighter-rouge">Refs #42</code>) when applicable.</li>
+  <li>PRs should include: purpose summary, key sections touched (e.g., <code class="language-plaintext highlighter-rouge">_pages/years/2024.md</code>), screenshots for visual tweaks, and deployment notes when manual steps are needed.</li>
+  <li>Confirm checks by pasting the latest <code class="language-plaintext highlighter-rouge">bundle exec jekyll build</code> output snippet in the PR description when notable.</li>
+</ul>
+
+<h2 id="content-update-tips">Content Update Tips</h2>
+<ul>
+  <li>For new yearly entries, copy an existing file in <code class="language-plaintext highlighter-rouge">_pages/years/</code>, adjust front matter dates, and update timeline links if required.</li>
+  <li>Store large media in an optimized format under <code class="language-plaintext highlighter-rouge">assets/img/</code>; document attribution in the Markdown front matter when needed.</li>
+</ul>
