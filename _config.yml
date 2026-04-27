@@ -17,7 +17,7 @@ year_pages:
   enabled: true
   years:
     start: 1998
-    end: 2025
+    end: 2026
 
 # Include all files in the _pages directory
 include:
@@ -28,6 +28,8 @@ nav_links:
     url: /
   - label: Timeline
     url: /timeline/
+  - label: Articles
+    url: /articles/
   - label: Skills
     url: /skills/
   - label: Years
