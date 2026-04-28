@@ -117,10 +117,11 @@ permalink: /articles/
 </section>
 
 <style>
-.section-articles { padding-top: 1.25rem; }
+.section-articles { padding-top: 1.5rem; }
+.section-articles .section-header { margin-bottom: 1.25rem; }
 .article-grid {
   display: grid;
-  gap: 1.25rem;
+  gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 .article-grid--single { grid-template-columns: 1fr; }
@@ -128,21 +129,21 @@ permalink: /articles/
 .article-card {
   display: flex;
   flex-direction: column;
-  gap: 0.65rem;
+  gap: 0.6rem;
   background: #fff;
-  border-radius: 14px;
-  padding: 1.25rem 1.35rem 1.4rem;
+  border-radius: var(--radius-md);
+  padding: 1.25rem 1.35rem 1.35rem;
   text-decoration: none;
   color: inherit;
-  border: 1px solid rgba(15, 23, 42, 0.06);
-  border-left: 4px solid #3498db;
-  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-xs);
   transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+  position: relative;
 }
 .article-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.12);
-  border-left-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--color-border-strong);
 }
 
 .article-card__tag {
@@ -150,50 +151,55 @@ permalink: /articles/
   align-items: center;
   gap: 0.4rem;
   align-self: flex-start;
-  background: rgba(52, 152, 219, 0.10);
-  color: #1f4b6d;
+  background: var(--color-accent-soft);
+  color: var(--color-accent-strong);
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  font-size: 0.72rem;
-  padding: 0.32rem 0.7rem;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.65rem;
   border-radius: 999px;
 }
+.article-card__tag i { font-size: 0.78rem; }
 
 .article-card__title {
-  color: #2c3e50;
-  font-size: 1.1rem;
+  color: var(--color-text);
+  font-size: 1.05rem;
   line-height: 1.35;
-  margin: 0.15rem 0 0;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+  margin: 0.1rem 0 0;
 }
 
 .article-card__lede {
-  color: #34495e;
-  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  font-size: 0.94rem;
   line-height: 1.55;
   margin: 0;
 }
 
 .article-card__read {
-  margin-top: auto;
+  margin-top: 0.2rem;
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  color: #3498db;
+  gap: 0.35rem;
+  color: var(--color-accent);
   font-weight: 600;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
 }
+.article-card:hover .article-card__read { color: var(--color-accent-strong); }
+.article-card:hover .article-card__read i { transform: translateX(2px); }
+.article-card__read i { transition: transform 0.15s ease; }
 
 .article-card--featured {
-  border-left-color: #9b59b6;
-  background: linear-gradient(180deg, #ffffff 0%, rgba(155, 89, 182, 0.04) 100%);
+  background: linear-gradient(180deg, #ffffff 0%, rgba(124, 58, 237, 0.04) 100%);
+  border-color: rgba(124, 58, 237, 0.20);
 }
 .article-card--featured .article-card__tag {
-  background: rgba(155, 89, 182, 0.14);
-  color: #6c2d89;
+  background: rgba(124, 58, 237, 0.12);
+  color: #5b21b6;
 }
-.article-card--featured .article-card__read { color: #9b59b6; }
-.article-card--featured:hover { border-left-color: #6c2d89; }
+.article-card--featured .article-card__read { color: var(--color-violet); }
 
 @media (max-width: 640px) {
   .article-card { padding: 1rem 1.1rem 1.15rem; }
