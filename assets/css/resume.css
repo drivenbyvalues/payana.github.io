@@ -198,13 +198,14 @@ img { max-width: 100%; height: auto; display: block; }
 
 .hero-shell {
   position: relative;
-  display: grid;
-  grid-template-columns: 160px 1fr;
+  display: flex;
+  flex-wrap: wrap;
   gap: 2rem;
   align-items: center;
 }
 
-.hero-media { display: flex; }
+.hero-media { flex: 0 0 auto; display: flex; }
+.hero-body  { flex: 1 1 320px; min-width: 0; max-width: 100%; }
 
 .hero-portrait {
   width: 160px; height: 160px;
@@ -346,7 +347,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 @media (max-width: 720px) {
   .hero { padding: 2rem 1.25rem; }
-  .hero-shell { grid-template-columns: 96px 1fr; gap: 1rem; }
+  .hero-shell { gap: 1rem; }
   .hero-portrait { width: 96px; height: 96px; }
 }
 
