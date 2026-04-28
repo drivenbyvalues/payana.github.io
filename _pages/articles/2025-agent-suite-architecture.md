@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: The Agent Suite — A Governance Operating System for Assessments
 permalink: /articles/2025-agent-suite-architecture/
 year: 2025

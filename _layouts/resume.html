@@ -24,6 +24,9 @@
                 <a href="{{ '/timeline' | relative_url }}" {% if page.url == '/timeline/' %}class="active"{% endif %}>
                     <i class="fas fa-history"></i> Timeline
                 </a>
+                <a href="{{ '/articles' | relative_url }}" {% if page.url == '/articles/' or page.url contains '/articles/' %}class="active"{% endif %}>
+                    <i class="fas fa-feather-alt"></i> Articles
+                </a>
                 <a href="{{ '/certifications' | relative_url }}" {% if page.url == '/certifications/' %}class="active"{% endif %}>
                     <i class="fas fa-certificate"></i> Certifications
                 </a>

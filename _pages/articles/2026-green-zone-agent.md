@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Green Zone Agent — Reusable Governance Envelopes for Responsible AI
 permalink: /articles/2026-green-zone-agent/
 year: 2026

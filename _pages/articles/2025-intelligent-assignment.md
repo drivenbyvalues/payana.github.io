@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Intelligent Assignment Engine — Matching Assessments to the Right Reviewer
 permalink: /articles/2025-intelligent-assignment/
 year: 2025

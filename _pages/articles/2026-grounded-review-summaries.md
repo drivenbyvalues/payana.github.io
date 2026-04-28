@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Grounded Review Summaries — RAG with Citations You Can Trust
 permalink: /articles/2026-grounded-review-summaries/
 year: 2026

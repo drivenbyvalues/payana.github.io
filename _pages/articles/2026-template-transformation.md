@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: AI-Assisted Template Transformation — Five-Strategy Semantic Mapping at Scale
 permalink: /articles/2026-template-transformation/
 year: 2026

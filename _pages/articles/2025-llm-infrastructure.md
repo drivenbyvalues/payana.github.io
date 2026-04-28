@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Multi-Provider LLM Infrastructure — One Source of Truth for 16+ AI Agents
 permalink: /articles/2025-llm-infrastructure/
 year: 2025

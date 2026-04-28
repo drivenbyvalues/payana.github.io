@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Knowledge Graph for Cross-Agent Context — Institutional Memory That Compounds
 permalink: /articles/2025-knowledge-graph/
 year: 2025

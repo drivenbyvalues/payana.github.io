@@ -42,6 +42,7 @@ REQUIRED_FIELDS = {
     "resume": {"layout", "title"},
     "timeline": {"layout", "title"},
     "years": {"layout", "title"},
+    "article": {"layout", "title", "permalink"},
 }
 
 FRONT_RE = re.compile(r"^---\n(.*?)\n---", re.DOTALL)

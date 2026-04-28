@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: MCP Server — Natural Language to Structured Assessments
 permalink: /articles/2026-mcp-server/
 year: 2026

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: DPIA & LIA Reviews — Defensible Privacy Artifacts at Speed
 permalink: /articles/2026-dpia-lia-reviews/
 year: 2026

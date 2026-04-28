@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: article
 title: Continuous Auto-Prioritization — Keeping the Queue Honest
 permalink: /articles/2025-continuous-auto-prioritization/
 year: 2025
