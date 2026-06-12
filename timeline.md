@@ -81,6 +81,20 @@ title: Professional Timeline | Harish Raghavendra
         </ul>
       </div>
 
+      <div class="timeline-highlight" data-domains="ai,platform">
+        <div class="timeline-badges">
+          <span class="domain-badge badge--ai"><i class="fas fa-brain"></i> AI</span>
+          <span class="domain-badge badge--platform"><i class="fas fa-layer-group"></i> Platform</span>
+        </div>
+        <h2>Personal Projects &amp; Open Innovations</h2>
+        <ul>
+          <li><strong><a href="https://grc-portal-production.up.railway.app" target="_blank" rel="noopener">AI-Driven GRC Portal →</a></strong> — Production agentic governance platform with 40+ agents, A2A multi-agent pipeline (16 skills → 6 commands → 3 workflows), Claude MCP integration, and blockchain audit registry on Polygon Amoy. Stack: React/Vite, Node.js, TypeScript, PostgreSQL, Solidity.</li>
+          <li><strong><a href="https://merchant-portal-production.up.railway.app/data-source-inventory" target="_blank" rel="noopener">Merchant Data Portal →</a></strong> — NextGen merchant data source inventory and management portal exploring MDP architecture concepts. Stack: React, TypeScript, REST APIs.</li>
+          <li><strong><a href="https://codecollab-translate-poc-production.up.railway.app/" target="_blank" rel="noopener">CodeCollab Translate →</a></strong> — Real-time code collaboration PoC with AI-powered translation across programming languages. Stack: React, Node.js, WebSockets, LLM.</li>
+          <li><strong><a href="https://my-yatra.up.railway.app/landing" target="_blank" rel="noopener">MyYaatra →</a></strong> — Personal life chronicle with AI insights, family tree, memories, career milestones, financial goals, and time capsules. Stack: React/Vite, TypeScript, AI/ML.</li>
+        </ul>
+      </div>
+
       <div class="timeline-highlight" data-domains="grc,ai,platform">
         <div class="timeline-badges">
           <span class="domain-badge badge--grc"><i class="fas fa-shield-alt"></i> GRC</span>

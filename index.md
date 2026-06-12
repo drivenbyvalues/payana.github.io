@@ -185,6 +185,61 @@ title: Harish Raghavendra - Director, Data and AI Platform
 </div>
 
 <div class="section">
+    <h2 class="section-title">Personal Projects &amp; Open Innovations</h2>
+    <p style="margin-bottom: 1.5rem; color: #555;">Built and deployed full-stack applications as learning vehicles and proof-of-concept platforms — exploring agentic AI, real-time collaboration, and data management at production scale.</p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+
+        <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(15,23,42,0.07);">
+            <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; color: #2c3e50;">AI-Driven GRC Portal</h3>
+            <p style="margin: 0 0 0.75rem; color: #555; font-size: 0.9rem; line-height: 1.5;">Full-stack agentic governance platform — 40+ agents, A2A pipeline, Claude MCP integration, and blockchain audit registry.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem;">
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">React/Vite</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">Node.js</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">TypeScript</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">PostgreSQL</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">Solidity</span>
+            </div>
+            <a href="https://grc-portal-production.up.railway.app" target="_blank" rel="noopener" style="color: #2471a3; font-size: 0.9rem; font-weight: 500;">View live →</a>
+        </div>
+
+        <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(15,23,42,0.07);">
+            <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; color: #2c3e50;">Merchant Data Portal</h3>
+            <p style="margin: 0 0 0.75rem; color: #555; font-size: 0.9rem; line-height: 1.5;">NextGen merchant data source inventory and management portal exploring MDP architecture concepts.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem;">
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">React</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">TypeScript</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">REST APIs</span>
+            </div>
+            <a href="https://merchant-portal-production.up.railway.app/data-source-inventory" target="_blank" rel="noopener" style="color: #2471a3; font-size: 0.9rem; font-weight: 500;">View live →</a>
+        </div>
+
+        <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(15,23,42,0.07);">
+            <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; color: #2c3e50;">CodeCollab Translate</h3>
+            <p style="margin: 0 0 0.75rem; color: #555; font-size: 0.9rem; line-height: 1.5;">Real-time code collaboration PoC with AI-powered translation across programming languages.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem;">
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">React</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">Node.js</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">WebSockets</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">LLM</span>
+            </div>
+            <a href="https://codecollab-translate-poc-production.up.railway.app/" target="_blank" rel="noopener" style="color: #2471a3; font-size: 0.9rem; font-weight: 500;">View live →</a>
+        </div>
+
+        <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(15,23,42,0.07);">
+            <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; color: #2c3e50;">MyYaatra</h3>
+            <p style="margin: 0 0 0.75rem; color: #555; font-size: 0.9rem; line-height: 1.5;">Personal life chronicle with AI insights, family tree, memories, career milestones, and time capsules.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem;">
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">React/Vite</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">TypeScript</span>
+                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">AI/ML</span>
+            </div>
+            <a href="https://my-yatra.up.railway.app/landing" target="_blank" rel="noopener" style="color: #2471a3; font-size: 0.9rem; font-weight: 500;">View live →</a>
+        </div>
+
+    </div>
+</div>
+
+<div class="section">
     <h2 class="section-title">Education & Research</h2>
     
     <div class="education-item">

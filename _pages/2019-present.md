@@ -62,6 +62,44 @@ Data & AI Governance is a client-focused team that assesses Visa-wide initiative
 - 5x faster go/no-go decisions; 95% reduction in assessment time; 100% framework adherence vs. 60–70% manual.
 - Active contributions to Responsible AI, Data Use Policy, and AI inventions at Visa.
 
+<div class="highlight-box">
+    <h3>FY24 — Merchant Data Platform Delivery</h3>
+    <ul>
+        <li>Authored baseline code for 20 microservices (Spring Boot + MySQL) covering Fitness of Use, Address Enrichment, Data Catalog, and Data Quality — kickstarting MDP development.</li>
+        <li>Built GLS Integration for Spectrum Address Enrichment Service enabling real-time address validation and standardization across merchant records.</li>
+        <li>Wrote 60+ pages of technical requirements in Confluence (19+ Epics, 6 features each) including Third-Party Ingestion with 16 features.</li>
+        <li>Made 155+ commits across ReactJS, Python, and Java Spring Boot — personally contributing to portal, docs pipeline, and microservices.</li>
+        <li>Initiated contact with the UN's WIPO organization to license the Global Trademark Database as a global alternative to USPTO for brand entity resolution.</li>
+        <li>Completed Qualytics PoC evaluating all Data Quality use cases (threshold checks, volumetrics, schema comparison) — led to team adoption recommendation.</li>
+        <li>Won Visa Hackathon recognition for "Visa Travel Insights AI" — demonstrated RAG + GPT-4 to deliver personalized travel and merchant spending insights.</li>
+        <li>Recognized by product leadership (VP Geoff) with "Collaborate as One Visa" for defining the target MDP architecture adopted by multiple engineering teams.</li>
+        <li>Shipped MDP Portal with demos scheduled in APAC region; presented MDP NextGen journey at DSCP All Hands to the full engineering organization.</li>
+    </ul>
+</div>
+
+<div class="highlight-box">
+    <h3>FY23 — Platform Operations &amp; Strategy</h3>
+    <ul>
+        <li>Led ANA cluster cleanup initiative — reduced storage by 15+ PB and eliminated 6M+ small files across the Visa data platform, directly improving HDFS health and cost.</li>
+        <li>Authored "Metering as a Service" PRD and transferred to DPaaS team for implementation.</li>
+        <li>Led Hadoop Migration Tooling demonstrations across cross-TLT teams — covering Hive 2→3 and Spark 2→3 upgrade paths for 175+ data applications.</li>
+        <li>Served as sole Product representative on Visa NCG Intern Panel — evaluated and ranked 30+ intern project proposals.</li>
+        <li>Managed Parsec Decommission customer communications, transitioning 8+ dependent teams (Governance, VDS2, vTrust, KaaS, Tuber) to replacement solutions.</li>
+        <li>Orchestrated vendor evaluation sessions (Propelo.AI engineering productivity, Dremio Lakehouse query optimization) with engineering leadership.</li>
+    </ul>
+</div>
+
+<div class="highlight-box">
+    <h3>Personal Projects &amp; Open Innovations</h3>
+    <p>Built and deployed full-stack applications outside of Visa as learning vehicles and proof-of-concept platforms:</p>
+    <ul>
+        <li><strong>AI-Driven GRC Portal</strong> (<a href="https://grc-portal-production.up.railway.app" target="_blank" rel="noopener">https://grc-portal-production.up.railway.app</a>): Production agentic governance platform — 40+ agents, A2A multi-agent pipeline, Claude MCP integration, blockchain audit registry. Stack: React/Vite, Node.js/Express, TypeScript, PostgreSQL, Solidity/Polygon.</li>
+        <li><strong>Merchant Data Portal</strong> (<a href="https://merchant-portal-production.up.railway.app/data-source-inventory" target="_blank" rel="noopener">https://merchant-portal-production.up.railway.app/data-source-inventory</a>): NextGen merchant data source inventory management portal exploring MDP concepts. Stack: React, TypeScript, REST APIs.</li>
+        <li><strong>CodeCollab Translate</strong> (<a href="https://codecollab-translate-poc-production.up.railway.app/" target="_blank" rel="noopener">https://codecollab-translate-poc-production.up.railway.app/</a>): Real-time code collaboration PoC with AI-powered translation across programming languages. Stack: React, Node.js, WebSockets, LLM.</li>
+        <li><strong>MyYaatra</strong> (<a href="https://my-yatra.up.railway.app/landing" target="_blank" rel="noopener">https://my-yatra.up.railway.app/landing</a>): Personal life chronicle with AI insights, family tree, memories, career milestones, financial goals, and time capsules. Stack: React/Vite, TypeScript, AI/ML.</li>
+    </ul>
+</div>
+
 <div class="back-link">
     <a href="{{ '/timeline' | relative_url }}" class="button">← Back to Timeline</a>
 </div>
