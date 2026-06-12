@@ -63,7 +63,7 @@ title: Harish Raghavendra - Director, Data and AI Platform
             <p class="highlight-card__description">Evidence of execution velocity across data, AI, and governance initiatives.</p>
             <div class="metric-card-group">
                 {% include components/metric-card.html value="98%" label="policy adherence across AI programs" %}
-                {% include components/metric-card.html value="5x" label="faster risk reviews with AI copilots" %}
+                {% include components/metric-card.html value="95%" label="reduction in governance review time via autonomous A2A pipeline" %}
                 {% include components/metric-card.html value="$3.5B" label="run-rate revenue influenced by data products" %}
             </div>
         </article>
@@ -71,7 +71,7 @@ title: Harish Raghavendra - Director, Data and AI Platform
         {% include components/highlight-card.html
             title="Platform Wins"
             icon="fas fa-trophy"
-            items="AI-Driven GRC Platform with 40+ agents, 1M+ LoC, 450+ APIs—multi-million revenue unlock|NextGen Merchant Data Platform spanning 136M+ merchant locations across Merchants, PayFacs, Acquirers|Self-supported Visa Core Hadoop 3.x distribution saving $85M+ over 5 years|Self-service agent-based API platform managing 12K+ servers via 1,500+ APIs"
+            items="AI-Driven GRC Platform: 40+ agents · A2A 3-tier pipeline (16 skills → 6 commands → 3 workflows) · Claude MCP integration · blockchain audit registry · 95% faster reviews · multi-million revenue unlock|NextGen Merchant Data Platform spanning 136M+ merchant locations across Merchants, PayFacs, Acquirers|Self-supported Visa Core Hadoop 3.x distribution saving $85M+ over 5 years|Self-service agent-based API platform managing 12K+ servers via 1,500+ APIs"
         %}
     </div>
 </section>
@@ -82,7 +82,7 @@ title: Harish Raghavendra - Director, Data and AI Platform
         {% include components/skill-column.html
             title="Data &amp; AI Platforms"
             icon="fas fa-database"
-            items="Big Data Fabric (Hadoop, Hive, Spark)|Responsible AI &amp; GenAI delivery|Data Governance &amp; Security controls|Real-time decisioning &amp; streaming|Entity resolution &amp; classification|Data product lifecycle management"
+            items="Big Data Fabric (Hadoop, Hive, Spark)|Responsible AI &amp; GenAI delivery|Multi-agent A2A pipeline design (skills → commands → workflows)|LLM orchestration: GPT-4o · Claude 4 · Anthropic MCP|RAG pipelines (LangChain, Pinecone, pgvector)|Data Governance &amp; Security controls|Real-time decisioning &amp; streaming|Entity resolution &amp; classification"
         %}
         {% include components/skill-column.html
             title="Cloud &amp; Infrastructure"
@@ -107,7 +107,16 @@ title: Harish Raghavendra - Director, Data and AI Platform
         </div>
         <div class="company">Visa Inc., Foster City, CA</div>
         <ul>
-            <li><strong>AI-Driven GRC Platform:</strong> Built an Agentic AI platform of 40+ agents, 1M+ lines of code, 450+ APIs, and 100+ features, enabling multi-million dollar revenue unlock. <a href="https://grc-portal-production.up.railway.app" target="_blank">View live platform →</a></li>
+            <li><strong>AI-Driven GRC Platform:</strong> Architected and shipped a production-grade agentic AI governance platform with 40+ agents, 1M+ lines of code, 450+ APIs, and 100+ features — cutting assessment review time by 95% and enabling a multi-million dollar revenue unlock. <a href="https://grc-portal-production.up.railway.app" target="_blank">View live platform →</a>
+                <ul>
+                    <li><strong>A2A Multi-Agent Pipeline:</strong> Designed a three-tier autonomous governance pipeline — 16 stateless skills → 6 command agents → 3 tiered workflows — with automated risk classification routing to Low Risk (2hr SLA), Full Review (5 business days), or Escalated (20 business days), plus a confidence-chain gate that prevents auto-approval below a 0.80 floor.</li>
+                    <li><strong>Claude AI &amp; MCP Integration:</strong> Pioneered enterprise Model Context Protocol (MCP) integration exposing 5 GRC tools to Claude Code and Claude Desktop — enabling natural-language governance intake, submission, and end-to-end workflow orchestration without custom tooling. Supports both an Anthropic SDK autonomous agent CLI (Option A) and an MCP stdio server (Option B).</li>
+                    <li><strong>Privacy &amp; Regulatory Automation:</strong> Automated GDPR DPIA/LIA assessments, EU AI Act high-risk classification, and privacy impact scoring via LLM — replacing weeks of manual legal review with sub-hour automated analysis at 0.85/0.88 confidence floors.</li>
+                    <li><strong>Blockchain Audit Registry:</strong> Deployed GRCAuditRegistry on Polygon Amoy (Ethereum L2) for tamper-proof, on-chain compliance evidence anchoring — providing immutable governance decisions for regulatory and audit submission.</li>
+                    <li><strong>Agentic Runtime v2:</strong> Built a deterministic 4D risk-scoring engine (Operational, Reputational, Data Sensitivity, Competitive) with 5 policy gates and contradiction detection — fully decoupled from LLM inference to guarantee auditable, reproducible governance decisions.</li>
+                    <li><strong>RAG-Powered Document Intelligence:</strong> LangChain + Pinecone + OpenAI pipeline enabling semantic search across governance policy documents — surfacing relevant precedents and policy requirements during live intake interviews.</li>
+                </ul>
+            </li>
             <li><strong>Data &amp; AI Governance Deputy Lead</strong> shaping Data Use Policy guidance, Responsible AI direction, and AI inventions—working closely with Privacy, Competition, Affiliates, and IP legal teams.</li>
             <li><strong>NextGen Merchant Data Platform:</strong> 3-year strategy capturing Merchant ↔ PayFac ↔ Acquirer relationships across 136M+ merchant locations globally, powered by GenAI/LLM models for entity detection, recognition, classification, and hyperlocal data.</li>
             <li><strong>Single Threaded Owner</strong> of 30+ big data products and platforms operating at 215B+ transactions Visa-wide.</li>
@@ -338,6 +347,11 @@ title: Harish Raghavendra - Director, Data and AI Platform
         <p class="section-subtitle">Outcomes that demonstrate trusted delivery, talent growth, and industry influence.</p>
     </div>
     <div class="impact-grid">
+        {% include components/highlight-card.html
+            title="GRC Platform Innovation"
+            icon="fas fa-robot"
+            items="Autonomous A2A governance pipeline: 16 skills × 6 commands × 3 workflows — auto-approves low-risk assessments end-to-end in under 2 hours|First enterprise Claude MCP integration: 5 GRC tools exposed to Claude Code and Claude Desktop for natural-language governance orchestration|Blockchain audit provenance on Polygon Amoy (Ethereum L2) — tamper-proof, on-chain compliance record for regulatory submissions|Deterministic 4D risk engine + 5 policy gates decoupled from LLM inference — 100% auditable governance decisions|GDPR DPIA/LIA + EU AI Act compliance checks automated via LLM at production confidence floors (0.85/0.88)"
+        %}
         {% include components/highlight-card.html
             title="Industry Recognition"
             icon="fas fa-award"

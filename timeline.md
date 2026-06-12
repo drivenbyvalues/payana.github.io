@@ -67,13 +67,31 @@ title: Professional Timeline | Harish Raghavendra
         <div class="timeline-badges">
           <span class="domain-badge badge--grc"><i class="fas fa-shield-alt"></i> GRC</span>
           <span class="domain-badge badge--ai"><i class="fas fa-brain"></i> AI</span>
+          <span class="domain-badge badge--platform"><i class="fas fa-layer-group"></i> Platform</span>
+        </div>
+        <h2>GRC Platform — Technical Architecture</h2>
+        <ul>
+          <li><strong>A2A Multi-Agent Pipeline:</strong> Three-tier autonomous governance engine — 16 stateless skills → 6 command agents → 3 tiered workflows (Low Risk 2hr · Full Review 5 days · Escalated 20 days) — with HMAC-SHA256 envelope signing, pg-boss durable job queuing, and a confidence-chain gate that blocks auto-approval below 0.80.</li>
+          <li><strong>Claude AI / MCP Integration:</strong> First enterprise deployment of Anthropic's Model Context Protocol (MCP) — 5 GRC tools discoverable natively by Claude Code and Claude Desktop. Supports an Anthropic SDK autonomous agent CLI and an MCP stdio server for natural-language governance orchestration end-to-end.</li>
+          <li><strong>Agentic Runtime v2:</strong> Deterministic 4D risk-scoring engine (Operational 30%, Reputational 25%, Data Sensitivity 30%, Competitive 15%) with 5 ordered policy gates and contradiction detection — fully decoupled from LLM inference for auditable, reproducible decisions.</li>
+          <li><strong>Privacy &amp; Regulatory Automation:</strong> GDPR-native DPIA/LIA assessment skills (0.85 / 0.88 confidence floors), EU AI Act high-risk classification, and reversibility assessment automated via LLM — replacing weeks of manual legal review with sub-hour analysis.</li>
+          <li><strong>Blockchain Audit Registry:</strong> GRCAuditRegistry on Polygon Amoy (Ethereum L2) — immutable, on-chain governance decisions with IPFS evidence anchoring and PolygonScan verification for regulatory submissions.</li>
+          <li><strong>Workflow Canvas:</strong> Dual-mode visualization (trace + config) overlaying live execution data on the workflow DAG — domain-scoped skill toggling, threshold overrides, and LLM prompt management without any external chart library.</li>
+          <li><strong>RAG Intelligence Layer:</strong> LangChain + Pinecone + OpenAI pipeline with pgvector semantic search — surfaces policy precedents and regulatory requirements during live conversational intake interviews.</li>
+        </ul>
+      </div>
+
+      <div class="timeline-highlight" data-domains="grc,ai,platform">
+        <div class="timeline-badges">
+          <span class="domain-badge badge--grc"><i class="fas fa-shield-alt"></i> GRC</span>
+          <span class="domain-badge badge--ai"><i class="fas fa-brain"></i> AI</span>
         </div>
         <h2>Technical Leadership</h2>
         <ul>
           <li>Grew the Visa data platform team from 3 to 80+ engineers across 5 scrum teams with &lt;15% attrition.</li>
           <li>Owns 30+ big data products at 215B+ transactions Visa-wide.</li>
           <li>Shipped a self-service agent-based API platform managing 12K+ servers via 1,500+ APIs (NodeJS/ReactJS); 14 teams onboarded.</li>
-          <li>Multi-LLM orchestration across GPT-4.1, GPT-5, and Claude Sonnet 3.7 / 4.0 / 4.5 in production.</li>
+          <li>Multi-LLM orchestration across GPT-4.1, GPT-5, and Claude Sonnet 4.5 / 4.6 / Opus 4 in production GRC workflows.</li>
           <li>Cleared external audit of the Hadoop program with the Federal Reserve, FBA, and government agencies.</li>
         </ul>
       </div>
