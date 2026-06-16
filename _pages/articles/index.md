@@ -15,7 +15,7 @@ permalink: /articles/
         <strong>responsible-AI controls</strong> that make it production-grade in a regulated environment.
       </p>
       <div class="hero-metrics">
-        {% include components/metric-card.html value="17" label="long-form deep dives" %}
+        {% include components/metric-card.html value="18" label="long-form deep dives" %}
         {% include components/metric-card.html value="16+" label="AI agents covered" %}
         {% include components/metric-card.html value="4" label="LLM providers integrated" %}
       </div>
@@ -143,7 +143,7 @@ permalink: /articles/
     <p class="section-subtitle">The full architectural narrative behind the agentic GRC platform.</p>
   </div>
   <div class="article-grid article-grid--single">
-    <a class="article-card article-card--featured" href="{{ '/2026-deep-dive/' | relative_url }}">
+    <a class="article-card article-card--featured" href="{{ '/articles/2026-deep-dive/' | relative_url }}">
       <span class="article-card__tag"><i class="fas fa-book-open"></i> Long Read</span>
       <h3 class="article-card__title">Reimagining GRC — From Static Compliance to Intelligent Risk Orchestration</h3>
       <p class="article-card__lede">Agent Runs, multi-dimensional rubrics, evidence-driven Claims with polarity, dynamic workflows, knowledge-graph context, and explainable Decision Traces — the full architectural narrative.</p>
