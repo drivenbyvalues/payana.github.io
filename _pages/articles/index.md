@@ -15,7 +15,7 @@ permalink: /articles/
         <strong>responsible-AI controls</strong> that make it production-grade in a regulated environment.
       </p>
       <div class="hero-metrics">
-        {% include components/metric-card.html value="11" label="long-form deep dives" %}
+        {% include components/metric-card.html value="17" label="long-form deep dives" %}
         {% include components/metric-card.html value="16+" label="AI agents covered" %}
         {% include components/metric-card.html value="4" label="LLM providers integrated" %}
       </div>
@@ -59,6 +59,12 @@ permalink: /articles/
       <p class="article-card__lede">Re-scores every open assessment whenever its facts change (new evidence, scope mutation, contradicted claim, deadline shift), with hysteresis bands and cool-downs to avoid priority whiplash.</p>
       <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
     </a>
+    <a class="article-card" href="{{ '/articles/2025-travel-insights-ai/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-plane"></i> Analytics Platform</span>
+      <h3 class="article-card__title">Travel Insights AI Platform — Analytics Dashboard for Airline Intelligence</h3>
+      <p class="article-card__lede">Comprehensive analytics dashboard with React and TypeScript providing real-time insights into airline performance, route analytics, business metrics, and AI-powered travel trend analysis.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
   </div>
 </section>
 
@@ -96,6 +102,36 @@ permalink: /articles/
       <span class="article-card__tag"><i class="fas fa-balance-scale"></i> Privacy Reviews</span>
       <h3 class="article-card__title">DPIA & LIA Reviews — Defensible Privacy Artifacts at Speed</h3>
       <p class="article-card__lede">AI-assisted Data Protection Impact Assessments (GDPR Art. 35) and Legitimate Interest Assessments (Art. 6(1)(f)) — pre-filled from intake and evidence with citations, validated by counsel, audit-ready by default.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2026-agentic-grc-runtime/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-cogs"></i> Event Sourcing</span>
+      <h3 class="article-card__title">Agentic GRC Runtime — Event-Sourced Compliance Automation</h3>
+      <p class="article-card__lede">Event-sourced workflow orchestration with deterministic risk scoring and explainable decision traces for auditability and reproducibility in regulated environments.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2026-agentic-workflow-orchestration/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-sitemap"></i> Workflow Orchestration</span>
+      <h3 class="article-card__title">Agentic Workflow Orchestration — Multi-Input Assessment Processing</h3>
+      <p class="article-card__lede">Unified intake and decision routing framework supporting manual forms, JSON uploads, and API submissions with policy-gated decision routing and real-time workflow visibility.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2026-grc-document-rag-pipeline/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-database"></i> Vector Architecture</span>
+      <h3 class="article-card__title">GRC Document RAG Pipeline — Three-Tier Vector Architecture</h3>
+      <p class="article-card__lede">Document ingestion and retrieval system with PostgreSQL pgvector, OpenAI embeddings, and three-tier access control for explainable AI with full auditability.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2026-grc-portal-platform/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-shield-alt"></i> Platform</span>
+      <h3 class="article-card__title">GRC Assessment Platform — Comprehensive Compliance Management</h3>
+      <p class="article-card__lede">Centralized solution for managing governance, risk, and compliance activities with role-based interfaces, automated risk scoring, and AI-powered insights.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2026-vida-smart-rag/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-brain"></i> Smart Retrieval</span>
+      <h3 class="article-card__title">VIDA Smart RAG — Intelligent Document Selection for Context-Aware Q&A</h3>
+      <p class="article-card__lede">Lightweight RAG system using GPT-4o-mini for intelligent document selection before context retrieval, providing accurate answers with clear attribution.</p>
       <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
     </a>
   </div>
