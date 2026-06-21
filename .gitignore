@@ -1,2 +1,12 @@
 .bundle/
 vendor/
+
+# Jekyll generated output
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# macOS system files
+.DS_Store
+**/.DS_Store

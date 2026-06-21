@@ -62,22 +62,34 @@ title: Harish Raghavendra - Director, Data and AI Platform
             <h3 class="highlight-card__title">Key Metrics</h3>
             <p class="highlight-card__description">Evidence of execution velocity across data, AI, and governance initiatives.</p>
             <div class="metric-card-group">
-                {% include components/metric-card.html value="98%" label="policy adherence across AI programs" %}
-                {% include components/metric-card.html value="95%" label="reduction in governance review time via autonomous A2A pipeline" %}
-                {% include components/metric-card.html value="$3.5B" label="run-rate revenue influenced by data products" %}
+                <div class="metric-card">
+                    <span class="metric-card__value">98%</span>
+                    <span class="metric-card__label">AI policy adherence</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-card__value">95%</span>
+                    <span class="metric-card__label">Faster governance reviews</span>
+                </div>
+                <div class="metric-card">
+                    <span class="metric-card__value">$3.5B</span>
+                    <span class="metric-card__label">Revenue influenced by data products</span>
+                </div>
             </div>
         </article>
 
         {% include components/highlight-card.html
             title="Platform Wins"
             icon="fas fa-trophy"
-            items="AI-Driven GRC Platform: 40+ agents · A2A 3-tier pipeline (16 skills → 6 commands → 3 workflows) · Claude MCP integration · blockchain audit registry · 95% faster reviews · multi-million revenue unlock|NextGen Merchant Data Platform spanning 136M+ merchant locations across Merchants, PayFacs, Acquirers|Self-supported Visa Core Hadoop 3.x distribution saving $85M+ over 5 years|Self-service agent-based API platform managing 12K+ servers via 1,500+ APIs"
+            items="AI-Driven GRC Platform: 40+ agents · A2A 3-tier pipeline · Claude MCP integration · blockchain audit registry · multi-million revenue unlock|NextGen Merchant Data Platform spanning 136M+ merchant locations across Merchants, PayFacs, Acquirers|Self-supported Visa Core Hadoop 3.x distribution saving $85M+ over 5 years|Self-service agent-based API platform managing 12K+ servers via 1,500+ APIs"
         %}
     </div>
 </section>
 
 <section class="section section-skills">
-    <h2 class="section-title">Technical Leadership &amp; Expertise</h2>
+    <div class="section-header">
+        <h2 class="section-title">Technical Leadership &amp; Expertise</h2>
+        <p class="section-subtitle">Deep expertise across data platforms, AI governance, cloud infrastructure, and engineering leadership.</p>
+    </div>
     <div class="skill-grid">
         {% include components/skill-column.html
             title="Data &amp; AI Platforms"
@@ -97,9 +109,11 @@ title: Harish Raghavendra - Director, Data and AI Platform
     </div>
 </section>
 
-<div class="section">
-    <h2 class="section-title">Professional Experience</h2>
-    
+<section class="section">
+    <div class="section-header">
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-subtitle">Progressive leadership across fintech, streaming, and enterprise platform engineering.</p>
+    </div>
     <div class="experience-item">
         <div class="experience-header">
             <h3>Director, Data and AI Governance</h3>
@@ -184,64 +198,66 @@ title: Harish Raghavendra - Director, Data and AI Platform
     </div>
 </div>
 
-<div class="section">
-    <h2 class="section-title">Personal Projects &amp; Open Innovations</h2>
-    <p style="margin-bottom: 1.5rem; color: #555;">Built and deployed full-stack applications as learning vehicles and proof-of-concept platforms — exploring agentic AI, real-time collaboration, and data management at production scale.</p>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
-
-        <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(15,23,42,0.07);">
-            <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; color: #2c3e50;">AI-Driven GRC Portal</h3>
-            <p style="margin: 0 0 0.75rem; color: #555; font-size: 0.9rem; line-height: 1.5;">Full-stack agentic governance platform — 40+ agents, A2A pipeline, Claude MCP integration, and blockchain audit registry.</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem;">
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">React/Vite</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">Node.js</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">TypeScript</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">PostgreSQL</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">Solidity</span>
-            </div>
-            <a href="https://grc-portal-production.up.railway.app" target="_blank" rel="noopener" style="color: #2471a3; font-size: 0.9rem; font-weight: 500;">View live →</a>
-        </div>
-
-        <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(15,23,42,0.07);">
-            <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; color: #2c3e50;">Merchant Data Portal</h3>
-            <p style="margin: 0 0 0.75rem; color: #555; font-size: 0.9rem; line-height: 1.5;">NextGen merchant data source inventory and management portal exploring MDP architecture concepts.</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem;">
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">React</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">TypeScript</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">REST APIs</span>
-            </div>
-            <a href="https://merchant-portal-production.up.railway.app/data-source-inventory" target="_blank" rel="noopener" style="color: #2471a3; font-size: 0.9rem; font-weight: 500;">View live →</a>
-        </div>
-
-        <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(15,23,42,0.07);">
-            <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; color: #2c3e50;">CodeCollab Translate</h3>
-            <p style="margin: 0 0 0.75rem; color: #555; font-size: 0.9rem; line-height: 1.5;">Real-time code collaboration PoC with AI-powered translation across programming languages.</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem;">
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">React</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">Node.js</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">WebSockets</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">LLM</span>
-            </div>
-            <a href="https://codecollab-translate-poc-production.up.railway.app/" target="_blank" rel="noopener" style="color: #2471a3; font-size: 0.9rem; font-weight: 500;">View live →</a>
-        </div>
-
-        <div style="background: #fff; border: 1px solid #e2e8f0; border-radius: 12px; padding: 20px; box-shadow: 0 2px 8px rgba(15,23,42,0.07);">
-            <h3 style="margin-top: 0; margin-bottom: 0.5rem; font-size: 1.05rem; color: #2c3e50;">MyYaatra</h3>
-            <p style="margin: 0 0 0.75rem; color: #555; font-size: 0.9rem; line-height: 1.5;">Personal life chronicle with AI insights, family tree, memories, career milestones, and time capsules.</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.9rem;">
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">React/Vite</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">TypeScript</span>
-                <span style="background: #e8f4fd; color: #2471a3; border-radius: 999px; padding: 3px 10px; font-size: 0.75rem;">AI/ML</span>
-            </div>
-            <a href="https://my-yatra.up.railway.app/landing" target="_blank" rel="noopener" style="color: #2471a3; font-size: 0.9rem; font-weight: 500;">View live →</a>
-        </div>
-
+<section class="section">
+    <div class="section-header">
+        <h2 class="section-title">Personal Projects &amp; Open Innovations</h2>
+        <p class="section-subtitle">Built and deployed full-stack applications as learning vehicles and proof-of-concept platforms — exploring agentic AI, real-time collaboration, and data management at production scale.</p>
     </div>
-</div>
+    <div class="project-grid">
+        <article class="project-card">
+            <h3 class="project-card__title">AI-Driven GRC Portal</h3>
+            <p class="project-card__description">Full-stack agentic governance platform — 40+ agents, A2A pipeline, Claude MCP integration, and blockchain audit registry.</p>
+            <div class="project-card__stack">
+                <span>React/Vite</span>
+                <span>Node.js</span>
+                <span>TypeScript</span>
+                <span>PostgreSQL</span>
+                <span>Solidity</span>
+            </div>
+            <a href="https://grc-portal-production.up.railway.app" class="project-card__link" target="_blank" rel="noopener">View live</a>
+        </article>
 
-<div class="section">
-    <h2 class="section-title">Education & Research</h2>
-    
+        <article class="project-card">
+            <h3 class="project-card__title">Merchant Data Portal</h3>
+            <p class="project-card__description">NextGen merchant data source inventory and management portal exploring MDP architecture concepts.</p>
+            <div class="project-card__stack">
+                <span>React</span>
+                <span>TypeScript</span>
+                <span>REST APIs</span>
+            </div>
+            <a href="https://merchant-portal-production.up.railway.app/data-source-inventory" class="project-card__link" target="_blank" rel="noopener">View live</a>
+        </article>
+
+        <article class="project-card">
+            <h3 class="project-card__title">CodeCollab Translate</h3>
+            <p class="project-card__description">Real-time code collaboration PoC with AI-powered translation across programming languages.</p>
+            <div class="project-card__stack">
+                <span>React</span>
+                <span>Node.js</span>
+                <span>WebSockets</span>
+                <span>LLM</span>
+            </div>
+            <a href="https://codecollab-translate-poc-production.up.railway.app/" class="project-card__link" target="_blank" rel="noopener">View live</a>
+        </article>
+
+        <article class="project-card">
+            <h3 class="project-card__title">MyYaatra</h3>
+            <p class="project-card__description">Personal life chronicle with AI insights, family tree, memories, career milestones, and time capsules.</p>
+            <div class="project-card__stack">
+                <span>React/Vite</span>
+                <span>TypeScript</span>
+                <span>AI/ML</span>
+            </div>
+            <a href="https://my-yatra.up.railway.app/landing" class="project-card__link" target="_blank" rel="noopener">View live</a>
+        </article>
+    </div>
+</section>
+
+<section class="section">
+    <div class="section-header">
+        <h2 class="section-title">Education & Research</h2>
+        <p class="section-subtitle">Formal training in computer science paired with continuous learning in cloud, AI, and leadership.</p>
+    </div>
     <div class="education-item">
         <div class="education-header">
             <h3>Master of Science in Computer Science</h3>
@@ -252,7 +268,6 @@ title: Harish Raghavendra - Director, Data and AI Platform
             <span class="thesis">Research: Created a new Congestion Aware protocol for wireless ad-hoc mobile networks, published in IEEE</span>
         </div>
     </div>
-    
     <div class="education-item">
         <div class="education-header">
             <h3>Bachelor of Engineering in Computer Science</h3>
@@ -260,7 +275,6 @@ title: Harish Raghavendra - Director, Data and AI Platform
         </div>
         <div class="university">Visvesvaraya Technological University (JSSATE), India</div>
     </div>
-    
     <div class="professional-dev">
         <h3>Certifications & Professional Development</h3>
         <ul>
@@ -269,7 +283,7 @@ title: Harish Raghavendra - Director, Data and AI Platform
             <li>Big Data Technologies & AI/ML Specializations</li>
         </ul>
     </div>
-</div>
+</section>
 
 [//]: # (<div class="section">)
 
@@ -426,8 +440,10 @@ title: Harish Raghavendra - Director, Data and AI Platform
 </section>
 
 <section class="section contact-section" id="contact-form">
-    <h2 class="section-title">Let’s Collaborate</h2>
-    <p class="section-subtitle">Share a challenge or opportunity and I’ll follow up within two business days.</p>
+    <div class="section-header">
+        <h2 class="section-title">Let’s Collaborate</h2>
+        <p class="section-subtitle">Share a challenge or opportunity and I’ll follow up within two business days.</p>
+    </div>
     <form class="contact-form" method="POST" action="https://formspree.io/f/{{ site.formspree_id }}">
         <div class="form-grid">
             <label class="form-field">
@@ -458,7 +474,9 @@ title: Harish Raghavendra - Director, Data and AI Platform
 </section>
 
 <section class="section section-languages">
-    <h2 class="section-title">Languages</h2>
+    <div class="section-header">
+        <h2 class="section-title">Languages</h2>
+    </div>
     <div class="language-chips">
         <span class="chip">English · Native/Bilingual</span>
         <span class="chip">Language · Proficiency Level</span>
@@ -466,6 +484,8 @@ title: Harish Raghavendra - Director, Data and AI Platform
 </section>
 
 <section class="section no-print">
-    <h2 class="section-title">References</h2>
+    <div class="section-header">
+        <h2 class="section-title">References</h2>
+    </div>
     <p>Available upon request</p>
 </section>

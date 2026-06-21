@@ -6,7 +6,6 @@ title: Skills & Expertise
 <div class="skills-page">
     <section class="section">
         <h2 class="section-title">AI & Machine Learning</h2>
-        
         <div class="skills-category">
             <h3>Generative AI & LLMs</h3>
             <div class="skills-container">
@@ -247,80 +246,3 @@ title: Skills & Expertise
         </div>
     </section>
 </div>
-
-<style>
-.skills-page {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
-.skills-category {
-    margin-bottom: 2rem;
-}
-
-.skills-category h3 {
-    color: var(--primary-color);
-    margin-bottom: 1rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-}
-
-.skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-}
-
-.skill-item {
-    width: 100%;
-    margin-bottom: 1rem;
-}
-
-.skill-name {
-    display: block;
-    margin-bottom: 0.3rem;
-    font-weight: 500;
-}
-
-.skill-level {
-    height: 8px;
-    background-color: #f0f0f0;
-    border-radius: 4px;
-    overflow: hidden;
-}
-
-.skill-level-bar {
-    height: 100%;
-    background-color: var(--accent-color);
-    border-radius: 4px;
-}
-
-.skill-tag {
-    background-color: #f5f5f5;
-    color: var(--primary-color);
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    transition: all 0.2s;
-}
-
-.skill-tag:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    background-color: var(--accent-color);
-    color: white;
-}
-
-@media (max-width: 768px) {
-    .skills-container {
-        gap: 0.8rem;
-    }
-    
-    .skill-tag {
-        padding: 0.4rem 0.8rem;
-        font-size: 0.85rem;
-    }
-}
-</style>
