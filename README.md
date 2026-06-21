@@ -85,7 +85,7 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 - `_layouts/` - Page layouts (default, resume, year-range)
 - `_pages/` - Static pages and year pages
-- `_pages/years/` - Individual year content (1998-2025)
+- `_pages/years/` - Individual year content (1998-2026)
 - `assets/` - CSS, JavaScript, and images
 - `_config.yml` - Jekyll configuration
 - `years.md` - Years overview page

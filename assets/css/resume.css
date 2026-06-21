@@ -954,6 +954,87 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 /* =====================================================================
+   Years page
+   ===================================================================== */
+
+.years-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.years-page h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+  font-size: 2rem;
+  letter-spacing: -0.02em;
+  font-weight: 700;
+}
+
+.years-page p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--color-text-muted);
+}
+
+.years-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.year-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-xs);
+  padding: 1.5rem;
+  text-decoration: none;
+  color: var(--color-text);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--color-border);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+}
+
+.year-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-md);
+  text-decoration: none;
+  background: var(--color-surface-2);
+}
+
+.year-number {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--color-accent);
+}
+
+.year-subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  margin-top: auto;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .years-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 480px) {
+  .years-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =====================================================================
    Skills page
    ===================================================================== */
 
