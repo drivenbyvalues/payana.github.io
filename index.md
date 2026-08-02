@@ -205,6 +205,30 @@ title: Harish Raghavendra - Director, Data and AI Platform
     </div>
     <div class="project-grid">
         <article class="project-card">
+            <h3 class="project-card__title">NammaSeva</h3>
+            <p class="project-card__description">Multi-tenant hyperlocal services marketplace for small-town India — voice/AI-assisted intake, vendor matching &amp; quoting, milestone-based job execution across customer, vendor, and town-operator apps. <a href="/articles/2026-namma-seva-hyperlocal-marketplace/">Read the writeup →</a></p>
+            <div class="project-card__stack">
+                <span>React Native/Expo</span>
+                <span>NestJS</span>
+                <span>PostgreSQL/PostGIS</span>
+                <span>BullMQ</span>
+            </div>
+            <a href="https://namma-seva-customer-web-production.up.railway.app/" class="project-card__link" target="_blank" rel="noopener">View live</a>
+        </article>
+
+        <article class="project-card">
+            <h3 class="project-card__title">Manasa Vihara Retreat</h3>
+            <p class="project-card__description">Boutique homestay and nature-retreat booking website in the Western Ghats, Karnataka — property showcase, rooms, experiences, and an enquiry-driven booking flow.</p>
+            <div class="project-card__stack">
+                <span>Next.js</span>
+                <span>React</span>
+                <span>Prisma</span>
+                <span>PostgreSQL</span>
+            </div>
+            <a href="https://manasa-vihara-retreat-production.up.railway.app/" class="project-card__link" target="_blank" rel="noopener">View live</a>
+        </article>
+
+        <article class="project-card">
             <h3 class="project-card__title">AI-Driven GRC Portal</h3>
             <p class="project-card__description">Full-stack agentic governance platform — 40+ agents, A2A pipeline, Claude MCP integration, and blockchain audit registry.</p>
             <div class="project-card__stack">

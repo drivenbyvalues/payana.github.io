@@ -25,6 +25,21 @@ permalink: /articles/
 
 <section class="section section-articles">
   <div class="section-header">
+    <h2 class="section-title">Personal Projects</h2>
+    <p class="section-subtitle">Built and deployed outside of Visa, as learning vehicles and proof-of-concept platforms.</p>
+  </div>
+  <div class="article-grid">
+    <a class="article-card" href="{{ '/articles/2026-namma-seva-hyperlocal-marketplace/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-store"></i> Hyperlocal Marketplace</span>
+      <h3 class="article-card__title">NammaSeva — Connecting Rural and Small-Town India to Trusted Local Service Providers</h3>
+      <p class="article-card__lede">A multi-tenant marketplace and project-planning platform for home services in small-town India — voice/AI-assisted intake, vendor matching &amp; quoting, and milestone-based job execution across three apps built end to end.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+  </div>
+</section>
+
+<section class="section section-articles">
+  <div class="section-header">
     <h2 class="section-title">Foundations · 2025</h2>
     <p class="section-subtitle">The platform's coordination model, AI infrastructure, and cross-agent memory.</p>
   </div>
