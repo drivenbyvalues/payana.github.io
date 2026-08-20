@@ -15,7 +15,7 @@ permalink: /articles/
         <strong>responsible-AI controls</strong> that make it production-grade in a regulated environment.
       </p>
       <div class="hero-metrics">
-        {% include components/metric-card.html value="18" label="long-form deep dives" %}
+        {% include components/metric-card.html value="26" label="long-form deep dives" %}
         {% include components/metric-card.html value="16+" label="AI agents covered" %}
         {% include components/metric-card.html value="4" label="LLM providers integrated" %}
       </div>
@@ -60,6 +60,63 @@ permalink: /articles/
       <span class="article-card__tag"><i class="fas fa-scroll"></i> Memory Preservation</span>
       <h3 class="article-card__title">MyYaatra — A Platform to Document a Life So It Can Be Passed Down</h3>
       <p class="article-card__lede">A structured memory and life-journey platform — guided oral-history interviews, AI-generated narratives, and family collaboration — built to turn scattered memories into something a future generation could actually read.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+  </div>
+</section>
+
+<section class="section section-articles">
+  <div class="section-header">
+    <h2 class="section-title">Data Platform Engineering · 2019–2020</h2>
+    <p class="section-subtitle">Self-service PaaS, big-data compute/storage, streaming infrastructure, ML platforms, and field-level security — built for a global payments network's internal data platform organization.</p>
+  </div>
+  <div class="article-grid">
+    <a class="article-card" href="{{ '/articles/2020-parsec-self-service-paas-portal/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-layer-group"></i> Self-Service Platform</span>
+      <h3 class="article-card__title">Parsec — A Self-Service PaaS Portal for a Multi-Petabyte Data Platform</h3>
+      <p class="article-card__lede">A self-service PaaS controller framework that turned ad-hoc, manually-managed big-data infrastructure into a fleet of 9,000+ automated agents, cutting onboarding time by roughly 400x and becoming the shared portal every other platform service was built on.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2019-tusker-core-big-data-distribution/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-database"></i> Distributed Systems</span>
+      <h3 class="article-card__title">Tusker — Building a Self-Supported, Open-Source Core Hadoop Distribution</h3>
+      <p class="article-card__lede">How a payments network's data platform organization replaced a vendor-supplied Hadoop distribution with a self-built, self-patched, open-source core — and the crises (data-center power, NameNode scaling, a COVID-era hiring ramp) that shaped how it actually got built.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2020-presto-trino-interactive-query/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-bolt"></i> Query Infrastructure</span>
+      <h3 class="article-card__title">Presto to Trino — Low-Latency Interactive SQL Over a Multi-Petabyte Data Lake</h3>
+      <p class="article-card__lede">How a low-latency Presto (later Trino) query engine was layered onto a multi-petabyte, self-supported Hadoop distribution to cut interactive query wait times, and rode out the project's rebrand from Presto to Trino without disrupting hundreds of active users.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2020-kafka-as-a-service/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-stream"></i> Streaming Infrastructure</span>
+      <h3 class="article-card__title">Kafka-as-a-Service — Consolidating Dozens of Siloed Clusters into a Self-Service Streaming Platform</h3>
+      <p class="article-card__lede">An internal Kafka-as-a-Service platform, built on the open-source Confluent distribution instead of vendor-licensed Kafka, that turned 20+ independently-run clusters into a self-service, "bring your own machines" streaming platform with automated provisioning, security, and operations.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2020-spark-as-a-service/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-microchip"></i> Compute Infrastructure</span>
+      <h3 class="article-card__title">Spark-as-a-Service — Decoupling Compute from Storage on a Multi-Petabyte Data Lake</h3>
+      <p class="article-card__lede">A Kubernetes-based Spark compute platform that disaggregated compute from storage on a multi-petabyte Hadoop data lake — letting users spin up Spark environments on demand and reach across multiple Kerberized HDFS clusters without copying data.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2020-infrastructure-as-a-service/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-server"></i> Infrastructure Automation</span>
+      <h3 class="article-card__title">Infrastructure-as-a-Service — Automating the Foundational Layer Under Every Data Platform Service</h3>
+      <p class="article-card__lede">The container platform, storage, CI/CD, and on-demand database and data-movement services that sat underneath every other self-service product on the data platform — the unglamorous automation layer that made everything above it possible.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2019-mlp-machine-learning-platform/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-brain"></i> ML Infrastructure</span>
+      <h3 class="article-card__title">MLP — A Self-Service Machine Learning Platform for Notebooks, GPUs, and Kubernetes</h3>
+      <p class="article-card__lede">A fully managed, multi-tenant PaaS for model building — Kubernetes-hosted GPU infrastructure, notebook-as-a-service, and standardized environments — that replaced fragmented, single-server data science tooling and cut a flagship fraud-scoring model's training time from 8 days to 30 minutes.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2019-secure-data-services/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-shield-alt"></i> Security & Privacy</span>
+      <h3 class="article-card__title">Secure Data Services — Application-Level Tokenization for Sensitive Payment Data at Scale</h3>
+      <p class="article-card__lede">An application-level encryption and tokenization framework that replaced clear-text card and personal data across a multi-petabyte data lake with an irreversible-looking "proxy" value — closing the field-level encryption gap left by OS- and database-level encryption alone.</p>
       <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
     </a>
   </div>
