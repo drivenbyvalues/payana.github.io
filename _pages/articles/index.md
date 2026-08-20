@@ -25,6 +25,21 @@ permalink: /articles/
 
 <section class="section section-articles">
   <div class="section-header">
+    <h2 class="section-title">Perspectives</h2>
+    <p class="section-subtitle">Opinion and policy commentary — outside the GRC platform work, on where I think broader industry and investment strategy is heading.</p>
+  </div>
+  <div class="article-grid">
+    <a class="article-card" href="{{ '/articles/2026-americas-single-bet/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-globe-asia"></i> Industrial Policy</span>
+      <h3 class="article-card__title">America's Single Bet vs. China's Many — The Case for a New GI Bill Moment</h3>
+      <p class="article-card__lede">A Unitree robot's backflip is the small story. The bigger one: China diversifying across robotics, energy, EVs, rare earths, debt leverage, education, and infrastructure while American capital concentrates on one AI bet — and what a 2026 GI Bill could do about it.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+  </div>
+</section>
+
+<section class="section section-articles">
+  <div class="section-header">
     <h2 class="section-title">Personal Projects</h2>
     <p class="section-subtitle">Built and deployed outside of Visa, as learning vehicles and proof-of-concept platforms.</p>
   </div>
@@ -32,7 +47,19 @@ permalink: /articles/
     <a class="article-card" href="{{ '/articles/2026-namma-seva-hyperlocal-marketplace/' | relative_url }}">
       <span class="article-card__tag"><i class="fas fa-store"></i> Hyperlocal Marketplace</span>
       <h3 class="article-card__title">NammaSeva — Connecting Rural and Small-Town India to Trusted Local Service Providers</h3>
-      <p class="article-card__lede">A multi-tenant marketplace and project-planning platform for home services in small-town India — voice/AI-assisted intake, vendor matching &amp; quoting, and milestone-based job execution across three apps built end to end.</p>
+      <p class="article-card__lede">A four-party platform — Customer, Pro, Town Administrator, and a cross-town Platform Admin layer — where each locality runs and incentivizes its own local economy while a central layer aggregates visibility across all of them: voice/AI intake, vendor matching &amp; quoting, milestone-based execution, and an AI Goal Planner matching ideas to real government subsidies.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2026-healthspan-ai-longevity-dashboard/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-heart-pulse"></i> Longevity Tracking</span>
+      <h3 class="article-card__title">HealthSpan AI — A Personal Longevity Dashboard Built on a Deterministic Health Model</h3>
+      <p class="article-card__lede">A household health dashboard that runs a deterministic, publicly-anchored longevity model over your workouts, biometrics, and nutrition, then uses AI strictly to explain the numbers and parse messy inputs — never to compute them.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2026-myyaatra-memory-platform/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-scroll"></i> Memory Preservation</span>
+      <h3 class="article-card__title">MyYaatra — A Platform to Document a Life So It Can Be Passed Down</h3>
+      <p class="article-card__lede">A structured memory and life-journey platform — guided oral-history interviews, AI-generated narratives, and family collaboration — built to turn scattered memories into something a future generation could actually read.</p>
       <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
     </a>
   </div>
