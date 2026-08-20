@@ -1,19 +1,19 @@
 ---
 layout: article
 title: Tusker — Building a Self-Supported, Open-Source Core Hadoop Distribution
-permalink: /articles/2019-tusker-core-big-data-distribution/
-year: 2019
+permalink: /articles/2021-tusker-core-big-data-distribution/
+year: 2021
 feature_area: Data Platform Engineering · Distributed Systems
 summary: How a payments network's data platform organization replaced a vendor-supplied Hadoop distribution with a self-built, self-patched, open-source core — and the crises (data-center power, NameNode scaling, a COVID-era hiring ramp) that shaped how it actually got built.
 ---
 
 # Tusker — Building a Self-Supported, Open-Source Core Hadoop Distribution
 
-*Year shipped: 2019 · Platform area: Data Platform Engineering · Status: production*
+*Work started: 2020 · Shipped: 2021 · Platform area: Data Platform Engineering · Status: production*
 
 ## Why It Existed
 
-By the late 2010s, the data platform I worked on hosted roughly 180 applications across 90+ Hadoop clusters, all running on a commercial Hortonworks HDP distribution whose vendor support was heading toward end-of-life. The clusters had grown to 4,000+ nodes carrying well over 100PB of data, serving thousands of analytical users running tens of thousands of jobs a day. Interactive query wait times ran 12–25% of total execution time. Onboarding a new user took one to two weeks and a chain of manual access tickets. Governance was reactive — problems were found after the fact, not prevented.
+By 2020, the data platform I worked on hosted roughly 180 applications across 90+ Hadoop clusters, all running on a commercial Hortonworks HDP distribution whose vendor support was heading toward end-of-life. The clusters had grown to 4,000+ nodes carrying well over 100PB of data, serving thousands of analytical users running tens of thousands of jobs a day. Interactive query wait times ran 12–25% of total execution time. Onboarding a new user took one to two weeks and a chain of manual access tickets. Governance was reactive — problems were found after the fact, not prevented.
 
 The strategic question underneath all of it: keep riding a vendor's Hadoop distribution and its release cadence, or take ownership of the distribution itself. I led the initiative that chose the second path — building **Tusker**, a lean, self-supported, open-source-first Hadoop distribution (Hadoop, Hive, Tez, Zookeeper, Ranger, Spark-on-YARN) to directly replace the commercial HDP stack, plus a companion cluster manager built on Apache Ambari for operations and observability.
 

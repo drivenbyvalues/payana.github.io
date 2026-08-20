@@ -67,7 +67,7 @@ permalink: /articles/
 
 <section class="section section-articles">
   <div class="section-header">
-    <h2 class="section-title">Data Platform Engineering · 2019–2020</h2>
+    <h2 class="section-title">Data Platform Engineering · 2019–2021</h2>
     <p class="section-subtitle">Self-service PaaS, big-data compute/storage, streaming infrastructure, ML platforms, and field-level security — built for a global payments network's internal data platform organization.</p>
   </div>
   <div class="article-grid">
@@ -77,7 +77,7 @@ permalink: /articles/
       <p class="article-card__lede">A self-service PaaS controller framework that turned ad-hoc, manually-managed big-data infrastructure into a fleet of 9,000+ automated agents, cutting onboarding time by roughly 400x and becoming the shared portal every other platform service was built on.</p>
       <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
     </a>
-    <a class="article-card" href="{{ '/articles/2019-tusker-core-big-data-distribution/' | relative_url }}">
+    <a class="article-card" href="{{ '/articles/2021-tusker-core-big-data-distribution/' | relative_url }}">
       <span class="article-card__tag"><i class="fas fa-database"></i> Distributed Systems</span>
       <h3 class="article-card__title">Tusker — Building a Self-Supported, Open-Source Core Hadoop Distribution</h3>
       <p class="article-card__lede">How a payments network's data platform organization replaced a vendor-supplied Hadoop distribution with a self-built, self-patched, open-source core — and the crises (data-center power, NameNode scaling, a COVID-era hiring ramp) that shaped how it actually got built.</p>

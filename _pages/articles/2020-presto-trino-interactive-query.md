@@ -15,7 +15,7 @@ summary: How a low-latency Presto (later Trino) query engine was layered onto a 
 
 Hive on MapReduce and Tez was good at what it was built for — large-scale batch ETL over a multi-petabyte data lake — and bad at the thing analysts actually wanted minute-to-minute: quick, in-and-out interactive queries. On our flagship analytical cluster, interactive query wait times ran 12–25% of total execution time, a persistent drag on analyst productivity that showed up in every platform survey we ran.
 
-The vendor-supplied answer, Hive LLAP, came bundled with the same commercial Hadoop distribution we were already working to replace (see the [Tusker](/articles/2019-tusker-core-big-data-distribution/) rebuild). We wanted the interactive-query layer to be open-source and vendor-independent too, so we stood up **Presto** as a dedicated, low-latency query service — what we internally branded the Low Latency Analytical Cluster — running alongside the core distribution rather than inside it.
+The vendor-supplied answer, Hive LLAP, came bundled with the same commercial Hadoop distribution we were already working to replace (see the [Tusker](/articles/2021-tusker-core-big-data-distribution/) rebuild). We wanted the interactive-query layer to be open-source and vendor-independent too, so we stood up **Presto** as a dedicated, low-latency query service — what we internally branded the Low Latency Analytical Cluster — running alongside the core distribution rather than inside it.
 
 ## What It Does
 
@@ -73,9 +73,9 @@ Interactive query latency is one of those problems that looks like a performance
 - **Connectivity** — SPI-based connector model (Hive, RDBMS, Cassandra), JDBC/ODBC, CLI
 - **Auth** — LDAP/Kerberos over HTTPS
 - **Client libraries** — Python, Go, Node.js, R
-- **Underlying data platform** — the self-supported [Tusker](/articles/2019-tusker-core-big-data-distribution/) Hadoop distribution
+- **Underlying data platform** — the self-supported [Tusker](/articles/2021-tusker-core-big-data-distribution/) Hadoop distribution
 - **Downstream consumers** — BI tools (Tableau, MicroStrategy), and the [ML platform's](/articles/2019-mlp-machine-learning-platform/) training-data pipeline
 
 ---
 
-*Part of a broader data-platform engineering portfolio — see also [Tusker](/articles/2019-tusker-core-big-data-distribution/) and [MLP](/articles/2019-mlp-machine-learning-platform/).*
+*Part of a broader data-platform engineering portfolio — see also [Tusker](/articles/2021-tusker-core-big-data-distribution/) and [MLP](/articles/2019-mlp-machine-learning-platform/).*

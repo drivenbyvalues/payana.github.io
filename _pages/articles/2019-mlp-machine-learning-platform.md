@@ -93,9 +93,9 @@ A machine learning platform for a payments network lives or dies on a narrow set
 - **ML/DL frameworks** — TensorFlow, PyTorch, XGBoost, H2O, scikit-learn, Keras, R
 - **Environments** — curated, versioned Conda environments (CPU/GPU variants, CUDA-matched)
 - **Experiment tracking** — MLflow-based model/experiment lineage tracker
-- **Data access** — the platform's Hive/Spark/[Trino](/articles/2020-presto-trino-interactive-query/) data lake, running on the [Tusker](/articles/2019-tusker-core-big-data-distribution/) Hadoop distribution
+- **Data access** — the platform's Hive/Spark/[Trino](/articles/2020-presto-trino-interactive-query/) data lake, running on the [Tusker](/articles/2021-tusker-core-big-data-distribution/) Hadoop distribution
 - **Deployment targets** — a portable model-interchange format into a legacy scoring system, plus native integration into the real-time inference platform
 
 ---
 
-*Part of a broader data-platform engineering portfolio — see also [Tusker](/articles/2019-tusker-core-big-data-distribution/) and [Presto to Trino](/articles/2020-presto-trino-interactive-query/).*
+*Part of a broader data-platform engineering portfolio — see also [Tusker](/articles/2021-tusker-core-big-data-distribution/) and [Presto to Trino](/articles/2020-presto-trino-interactive-query/).*
