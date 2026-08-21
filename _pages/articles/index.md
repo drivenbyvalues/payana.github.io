@@ -15,7 +15,7 @@ permalink: /articles/
         <strong>responsible-AI controls</strong> that make it production-grade in a regulated environment.
       </p>
       <div class="hero-metrics">
-        {% include components/metric-card.html value="26" label="long-form deep dives" %}
+        {% include components/metric-card.html value="27" label="long-form deep dives" %}
         {% include components/metric-card.html value="16+" label="AI agents covered" %}
         {% include components/metric-card.html value="4" label="LLM providers integrated" %}
       </div>
@@ -67,7 +67,7 @@ permalink: /articles/
 
 <section class="section section-articles">
   <div class="section-header">
-    <h2 class="section-title">Data Platform Engineering · 2019–2021</h2>
+    <h2 class="section-title">Data Platform Engineering · 2019–2023</h2>
     <p class="section-subtitle">Self-service PaaS, big-data compute/storage, streaming infrastructure, ML platforms, and field-level security — built for a global payments network's internal data platform organization.</p>
   </div>
   <div class="article-grid">
@@ -117,6 +117,12 @@ permalink: /articles/
       <span class="article-card__tag"><i class="fas fa-shield-alt"></i> Security & Privacy</span>
       <h3 class="article-card__title">Secure Data Services — Application-Level Tokenization for Sensitive Payment Data at Scale</h3>
       <p class="article-card__lede">An application-level encryption and tokenization framework that replaced clear-text card and personal data across a multi-petabyte data lake with an irreversible-looking "proxy" value — closing the field-level encryption gap left by OS- and database-level encryption alone.</p>
+      <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
+    </a>
+    <a class="article-card" href="{{ '/articles/2023-merchant-data-platform-entity-model/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-project-diagram"></i> Entity Modeling</span>
+      <h3 class="article-card__title">Reimagining a Global Merchant Data Platform — From a Fixed Hierarchy to a Flexible Entity Graph</h3>
+      <p class="article-card__lede">How a global payments network's merchant data platform moved from a rigid three-level Store/Brand/Enterprise hierarchy to a flexible, n-level entity model — adding new participant types, region-first administration, and near-real-time ingestion.</p>
       <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
     </a>
   </div>
