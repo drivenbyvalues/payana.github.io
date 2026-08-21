@@ -295,6 +295,35 @@ title: Harish Raghavendra - Platform Product Manager, GitHub
 
 <section class="section">
     <div class="section-header">
+        <h2 class="section-title">Interests &amp; Hobbies</h2>
+        <p class="section-subtitle">Outside of platforms and governance — craft, rhythm, and a steady hand.</p>
+    </div>
+    <div class="project-grid">
+        <article class="project-card">
+            <h3 class="project-card__title">Mridangam</h3>
+            <p class="project-card__description">Classical South Indian percussion — cleared Junior and Senior grade examinations, ranked 3rd nationally in the All India Senior grade examination.</p>
+            <a href="{{ '/interests/mridangam/' | relative_url }}" class="project-card__link">Read more</a>
+        </article>
+        <article class="project-card">
+            <h3 class="project-card__title">Pyrography</h3>
+            <p class="project-card__description">Burning shaded, linear artwork into wood with a heated tool — a wall collection, a hand-painted carousel horse, and a few pieces shown off in an old Hulu profile photo.</p>
+            <a href="{{ '/interests/pyrography/' | relative_url }}" class="project-card__link">Read more</a>
+        </article>
+        <article class="project-card">
+            <h3 class="project-card__title">Drawing</h3>
+            <p class="project-card__description">A few pieces on the way.</p>
+            <a href="{{ '/interests/drawing/' | relative_url }}" class="project-card__link">Read more</a>
+        </article>
+        <article class="project-card">
+            <h3 class="project-card__title">Lego Building</h3>
+            <p class="project-card__description">Grogu, the Razor Crest, an N-1 Starfighter, and a run of Marvel builds with my kids. Currently building a Bugatti.</p>
+            <a href="{{ '/interests/lego/' | relative_url }}" class="project-card__link">Read more</a>
+        </article>
+    </div>
+</section>
+
+<section class="section">
+    <div class="section-header">
         <h2 class="section-title">Education & Research</h2>
         <p class="section-subtitle">Formal training in computer science paired with continuous learning in cloud, AI, and leadership.</p>
     </div>

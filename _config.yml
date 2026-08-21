@@ -30,6 +30,8 @@ nav_links:
     url: /timeline/
   - label: Articles
     url: /articles/
+  - label: Interests
+    url: /interests/
   - label: Skills
     url: /skills/
   - label: Years
