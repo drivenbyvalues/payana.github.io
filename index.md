@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: Harish Raghavendra - Director, Data and AI Platform
+title: Harish Raghavendra - Platform Product Manager, GitHub
 ---
 
 <header class="hero">
@@ -11,11 +11,13 @@ title: Harish Raghavendra - Director, Data and AI Platform
             </div>
         </div>
         <div class="hero-body">
-            <p class="hero-kicker">Director · Data &amp; AI Governance · Platform Strategy</p>
-            <h1 class="hero-title">Building trustworthy data and AI platforms that scale globally</h1>
+            <p class="hero-kicker">Platform Product Manager · GitHub · Starting Aug 25, 2026</p>
+            <h1 class="hero-title">Building trustworthy, AI-native developer platforms that scale globally</h1>
             <p class="hero-lede">
                 20+ years designing high-impact platforms, guiding governance policy, and mentoring distributed teams
-                that unlock responsible innovation across fintech, payments, and compliance.
+                that unlock responsible innovation across fintech, payments, and compliance — now bringing that
+                platform mindset to developer tooling at GitHub, after seven years leading Data &amp; AI Governance
+                at Visa (2019–2026).
             </p>
             <div class="hero-cta">
                 <a class="btn btn-primary" href="{{ '/resumes/Harish.Raghavendra.04.2026.pdf' | relative_url }}" target="_blank" rel="noopener">
@@ -116,8 +118,21 @@ title: Harish Raghavendra - Director, Data and AI Platform
     </div>
     <div class="experience-item">
         <div class="experience-header">
+            <h3>Platform Product Manager</h3>
+            <div class="experience-date">Aug 2026 - Present</div>
+        </div>
+        <div class="company">GitHub</div>
+        <ul>
+            <li>Starting August 25, 2026 — bringing seven years of self-service, AI-native platform experience from Visa to developer tooling at GitHub scale.</li>
+            <li><strong>What I'm bringing forward:</strong> self-service platform thinking (Parsec), scaling foundational infrastructure with trust and audit-readiness (Tusker), and recent, direct experience shipping an AI-native product with 50+ agents (ViDA.AI) — where automation and human judgment need to compose, not compete.</li>
+            <li><strong>Early focus areas:</strong> getting deep on GitHub's platform surface area, understanding a builder community at a scale no internal enterprise platform ever exposed me to, and bringing a governance-and-trust lens to platform decisions without slowing builders down.</li>
+        </ul>
+    </div>
+
+    <div class="experience-item">
+        <div class="experience-header">
             <h3>Director, Data and AI Governance</h3>
-            <div class="experience-date">Jul 2019 - Present</div>
+            <div class="experience-date">Jul 2019 - Aug 2026</div>
         </div>
         <div class="company">Visa Inc., Foster City, CA</div>
         <ul>
@@ -139,6 +154,7 @@ title: Harish Raghavendra - Director, Data and AI Platform
             <li><strong>Self-Service API Platform:</strong> PM-led build of an agent-based platform managing 12K+ servers via 1,500+ APIs (NodeJS/ReactJS). Onboarded 14 teams—reducing dev time from months to weeks.</li>
             <li><strong>External Audit:</strong> Presented and passed audit of the Hadoop program with the Federal Reserve, FBA, and government agencies.</li>
             <li>Defined 3–5 year strategy across core data, serving, storage (HDFS/GPFS), cluster insights, governance, and catalog—plus the GCP cloud adoption strategy.</li>
+            <li><strong>Closing reflection:</strong> the thread across seven years wasn't any single platform — it was the recurring chance to take an idea from 0→1 and carry it to 1→100 alongside exceptional teams, across Parsec, Tusker, the NextGen Merchant Data Platform, and ViDA.AI. ViDA.AI's work continues on, now being carried forward into Visa's next-generation risk-agent tool chain. <a href="/2019-2026/">Full retrospective →</a></li>
         </ul>
     </div>
 

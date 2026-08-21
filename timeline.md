@@ -19,7 +19,8 @@ title: Professional Timeline | Harish Raghavendra
     <div class="timeline-nav">
       <h3>Career Milestones</h3>
       <ul>
-        <li><a href="{{ '/2019-present/index.html' | relative_url }}" class="nav-link" data-domains="grc,ai,platform"><i class="fas fa-shield-alt"></i><span>2019-Present</span><small>Data &amp; AI Governance</small></a></li>
+        <li><a href="{{ '/2026-present/index.html' | relative_url }}" class="nav-link" data-domains="platform,ai"><i class="fas fa-code-branch"></i><span>2026-Present</span><small>Platform PM, GitHub</small></a></li>
+        <li><a href="{{ '/2019-2026/index.html' | relative_url }}" class="nav-link" data-domains="grc,ai,platform"><i class="fas fa-shield-alt"></i><span>2019-2026</span><small>Data &amp; AI Governance</small></a></li>
         <li><a href="{{ '/2016-2019/index.html' | relative_url }}" class="nav-link" data-domains="platform,fintech"><i class="fas fa-network-wired"></i><span>2016-2019</span><small>Sr. Tech Program Manager</small></a></li>
         <li><a href="{{ '/2009-2016/index.html' | relative_url }}" class="nav-link" data-domains="platform,media"><i class="fas fa-tv"></i><span>2009-2016</span><small>Senior Engineering Manager</small></a></li>
         <li><a href="{{ '/2007-2009/index.html' | relative_url }}" class="nav-link" data-domains="fintech"><i class="fas fa-credit-card"></i><span>2007-2009</span><small>Technical Lead</small></a></li>
@@ -37,15 +38,25 @@ title: Professional Timeline | Harish Raghavendra
         <button class="filter-button" data-domain="fintech" aria-pressed="false"><i class="fas fa-credit-card"></i> FinTech</button>
       </div>
 
+      <div class="timeline-highlight" data-domains="platform,ai">
+        <div class="timeline-badges">
+          <span class="domain-badge badge--platform"><i class="fas fa-layer-group"></i> Platform</span>
+          <span class="domain-badge badge--ai"><i class="fas fa-brain"></i> AI</span>
+        </div>
+        <h2>Current Chapter</h2>
+        <h3>Platform Product Manager, GitHub — starting August 25, 2026</h3>
+        <p>After seven years building data, AI, and governance platforms at Visa, I'm bringing that same self-service, AI-native platform mindset to GitHub. <a href="/2026-present/">Read more →</a></p>
+      </div>
+
       <div class="timeline-highlight" data-domains="grc,ai,platform">
         <div class="timeline-badges">
           <span class="domain-badge badge--grc"><i class="fas fa-shield-alt"></i> GRC</span>
           <span class="domain-badge badge--ai"><i class="fas fa-brain"></i> AI</span>
           <span class="domain-badge badge--platform"><i class="fas fa-layer-group"></i> Platform</span>
         </div>
-        <h2>Current Role</h2>
+        <h2>Previous Chapter (2019–2026)</h2>
         <h3>Director, Data &amp; AI Governance at Visa Inc.</h3>
-        <p>Leading Visa's AI-driven GRC platform (40+ agents, 1M+ lines of code, 450+ APIs, 100+ features) and the NextGen Merchant Data Platform spanning 136M+ merchant locations and 215B+ transactions.</p>
+        <p>Seven years building Parsec, Tusker, the NextGen Merchant Data Platform, and ViDA.AI — Visa's AI-driven GRC platform (40+ agents, 1M+ lines of code, 450+ APIs, 100+ features) spanning 215B+ transactions and 136M+ merchant locations. <a href="/2019-2026/">Read more →</a></p>
       </div>
 
       <div class="timeline-highlight" data-domains="platform,fintech,ai">
