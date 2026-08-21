@@ -1,9 +1,9 @@
 ---
 layout: article
-title: VIDA Smart RAG System
+title: GRC Smart RAG System
 date: 2026-06-15
 category: Architecture
-permalink: /articles/2026-vida-smart-rag/
+permalink: /articles/2026-grc-smart-rag/
 tags:
   - RAG
   - Document Selection
@@ -16,7 +16,7 @@ tags:
 
 ## Executive Summary
 
-VIDA Smart RAG is a lightweight Retrieval-Augmented Generation system that implements intelligent document selection before context retrieval. By using GPT-4o-mini to select the most relevant documentation file based on user questions, the system provides accurate, context-aware answers while minimizing irrelevant context injection. This approach is particularly effective for documentation-heavy applications where precise context selection is critical.
+GRC Smart RAG is a lightweight Retrieval-Augmented Generation system that implements intelligent document selection before context retrieval. By using GPT-4o-mini to select the most relevant documentation file based on user questions, the system provides accurate, context-aware answers while minimizing irrelevant context injection. This approach is particularly effective for documentation-heavy applications where precise context selection is critical.
 
 ## Problem Statement
 
@@ -33,7 +33,7 @@ These challenges result in AI systems that provide generic or incorrect answers,
 
 ### Two-Phase Retrieval Process
 
-VIDA Smart RAG implements a two-phase approach:
+GRC Smart RAG implements a two-phase approach:
 
 ```
 User Question
@@ -158,7 +158,7 @@ export async function smartRAG(question) {
 ### Project Structure
 
 ```
-vida-rag-project/
+grc-rag-project/
 ├── docs/              # Documentation files (MD, TXT)
 ├── src/
 │   ├── ragService.js  # Core RAG logic
@@ -197,7 +197,7 @@ Response:
 
 ### 1. Pre-Retrieval Document Selection
 
-Unlike traditional RAG that searches across all documents, VIDA Smart RAG selects the relevant document first:
+Unlike traditional RAG that searches across all documents, GRC Smart RAG selects the relevant document first:
 
 ```typescript
 // Traditional RAG: Search all chunks
@@ -429,7 +429,7 @@ const openai = new OpenAI({
 
 ## Comparison with Traditional RAG
 
-| Aspect | Traditional RAG | VIDA Smart RAG |
+| Aspect | Traditional RAG | GRC Smart RAG |
 |--------|----------------|----------------|
 | Search Method | Vector similarity | LLM-based selection |
 | Context Source | Multiple chunks | Single file |
@@ -477,6 +477,6 @@ Cannot answer questions that require information from multiple documents.
 
 ## Conclusion
 
-VIDA Smart RAG demonstrates that intelligent document selection can significantly improve RAG system precision while reducing complexity and cost. By using LLM-based selection before context retrieval, the system provides accurate, context-aware answers with clear attribution and reasoning.
+GRC Smart RAG demonstrates that intelligent document selection can significantly improve RAG system precision while reducing complexity and cost. By using LLM-based selection before context retrieval, the system provides accurate, context-aware answers with clear attribution and reasoning.
 
 This approach is particularly effective for documentation-heavy applications where precision is critical and document collections are well-organized. It serves as a blueprint for building lightweight, efficient RAG systems that prioritize accuracy over exhaustive search.

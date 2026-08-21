@@ -233,9 +233,9 @@ permalink: /articles/
       <p class="article-card__lede">Centralized solution for managing governance, risk, and compliance activities with role-based interfaces, automated risk scoring, and AI-powered insights.</p>
       <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
     </a>
-    <a class="article-card" href="{{ '/articles/2026-vida-smart-rag/' | relative_url }}">
+    <a class="article-card" href="{{ '/articles/2026-grc-smart-rag/' | relative_url }}">
       <span class="article-card__tag"><i class="fas fa-brain"></i> Smart Retrieval</span>
-      <h3 class="article-card__title">VIDA Smart RAG — Intelligent Document Selection for Context-Aware Q&A</h3>
+      <h3 class="article-card__title">GRC Smart RAG — Intelligent Document Selection for Context-Aware Q&A</h3>
       <p class="article-card__lede">Lightweight RAG system using GPT-4o-mini for intelligent document selection before context retrieval, providing accurate answers with clear attribution.</p>
       <span class="article-card__read">Read article <i class="fas fa-arrow-right"></i></span>
     </a>
