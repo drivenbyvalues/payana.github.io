@@ -47,8 +47,8 @@ MCP Server (Intake Agent + Language Interpreter):
      • automated_decisioning: false
      • training_data: ["historical support tickets"]
 
-  → confidence: 0.92 overall;
-                automated_decisioning at 0.85
+  → confidence: roughly 0.9 overall;
+                automated_decisioning around 0.85
                 (flagged for reviewer confirmation).
 
   → submits to GRC backend; assessment created;
@@ -114,7 +114,7 @@ The user types one paragraph; the platform gets a real, complete record.
   "value": ["customers (EU)"],
   "source_phrase": "European customers only",
   "prompt_version": "intake.nl_extract.v17",
-  "confidence": 0.94,
+  "confidence": 0.9,
   "ai_suggested": true,
   "human_edited": false
 }

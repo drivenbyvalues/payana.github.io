@@ -1,10 +1,10 @@
 ---
 layout: article
-title: Multi-Provider LLM Infrastructure — One Source of Truth for 16+ AI Agents
+title: Multi-Provider LLM Infrastructure — One Source of Truth Across a Fleet of AI Agents
 permalink: /articles/2025-llm-infrastructure/
 year: 2025
 feature_area: GRC Platform · LLM Infrastructure
-summary: A single LLMAuthService routes 16+ specialized agents across OpenAI, Anthropic, Gemini, and Azure OpenAI with automatic provider fallback, database-backed prompt configurations, and cost telemetry built in.
+summary: A single LLMAuthService routes a dozen-plus specialized agents across OpenAI, Anthropic, Gemini, and Azure OpenAI with automatic provider fallback, database-backed prompt configurations, and cost telemetry built in.
 ---
 
 # Multi-Provider LLM Infrastructure
@@ -19,14 +19,14 @@ Most AI features ship with the LLM call hardcoded. That breaks the moment you ne
 - Compare model behavior on the same prompt across vendors.
 - Track per-agent and per-tenant cost at any granularity finer than a monthly invoice.
 - Update a prompt without redeploying code.
-- Ship 16+ agents and have any hope of running them in production without each one drifting on its own.
+- Ship a growing roster of agents and have any hope of running them in production without each one drifting on its own.
 
 The platform solves this with a single, centralized LLM service — one source of truth for every model call in the system.
 
 ## Architecture — One Service, Many Providers
 
 ```
-┌──────────────────── Agents (16+) ────────────────────┐
+┌──────────────────── Agents (a dozen-plus) ────────────────────┐
 │  Intake · Triage · Reviewer · Risk · Green Zone ·    │
 │  Policy · Prioritization · DPIA · LIA · Template ·    │
 │  Transformation · Patent ... etc.                     │
@@ -86,7 +86,7 @@ What this enables in production:
 - **Per-tenant prompts.** Same agent, different prompt for a region with stricter regulatory expectations.
 - **Per-tier prompts.** Cheaper, faster prompt for tier_3/tier_4 work; richer reasoning prompt for tier_1.
 
-## The 16+ Agents in Production
+## The Agent Fleet in Production
 
 Grouped by responsibility:
 
@@ -129,7 +129,7 @@ In regulated environments — payments, healthcare, banking, critical infrastruc
 - One place to swap providers when geopolitics or compliance posture changes.
 - One audit log to hand to an examiner.
 
-You can't ship "AI in production" responsibly in a regulated environment without this layer. Building it once and reusing it across 16+ agents is the leverage.
+You can't ship "AI in production" responsibly in a regulated environment without this layer. Building it once and reusing it across a dozen-plus agents is the leverage.
 
 ## Tech Stack
 

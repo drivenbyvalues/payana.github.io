@@ -176,8 +176,8 @@ Why this matters:
 A regional airline implemented the Travel Insights AI Platform to transform their analytics capability:
 
 **Before:**
-- 5-day turnaround for ad-hoc reports
-- 2 data analysts dedicated to report generation
+- A several-day turnaround for ad-hoc reports
+- A small dedicated analyst team focused on report generation
 - Limited executive visibility into real-time performance
 - Missed opportunities in emerging markets
 
@@ -185,7 +185,7 @@ A regional airline implemented the Travel Insights AI Platform to transform thei
 - Instant answers to executive questions via natural language
 - Self-service analytics for all stakeholders
 - Real-time dashboard with live route performance
-- 15% revenue increase from trend-driven route optimization
+- A double-digit percentage revenue lift from trend-driven route optimization
 
 ### The Road Ahead
 

@@ -114,10 +114,10 @@ const gates = [
 ```
 
 **Decision outcomes:**
-- `Approve` - Low risk, no gates triggered, coverage ≥80%
+- `Approve` - Low risk, no gates triggered, coverage roughly ≥75-85%
 - `ApproveWithConditions` - Medium risk with specific conditions
 - `EscalateToHuman` - High risk, contradictions, or multiple gates
-- `NeedsEvidence` - Coverage <50% or no evidence found
+- `NeedsEvidence` - Coverage below roughly 40-50% or no evidence found
 
 ## Technical Implementation
 
@@ -258,7 +258,7 @@ The system defaults to human review for safety:
 ### Event Sourcing Optimization
 
 - Event storage optimized for append-only operations
-- Snapshot strategy for long-running runs (every 50 events)
+- Snapshot strategy for long-running runs (roughly every 40-60 events)
 - Event replay for state reconstruction
 - Efficient temporal queries with indexes
 
@@ -329,7 +329,7 @@ The system defaults to human review for safety:
 
 ### Non-Functional Requirements
 - ✅ API response time < 200ms
-- ✅ 99.9% uptime
+- ✅ 99%+ uptime
 - ✅ Data consistency across event replay
 - ✅ Audit trail completeness
 - ✅ Scalable architecture

@@ -4,7 +4,7 @@ title: Kafka-as-a-Service — Consolidating Dozens of Siloed Clusters into a Sel
 permalink: /articles/2020-kafka-as-a-service/
 year: 2020
 feature_area: Platform Engineering · Streaming Infrastructure
-summary: An internal Kafka-as-a-Service platform, built on the open-source Confluent distribution instead of vendor-licensed Kafka, that turned 20+ independently-run clusters into a self-service, "bring your own machines" streaming platform with automated provisioning, security, and operations.
+summary: An internal Kafka-as-a-Service platform, built on the open-source Confluent distribution instead of vendor-licensed Kafka, that turned 15-25+ independently-run clusters into a self-service, "bring your own machines" streaming platform with automated provisioning, security, and operations.
 ---
 
 # Kafka-as-a-Service — Consolidating Dozens of Siloed Clusters into a Self-Service Streaming Platform
@@ -13,7 +13,7 @@ summary: An internal Kafka-as-a-Service platform, built on the open-source Confl
 
 ## Why It Existed
 
-By the time we scoped this project, demand for streaming data processing across a large payments technology company's engineering organization was high and growing fast — and Kafka was the obvious industry choice. The problem was how each team got there. More than ten different technology teams had independently gone through the same process: pick a Kafka distribution, size and stand up a cluster, wire up security, and figure out on-call support — on their own, with no shared playbook. By the time we wrote the business case, that had produced 20+ clusters across more than ten teams, non-standard configurations, high per-cluster maintenance cost, and a continued dependency on vendor-licensed Kafka (bundled with the Hadoop distribution the company was already paying for) that was expensive and limited on the streaming side. No team had deep in-house Kafka expertise, because no team had ever needed to own the whole lifecycle before.
+By the time we scoped this project, demand for streaming data processing across a large payments technology company's engineering organization was high and growing fast — and Kafka was the obvious industry choice. The problem was how each team got there. Roughly a dozen or so different technology teams had independently gone through the same process: pick a Kafka distribution, size and stand up a cluster, wire up security, and figure out on-call support — on their own, with no shared playbook. By the time we wrote the business case, that had produced 15-25+ clusters across those teams, non-standard configurations, high per-cluster maintenance cost, and a continued dependency on vendor-licensed Kafka (bundled with the Hadoop distribution the company was already paying for) that was expensive and limited on the streaming side. No team had deep in-house Kafka expertise, because no team had ever needed to own the whole lifecycle before.
 
 We set out to build Kafka-as-a-Service (KaaS): a platform that automates provisioning, health monitoring, service lifecycle, failover, and security for Kafka clusters, so application teams could spend their time building streaming applications instead of running Kafka.
 
@@ -21,7 +21,7 @@ We set out to build Kafka-as-a-Service (KaaS): a platform that automates provisi
 
 KaaS was deliberately **not** a shared, multi-tenant Kafka cluster. It runs on a "bring your own machines" model — application and infrastructure teams provide the hardware, and KaaS automates and standardizes everything on top of it: provisioning, configuration, security hardening, monitoring, and lifecycle operations, all through a self-service UI hosted on the [Parsec](/articles/2020-parsec-self-service-paas-portal/) platform portal.
 
-The platform is built on the **open-source Confluent Kafka distribution** rather than the vendor-supported distribution bundled with our Hadoop stack — a deliberate choice to reduce vendor lock-in, build in-house Kafka expertise, and avoid enterprise licensing costs, projected at roughly $0.5M/year in cost avoidance across the clusters we expected to migrate.
+The platform is built on the **open-source Confluent Kafka distribution** rather than the vendor-supported distribution bundled with our Hadoop stack — a deliberate choice to reduce vendor lock-in, build in-house Kafka expertise, and avoid enterprise licensing costs, projected at a meaningful six-figure sum annually in cost avoidance across the clusters we expected to migrate.
 
 Core capabilities at general availability:
 
@@ -67,9 +67,9 @@ We shipped it in stages: a limited-availability release in February 2020 for ear
 
 ## Why This Matters
 
-The FY20 targets were concrete: onboard ten applications onto centrally-managed KaaS clusters (against a baseline of 20+ applications spread across 15+ ad-hoc clusters), cut cluster provisioning time from an average of six weeks down to one day once hardware was available, and avoid roughly $0.5M/year in licensing cost by moving off the vendor Kafka distribution.
+The FY20 targets were concrete: onboard roughly ten applications onto centrally-managed KaaS clusters (against a baseline of 15-25+ applications spread across 10-20+ ad-hoc clusters), cut cluster provisioning time from an average of several weeks down to about a day once hardware was available, and avoid a meaningful six-figure sum annually in licensing cost by moving off the vendor Kafka distribution.
 
-By the following year, the platform had grown to 25 production and 85 non-production cluster instances, including multiple Tier-0 production clusters — one alone handling up to 3,000 transactions per second and roughly 90 TB of data a week. What started as a single provisioning tool grew into a full operating model: distribution and provisioning, ongoing cluster management, security, and observability, each staffed and run as a distinct discipline rather than bolted on after the fact.
+By the following year, the platform had grown to roughly 20-30 production and 70-100 non-production cluster instances, including multiple Tier-0 production clusters — one alone handling up to several thousand transactions per second and tens of terabytes of data a week. What started as a single provisioning tool grew into a full operating model: distribution and provisioning, ongoing cluster management, security, and observability, each staffed and run as a distinct discipline rather than bolted on after the fact.
 
 The deeper lesson was architectural, not just operational: standardizing on one certified distribution, one security model, and one provisioning path let a small central team support an ever-growing number of application teams without their headcount or ours scaling linearly with cluster count.
 

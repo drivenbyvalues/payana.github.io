@@ -37,6 +37,12 @@ permalink: /interests/
       <p class="article-card__lede">A few pieces on the way.</p>
       <span class="article-card__read">Read more <i class="fas fa-arrow-right"></i></span>
     </a>
+    <a class="article-card" href="{{ '/interests/photography/' | relative_url }}">
+      <span class="article-card__tag"><i class="fas fa-camera"></i> Landscape &amp; Travel</span>
+      <h3 class="article-card__title">Photography</h3>
+      <p class="article-card__lede">Shot on a Canon 6D (previously a 7D and a Rebel) with L-series glass &mdash; national parks, coastlines, and gardens across a decade of travel.</p>
+      <span class="article-card__read">Read more <i class="fas fa-arrow-right"></i></span>
+    </a>
     <a class="article-card" href="{{ '/interests/lego/' | relative_url }}">
       <span class="article-card__tag"><i class="fas fa-cubes"></i> Building</span>
       <h3 class="article-card__title">Lego Building</h3>

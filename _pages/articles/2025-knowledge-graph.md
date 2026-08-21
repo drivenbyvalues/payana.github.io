@@ -72,11 +72,11 @@ When a new DPIA starts on "HR Chatbot for Leave Requests," the agent enriches it
 
 ```
 Knowledge Graph provides:
-  • "HR dept produces bias risks 70% of time (seen 7×)"
-  • Suggested controls: "Regular bias audits (confidence: 0.9)"
-                      : "Human-in-the-loop sign-off (confidence: 0.85)"
+  • "HR dept produces bias risks a majority of the time it's involved (seen across several past cases)"
+  • Suggested controls: "Regular bias audits (confidence: ~0.9)"
+                      : "Human-in-the-loop sign-off (confidence: ~0.85)"
   • Related policies: GDPR Art. 35, Internal AI Ethics Policy §4.2
-  • Precedent: 3 similar HR-chatbot DPIAs from the past 12 months — 2 approved with conditions, 1 deep-dive
+  • Precedent: a handful of similar HR-chatbot DPIAs from the past year — most approved with conditions, one deep-dive
 
 Result: DPIA enriched with organizational patterns and proven controls
         before any LLM generation happens.
@@ -88,7 +88,7 @@ That enrichment goes into the prompt as structured grounding. The DPIA the agent
 
 **Institutional memory.** A reviewer who joined six months ago has access to every precedent the system has ever seen. The graph remembers what people leave.
 
-**Pattern detection.** "HR dept produces bias risks 70% of time" was never a hand-coded rule — it emerged from the edges. The Risk Automation Agent uses the same pattern to escalate before a reviewer has to find it.
+**Pattern detection.** "HR dept produces bias risks a majority of the time it's involved" was never a hand-coded rule — it emerged from the edges. The Risk Automation Agent uses the same pattern to escalate before a reviewer has to find it.
 
 **Semantic search across precedent.** When the Reviewer Agent needs "similar past assessments," it does a hybrid retrieve (vector + entity-graph expansion) on the precedent corpus. Different terminology doesn't break the lookup — `LLM` matches `large language model` matches `generative AI`.
 

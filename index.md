@@ -31,8 +31,8 @@ title: Harish Raghavendra - Platform Product Manager, GitHub
                 </a>
             </div>
             <div class="hero-metrics">
-                {% include components/metric-card.html value="215B+" label="transactions safeguarded each year" %}
-                {% include components/metric-card.html value="80+" label="engineers led across global teams" %}
+                {% include components/metric-card.html value="100B-250B+" label="transactions safeguarded each year" %}
+                {% include components/metric-card.html value="60-90+" label="engineers led across global teams" %}
                 {% include components/metric-card.html value="20+" label="years steering AI & data strategy" %}
             </div>
         </div>
@@ -65,15 +65,15 @@ title: Harish Raghavendra - Platform Product Manager, GitHub
             <p class="highlight-card__description">Evidence of execution velocity across data, AI, and governance initiatives.</p>
             <div class="metric-card-group">
                 <div class="metric-card">
-                    <span class="metric-card__value">98%</span>
+                    <span class="metric-card__value">90-98%</span>
                     <span class="metric-card__label">AI policy adherence</span>
                 </div>
                 <div class="metric-card">
-                    <span class="metric-card__value">95%</span>
+                    <span class="metric-card__value">80-95%</span>
                     <span class="metric-card__label">Faster governance reviews</span>
                 </div>
                 <div class="metric-card">
-                    <span class="metric-card__value">$3.5B</span>
+                    <span class="metric-card__value">$2B-$5B</span>
                     <span class="metric-card__label">Revenue influenced by data products</span>
                 </div>
             </div>
@@ -82,7 +82,7 @@ title: Harish Raghavendra - Platform Product Manager, GitHub
         {% include components/highlight-card.html
             title="Platform Wins"
             icon="fas fa-trophy"
-            items="AI-Driven GRC Platform: 40+ agents · A2A 3-tier pipeline · Claude MCP integration · blockchain audit registry · multi-million revenue unlock|NextGen Merchant Data Platform spanning 136M+ merchant locations across Merchants, PayFacs, Acquirers|Self-supported Visa Core Hadoop 3.x distribution saving $85M+ over 5 years|Self-service agent-based API platform managing 12K+ servers via 1,500+ APIs"
+            items="AI-Driven GRC Platform: 30-50 agents · A2A 3-tier pipeline · Claude MCP integration · blockchain audit registry · multi-million revenue unlock|NextGen Merchant Data Platform spanning 100M-150M merchant locations across Merchants, PayFacs, Acquirers|Self-supported Visa Core Hadoop 3.x distribution saving tens of millions of dollars over 5 years|Self-service agent-based API platform managing 10K-15K+ servers via 1,200-1,800 APIs"
         %}
     </div>
 </section>
@@ -124,7 +124,7 @@ title: Harish Raghavendra - Platform Product Manager, GitHub
         <div class="company">GitHub</div>
         <ul>
             <li>Starting August 25, 2026 — bringing seven years of self-service, AI-native platform experience from Visa to developer tooling at GitHub scale.</li>
-            <li><strong>What I'm bringing forward:</strong> self-service platform thinking (Parsec), scaling foundational infrastructure with trust and audit-readiness (Tusker), and recent, direct experience shipping an AI-native product with 50+ agents (ViDA.AI) — where automation and human judgment need to compose, not compete.</li>
+            <li><strong>What I'm bringing forward:</strong> self-service platform thinking (Parsec), scaling foundational infrastructure with trust and audit-readiness (Tusker), and recent, direct experience shipping an AI-native product with several dozen agents (ViDA.AI) — where automation and human judgment need to compose, not compete.</li>
             <li><strong>Early focus areas:</strong> getting deep on GitHub's platform surface area, understanding a builder community at a scale no internal enterprise platform ever exposed me to, and bringing a governance-and-trust lens to platform decisions without slowing builders down.</li>
         </ul>
     </div>
@@ -136,22 +136,22 @@ title: Harish Raghavendra - Platform Product Manager, GitHub
         </div>
         <div class="company">Visa Inc., Foster City, CA</div>
         <ul>
-            <li><strong>AI-Driven GRC Platform:</strong> Architected and shipped a production-grade agentic AI governance platform with 40+ agents, 1M+ lines of code, 450+ APIs, and 100+ features — cutting assessment review time by 95% and enabling a multi-million dollar revenue unlock. <a href="https://grc-portal-production.up.railway.app" target="_blank">View live platform →</a>
+            <li><strong>AI-Driven GRC Platform:</strong> Architected and shipped a production-grade agentic AI governance platform with 30-50 agents, a multi-hundred-thousand-line codebase, several hundred APIs, and dozens of features — cutting assessment review time by roughly 80-95% and enabling a multi-million dollar revenue unlock. <a href="https://grc-portal-production.up.railway.app" target="_blank">View live platform →</a>
                 <ul>
-                    <li><strong>A2A Multi-Agent Pipeline:</strong> Designed a three-tier autonomous governance pipeline — 16 stateless skills → 6 command agents → 3 tiered workflows — with automated risk classification routing to Low Risk (2hr SLA), Full Review (5 business days), or Escalated (20 business days), plus a confidence-chain gate that prevents auto-approval below a 0.80 floor.</li>
-                    <li><strong>Claude AI &amp; MCP Integration:</strong> Pioneered enterprise Model Context Protocol (MCP) integration exposing 5 GRC tools to Claude Code and Claude Desktop — enabling natural-language governance intake, submission, and end-to-end workflow orchestration without custom tooling. Supports both an Anthropic SDK autonomous agent CLI (Option A) and an MCP stdio server (Option B).</li>
-                    <li><strong>Privacy &amp; Regulatory Automation:</strong> Automated GDPR DPIA/LIA assessments, EU AI Act high-risk classification, and privacy impact scoring via LLM — replacing weeks of manual legal review with sub-hour automated analysis at 0.85/0.88 confidence floors.</li>
+                    <li><strong>A2A Multi-Agent Pipeline:</strong> Designed a three-tier autonomous governance pipeline — a set of stateless skills → several command agents → a few tiered workflows — with automated risk classification routing to Low Risk (a few hours SLA), Full Review (roughly a business week), or Escalated (a few weeks), plus a confidence-chain gate that prevents auto-approval below a high-confidence floor.</li>
+                    <li><strong>Claude AI &amp; MCP Integration:</strong> Pioneered enterprise Model Context Protocol (MCP) integration exposing a handful of GRC tools to Claude Code and Claude Desktop — enabling natural-language governance intake, submission, and end-to-end workflow orchestration without custom tooling. Supports both an Anthropic SDK autonomous agent CLI (Option A) and an MCP stdio server (Option B).</li>
+                    <li><strong>Privacy &amp; Regulatory Automation:</strong> Automated GDPR DPIA/LIA assessments, EU AI Act high-risk classification, and privacy impact scoring via LLM — replacing weeks of manual legal review with sub-hour automated analysis at a high-confidence threshold.</li>
                     <li><strong>Blockchain Audit Registry:</strong> Deployed GRCAuditRegistry on Polygon Amoy (Ethereum L2) for tamper-proof, on-chain compliance evidence anchoring — providing immutable governance decisions for regulatory and audit submission.</li>
-                    <li><strong>Agentic Runtime v2:</strong> Built a deterministic 4D risk-scoring engine (Operational, Reputational, Data Sensitivity, Competitive) with 5 policy gates and contradiction detection — fully decoupled from LLM inference to guarantee auditable, reproducible governance decisions.</li>
+                    <li><strong>Agentic Runtime v2:</strong> Built a deterministic 4D risk-scoring engine (Operational, Reputational, Data Sensitivity, Competitive) with several policy gates and contradiction detection — fully decoupled from LLM inference to guarantee auditable, reproducible governance decisions.</li>
                     <li><strong>RAG-Powered Document Intelligence:</strong> LangChain + Pinecone + OpenAI pipeline enabling semantic search across governance policy documents — surfacing relevant precedents and policy requirements during live intake interviews.</li>
                 </ul>
             </li>
             <li><strong>Data &amp; AI Governance Deputy Lead</strong> shaping Data Use Policy guidance, Responsible AI direction, and AI inventions—working closely with Privacy, Competition, Affiliates, and IP legal teams.</li>
-            <li><strong>NextGen Merchant Data Platform:</strong> 3-year strategy capturing Merchant ↔ PayFac ↔ Acquirer relationships across 136M+ merchant locations globally, powered by GenAI/LLM models for entity detection, recognition, classification, and hyperlocal data.</li>
-            <li><strong>Single Threaded Owner</strong> of 30+ big data products and platforms operating at 215B+ transactions Visa-wide.</li>
-            <li><strong>Visa Self-Supported Core Hadoop 3.x:</strong> Owned vision, strategy, and execution; scaled team from 3 to 80+ members and saved $85M+ over 5 years.</li>
-            <li><strong>Hadoop In-Place Upgrade:</strong> Presented 20+ roadshows; delivered upgrade across 175+ data applications, 90+ clusters, and 100s of PB.</li>
-            <li><strong>Self-Service API Platform:</strong> PM-led build of an agent-based platform managing 12K+ servers via 1,500+ APIs (NodeJS/ReactJS). Onboarded 14 teams—reducing dev time from months to weeks.</li>
+            <li><strong>NextGen Merchant Data Platform:</strong> 3-year strategy capturing Merchant ↔ PayFac ↔ Acquirer relationships across 100M-150M merchant locations globally, powered by GenAI/LLM models for entity detection, recognition, classification, and hyperlocal data.</li>
+            <li><strong>Single Threaded Owner</strong> of dozens of big data products and platforms operating at hundreds of billions of transactions Visa-wide.</li>
+            <li><strong>Visa Self-Supported Core Hadoop 3.x:</strong> Owned vision, strategy, and execution; grew the team from a handful of engineers to 60-90+ members and saved tens of millions of dollars over 5 years.</li>
+            <li><strong>Hadoop In-Place Upgrade:</strong> Presented 15-25 roadshows; delivered upgrade across 150-200 data applications, 75-100 clusters, and hundreds of PB.</li>
+            <li><strong>Self-Service API Platform:</strong> PM-led build of an agent-based platform managing 10K-15K+ servers via 1,200-1,800 APIs (NodeJS/ReactJS). Onboarded roughly a dozen teams—reducing dev time from months to weeks.</li>
             <li><strong>External Audit:</strong> Presented and passed audit of the Hadoop program with the Federal Reserve, FBA, and government agencies.</li>
             <li>Defined 3–5 year strategy across core data, serving, storage (HDFS/GPFS), cluster insights, governance, and catalog—plus the GCP cloud adoption strategy.</li>
             <li><strong>Closing reflection:</strong> the thread across seven years wasn't any single platform — it was the recurring chance to take an idea from 0→1 and carry it to 1→100 alongside exceptional teams, across Parsec, Tusker, the NextGen Merchant Data Platform, and ViDA.AI. ViDA.AI's work continues on, now being carried forward into Visa's next-generation risk-agent tool chain. <a href="/2019-2026/">Full retrospective →</a></li>
@@ -246,7 +246,7 @@ title: Harish Raghavendra - Platform Product Manager, GitHub
 
         <article class="project-card">
             <h3 class="project-card__title">AI-Driven GRC Portal</h3>
-            <p class="project-card__description">Full-stack agentic governance platform — 40+ agents, A2A pipeline, Claude MCP integration, and blockchain audit registry.</p>
+            <p class="project-card__description">Full-stack agentic governance platform — 30-50 agents, A2A pipeline, Claude MCP integration, and blockchain audit registry.</p>
             <div class="project-card__stack">
                 <span>React/Vite</span>
                 <span>Node.js</span>
@@ -315,6 +315,11 @@ title: Harish Raghavendra - Platform Product Manager, GitHub
             <a href="{{ '/interests/drawing/' | relative_url }}" class="project-card__link">Read more</a>
         </article>
         <article class="project-card">
+            <h3 class="project-card__title">Photography</h3>
+            <p class="project-card__description">Shot on a Canon 6D (previously a 7D and a Rebel) with L-series glass &mdash; national parks, coastlines, and gardens across a decade of travel.</p>
+            <a href="{{ '/interests/photography/' | relative_url }}" class="project-card__link">Read more</a>
+        </article>
+        <article class="project-card">
             <h3 class="project-card__title">Lego Building</h3>
             <p class="project-card__description">Grogu, the Razor Crest, an N-1 Starfighter, and a run of Marvel builds with my kids. Currently building a Bugatti.</p>
             <a href="{{ '/interests/lego/' | relative_url }}" class="project-card__link">Read more</a>
@@ -363,17 +368,17 @@ title: Harish Raghavendra - Platform Product Manager, GitHub
         {% include components/highlight-card.html
             title="GRC Platform Innovation"
             icon="fas fa-robot"
-            items="Autonomous A2A governance pipeline: 16 skills × 6 commands × 3 workflows — auto-approves low-risk assessments end-to-end in under 2 hours|First enterprise Claude MCP integration: 5 GRC tools exposed to Claude Code and Claude Desktop for natural-language governance orchestration|Blockchain audit provenance on Polygon Amoy (Ethereum L2) — tamper-proof, on-chain compliance record for regulatory submissions|Deterministic 4D risk engine + 5 policy gates decoupled from LLM inference — 100% auditable governance decisions|GDPR DPIA/LIA + EU AI Act compliance checks automated via LLM at production confidence floors (0.85/0.88)"
+            items="Autonomous A2A governance pipeline: roughly 15-20 skills, several commands, a few workflows — auto-approves low-risk assessments end-to-end in a few hours|First enterprise Claude MCP integration: a handful of GRC tools exposed to Claude Code and Claude Desktop for natural-language governance orchestration|Blockchain audit provenance on Polygon Amoy (Ethereum L2) — tamper-proof, on-chain compliance record for regulatory submissions|Deterministic 4D risk engine + several policy gates decoupled from LLM inference — fully auditable governance decisions|GDPR DPIA/LIA + EU AI Act compliance checks automated via LLM at production-grade, high-confidence thresholds"
         %}
         {% include components/highlight-card.html
             title="Industry Recognition"
             icon="fas fa-award"
-            items="Technology Innovation Award for Visa data architecture|Featured speaker at 10+ international big data & AI events|Author of 5+ peer-reviewed papers on distributed systems"
+            items="Technology Innovation Award for Visa data architecture|Featured speaker at numerous international big data & AI events|Author of several peer-reviewed papers on distributed systems"
         %}
         {% include components/highlight-card.html
             title="Leadership Multipliers"
             icon="fas fa-people-arrows"
-            items="Mentored 50+ engineers with 15+ stepping into leadership roles|Established best practices adopted by 100+ product squads|Scaled global teams with 40% increase in women in technical roles"
+            items="Mentored dozens of engineers, with a meaningful share moving into leadership roles|Established best practices adopted by dozens to 100+ product squads|Scaled global teams with a meaningful increase in women in technical roles"
         %}
         {% include components/highlight-card.html
             title="Advisory & Ecosystem"

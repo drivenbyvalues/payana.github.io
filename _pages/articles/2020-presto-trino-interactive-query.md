@@ -26,7 +26,7 @@ Presto (and later its community rename, Trino) gave the platform an in-memory, m
 - **A client library across languages** — Python, Go, Node.js, R — which mattered beyond ad hoc analytics: it's the same query surface the [ML platform](/articles/2019-mlp-machine-learning-platform/) used to pull training data straight out of the lake.
 - **LDAP/Kerberos-backed auth over HTTPS**, so the interactive layer inherited the same identity model as the rest of the platform rather than bolting on its own.
 
-By the time the engine had matured into what we were calling Trino, it was carrying 600+ active users, 400,000+ monthly queries and extracts, 99.9% service availability, and 90th/95th-percentile query response times under a minute — served off a roughly 50-node highly-available cluster supporting multiple downstream Hadoop clusters.
+By the time the engine had matured into what we were calling Trino, it was carrying 500-800+ active users, 300,000-500,000+ monthly queries and extracts, high (99%+) service availability, and 90th/95th-percentile query response times under a minute — served off a roughly 40-60 node highly-available cluster supporting multiple downstream Hadoop clusters.
 
 ```
                     ┌──────────────────────────┐
@@ -38,7 +38,7 @@ By the time the engine had matured into what we were calling Trino, it was carry
                     │   Presto / Trino Cluster    │
                     │  (Low Latency Analytical    │
                     │      Cluster — LLAC)        │
-                    │  ~50 nodes · HA · in-memory  │
+                    │  ~40-60 nodes · HA · in-memory│
                     │  multi-threaded execution    │
                     └─────────────┬─────────────┘
                                   │ SPI connectors

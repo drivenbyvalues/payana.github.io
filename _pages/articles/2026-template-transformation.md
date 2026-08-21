@@ -4,7 +4,7 @@ title: AI-Assisted Template Transformation — Five-Strategy Semantic Mapping at
 permalink: /articles/2026-template-transformation/
 year: 2026
 feature_area: GRC Platform · Data Transformation
-summary: A semantic mapping engine that transforms assessments across template formats with five complementary matching strategies, dual backend/frontend AI failover for 99.9% availability, per-field confidence scoring, and adaptive learning from every successful transformation.
+summary: A semantic mapping engine that transforms assessments across template formats with five complementary matching strategies, dual backend/frontend AI failover for 99%+ availability, per-field confidence scoring, and adaptive learning from every successful transformation.
 ---
 
 # AI-Assisted Template Transformation — Five-Strategy Mapping with Adaptive Learning
@@ -75,7 +75,7 @@ A transformation pipeline that falls over when the LLM provider hiccups isn't us
 └──────────────────────────────────────────────────────────┘
 ```
 
-This buys 99.9% availability, transparent failover (the user doesn't see it), and a natural performance split — the heavy lifting happens server-side; the snappy interactive previews happen client-side.
+This buys 99%+ availability, transparent failover (the user doesn't see it), and a natural performance split — the heavy lifting happens server-side; the snappy interactive previews happen client-side.
 
 ## Adaptive Learning — The System Gets Sharper With Use
 
@@ -122,11 +122,11 @@ Every field in every transformation carries:
   "strategy_scores": {
     "exact":      0.0,
     "pattern":    0.1,
-    "semantic":   0.92,
-    "contextual": 0.81,
-    "ai_inferred":0.88
+    "semantic":   0.9,
+    "contextual": 0.8,
+    "ai_inferred":0.9
   },
-  "weighted_confidence": 0.86,
+  "weighted_confidence": 0.85,
   "reasoning": "Both fields appear in 'Strategic Planning' sections and use synonymous business terminology.",
   "validation": "passed",
   "warnings": []
@@ -146,7 +146,7 @@ A reviewer sees the suggested mapping, the confidence breakdown across strategie
 ## What I Designed
 
 - The five-strategy mapping engine and the weighted aggregation across strategies.
-- The dual-architecture failover (backend primary, frontend fallback) for 99.9% availability.
+- The dual-architecture failover (backend primary, frontend fallback) for 99%+ availability.
 - The confidence framework with per-field reasoning and warnings.
 - The adaptive learning loop — Mapping Rules Library extracted from transformation history.
 - The schema enhancement pipeline that augments templates with transformation metadata.

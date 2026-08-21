@@ -86,7 +86,7 @@ This separation is the heart of the responsible-AI design. The LLM sees policy a
 
 **Hard exclusions are immutable.** Children's data, automated decisioning on regulated outcomes, special-category data, regulated AI use cases — these always force escalation regardless of the rest of the score. No prompt can talk the system out of it.
 
-**Explainable in plain language.** The Green Zone Agent emits the *why* alongside every suggestion: "Suggested zone: 'Internal analytics on aggregated employee data.' Fit: 0.87. Conditions to maintain: aggregate-only, EU residents, no individual-level outputs. Deviation flagged: assessment lists 'optional individual-level breakouts.'" — a steward can scan and decide in seconds.
+**Explainable in plain language.** The Green Zone Agent emits the *why* alongside every suggestion: "Suggested zone: 'Internal analytics on aggregated employee data.' Fit: roughly 0.85. Conditions to maintain: aggregate-only, EU residents, no individual-level outputs. Deviation flagged: assessment lists 'optional individual-level breakouts.'" — a steward can scan and decide in seconds.
 
 ## Why This Matters for Regulated Industries
 

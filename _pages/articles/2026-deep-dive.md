@@ -121,15 +121,15 @@ Every decision is fully auditable—what evidence was considered, which claims w
 
 ## Real-World Impact: A Case Study
 
-**Before — Traditional GRC**: 8+ days, 6+ hours of human effort, inconsistent across reviewers, no learning.
+**Before — Traditional GRC**: multi-day turnaround with several hours of human effort per assessment, inconsistent across reviewers, no learning.
 
-**After — Agentic GRC**: 30 minutes total, 10 minutes of human review, 100% framework adherence, knowledge graph updated with each run.
+**After — Agentic GRC**: same-day to near real-time turnaround with a fraction of the review time, 90-100% framework adherence, knowledge graph updated with each run.
 
 ## Business Impact
 
-- **Speed**: 95% reduction in assessment time, 90% reduction in human effort, real-time risk visibility.
-- **Consistency**: 100% framework adherence (vs. 60–70% manual), elimination of reviewer bias.
-- **Scalability**: 10x more assessments with the same team, parallel agent execution.
+- **Speed**: roughly 80-95% reduction in assessment time, a comparable drop in human effort, real-time risk visibility.
+- **Consistency**: 90-100% framework adherence (vs. roughly 60-70% manual), elimination of reviewer bias.
+- **Scalability**: several-fold more assessments with the same team, parallel agent execution.
 - **Intelligence**: Learning from every assessment, proactive risk identification, predictive analytics.
 
 ## The Road Ahead

@@ -56,7 +56,7 @@ title: Professional Timeline | Harish Raghavendra
         </div>
         <h2>Previous Chapter (2019–2026)</h2>
         <h3>Director, Data &amp; AI Governance at Visa Inc.</h3>
-        <p>Seven years building Parsec, Tusker, the NextGen Merchant Data Platform, and ViDA.AI — Visa's AI-driven GRC platform (40+ agents, 1M+ lines of code, 450+ APIs, 100+ features) spanning 215B+ transactions and 136M+ merchant locations. <a href="/2019-2026/">Read more →</a></p>
+        <p>Seven years building Parsec, Tusker, the NextGen Merchant Data Platform, and ViDA.AI — Visa's AI-driven GRC platform (30-50 agents, a multi-hundred-thousand-line codebase, several hundred APIs, dozens of features) spanning hundreds of billions of transactions and 100M-150M merchant locations. <a href="/2019-2026/">Read more →</a></p>
       </div>
 
       <div class="timeline-highlight" data-domains="platform,fintech,ai">
@@ -66,10 +66,10 @@ title: Professional Timeline | Harish Raghavendra
         </div>
         <h2>Key Achievements</h2>
         <ul>
-          <li>Built Visa's Agentic AI GRC platform unlocking multi-million dollar revenue and cutting assessment time 95%.</li>
-          <li>Defined the 3-year NextGen Merchant Data Platform strategy across Merchants, PayFacs, and Acquirers (136M+ locations).</li>
-          <li>Drove Visa's self-supported Core Hadoop 3.x distribution—saving $85M+ over 5 years.</li>
-          <li>Led 2-year Hadoop in-place upgrade across 175+ data apps, 90+ clusters, and 100s of PB.</li>
+          <li>Built Visa's Agentic AI GRC platform unlocking multi-million dollar revenue and cutting assessment time by roughly 80-95%.</li>
+          <li>Defined the 3-year NextGen Merchant Data Platform strategy across Merchants, PayFacs, and Acquirers (100M-150M locations).</li>
+          <li>Drove Visa's self-supported Core Hadoop 3.x distribution—saving tens of millions of dollars over 5 years.</li>
+          <li>Led 2-year Hadoop in-place upgrade across 150-200 data apps, 75-100 clusters, and hundreds of PB.</li>
           <li>Scaled Hulu Live TV datastore for Super Bowl, GoT Finale, Winter Olympics, NCAA—Cassandra at 1M+ qps.</li>
         </ul>
       </div>
@@ -82,10 +82,10 @@ title: Professional Timeline | Harish Raghavendra
         </div>
         <h2>GRC Platform — Technical Architecture</h2>
         <ul>
-          <li><strong>A2A Multi-Agent Pipeline:</strong> Three-tier autonomous governance engine — 16 stateless skills → 6 command agents → 3 tiered workflows (Low Risk 2hr · Full Review 5 days · Escalated 20 days) — with HMAC-SHA256 envelope signing, pg-boss durable job queuing, and a confidence-chain gate that blocks auto-approval below 0.80.</li>
-          <li><strong>Claude AI / MCP Integration:</strong> First enterprise deployment of Anthropic's Model Context Protocol (MCP) — 5 GRC tools discoverable natively by Claude Code and Claude Desktop. Supports an Anthropic SDK autonomous agent CLI and an MCP stdio server for natural-language governance orchestration end-to-end.</li>
-          <li><strong>Agentic Runtime v2:</strong> Deterministic 4D risk-scoring engine (Operational 30%, Reputational 25%, Data Sensitivity 30%, Competitive 15%) with 5 ordered policy gates and contradiction detection — fully decoupled from LLM inference for auditable, reproducible decisions.</li>
-          <li><strong>Privacy &amp; Regulatory Automation:</strong> GDPR-native DPIA/LIA assessment skills (0.85 / 0.88 confidence floors), EU AI Act high-risk classification, and reversibility assessment automated via LLM — replacing weeks of manual legal review with sub-hour analysis.</li>
+          <li><strong>A2A Multi-Agent Pipeline:</strong> Three-tier autonomous governance engine — roughly 15-20 stateless skills → several command agents → a few tiered workflows (Low Risk a few hours · Full Review roughly a business week · Escalated a few weeks) — with HMAC-SHA256 envelope signing, pg-boss durable job queuing, and a confidence-chain gate that blocks auto-approval below a high-confidence floor.</li>
+          <li><strong>Claude AI / MCP Integration:</strong> First enterprise deployment of Anthropic's Model Context Protocol (MCP) — a handful of GRC tools discoverable natively by Claude Code and Claude Desktop. Supports an Anthropic SDK autonomous agent CLI and an MCP stdio server for natural-language governance orchestration end-to-end.</li>
+          <li><strong>Agentic Runtime v2:</strong> Deterministic 4D risk-scoring engine (weighted across Operational, Reputational, Data Sensitivity, and Competitive dimensions) with several ordered policy gates and contradiction detection — fully decoupled from LLM inference for auditable, reproducible decisions.</li>
+          <li><strong>Privacy &amp; Regulatory Automation:</strong> GDPR-native DPIA/LIA assessment skills (high-confidence floors), EU AI Act high-risk classification, and reversibility assessment automated via LLM — replacing weeks of manual legal review with sub-hour analysis.</li>
           <li><strong>Blockchain Audit Registry:</strong> GRCAuditRegistry on Polygon Amoy (Ethereum L2) — immutable, on-chain governance decisions with IPFS evidence anchoring and PolygonScan verification for regulatory submissions.</li>
           <li><strong>Workflow Canvas:</strong> Dual-mode visualization (trace + config) overlaying live execution data on the workflow DAG — domain-scoped skill toggling, threshold overrides, and LLM prompt management without any external chart library.</li>
           <li><strong>RAG Intelligence Layer:</strong> LangChain + Pinecone + OpenAI pipeline with pgvector semantic search — surfaces policy precedents and regulatory requirements during live conversational intake interviews.</li>
@@ -101,7 +101,7 @@ title: Professional Timeline | Harish Raghavendra
         <ul>
           <li><strong><a href="https://namma-seva-customer-web-production.up.railway.app/" target="_blank" rel="noopener">NammaSeva →</a></strong> — Multi-tenant hyperlocal services marketplace for small-town India: voice/AI-assisted intake, vendor matching &amp; quoting, milestone-based job execution across customer, vendor, and town-operator apps. <a href="/articles/2026-namma-seva-hyperlocal-marketplace/">Writeup →</a> Stack: React Native/Expo, NestJS, PostgreSQL/PostGIS, BullMQ.</li>
           <li><strong><a href="https://manasa-vihara-retreat-production.up.railway.app/" target="_blank" rel="noopener">Manasa Vihara Retreat →</a></strong> — Boutique homestay and nature-retreat booking website in the Western Ghats, Karnataka, with property showcase, rooms, experiences, and an enquiry-driven booking flow. Stack: Next.js, React, Prisma, PostgreSQL.</li>
-          <li><strong><a href="https://grc-portal-production.up.railway.app" target="_blank" rel="noopener">AI-Driven GRC Portal →</a></strong> — Production agentic governance platform with 40+ agents, A2A multi-agent pipeline (16 skills → 6 commands → 3 workflows), Claude MCP integration, and blockchain audit registry on Polygon Amoy. Stack: React/Vite, Node.js, TypeScript, PostgreSQL, Solidity.</li>
+          <li><strong><a href="https://grc-portal-production.up.railway.app" target="_blank" rel="noopener">AI-Driven GRC Portal →</a></strong> — Production agentic governance platform with 30-50 agents, A2A multi-agent pipeline (roughly 15-20 skills → several commands → a few workflows), Claude MCP integration, and blockchain audit registry on Polygon Amoy. Stack: React/Vite, Node.js, TypeScript, PostgreSQL, Solidity.</li>
           <li><strong><a href="https://merchant-portal-production.up.railway.app/data-source-inventory" target="_blank" rel="noopener">Merchant Data Portal →</a></strong> — NextGen merchant data source inventory and management portal exploring MDP architecture concepts. Stack: React, TypeScript, REST APIs.</li>
           <li><strong><a href="https://codecollab-translate-poc-production.up.railway.app/" target="_blank" rel="noopener">CodeCollab Translate →</a></strong> — Real-time code collaboration PoC with AI-powered translation across programming languages. Stack: React, Node.js, WebSockets, LLM.</li>
           <li><strong><a href="https://my-yatra.up.railway.app/landing" target="_blank" rel="noopener">MyYaatra →</a></strong> — Personal life chronicle with AI insights, family tree, memories, career milestones, financial goals, and time capsules. Stack: React/Vite, TypeScript, AI/ML.</li>
@@ -115,9 +115,9 @@ title: Professional Timeline | Harish Raghavendra
         </div>
         <h2>Technical Leadership</h2>
         <ul>
-          <li>Grew the Visa data platform team from 3 to 80+ engineers across 5 scrum teams with &lt;15% attrition.</li>
-          <li>Owns 30+ big data products at 215B+ transactions Visa-wide.</li>
-          <li>Shipped a self-service agent-based API platform managing 12K+ servers via 1,500+ APIs (NodeJS/ReactJS); 14 teams onboarded.</li>
+          <li>Grew the Visa data platform team from a handful of engineers to 60-90+ across roughly 5 scrum teams, with attrition well below industry average.</li>
+          <li>Owns dozens of big data products at hundreds of billions of transactions Visa-wide.</li>
+          <li>Shipped a self-service agent-based API platform managing 10K-15K+ servers via 1,200-1,800 APIs (NodeJS/ReactJS); roughly a dozen teams onboarded.</li>
           <li>Multi-LLM orchestration across GPT-4.1, GPT-5, and Claude Sonnet 4.5 / 4.6 / Opus 4 in production GRC workflows.</li>
           <li>Cleared external audit of the Hadoop program with the Federal Reserve, FBA, and government agencies.</li>
         </ul>

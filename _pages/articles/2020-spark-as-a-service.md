@@ -21,7 +21,7 @@ At a large payments technology company's internal data platform, Spark compute w
 - **No single pane of glass.** There was no central place to see what was running, which meant the same support ticket got filed, independently, against three different clusters.
 - **A vendor-distribution ceiling.** The clusters ran on a commercial Hadoop distribution capped at an old Spark minor version, creating real pressure to modernize and to reduce license spend tied to that distribution.
 
-The user base was already meaningful — north of 200 ad hoc users at the time, with a credible path to 500+ within a year — and growing faster than the coupled architecture could gracefully serve.
+The user base was already meaningful — several hundred ad hoc users at the time, with a credible path to many hundreds more within a year — and growing faster than the coupled architecture could gracefully serve.
 
 ## What It Does
 
