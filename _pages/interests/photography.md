@@ -119,6 +119,7 @@ Coffee hills, waterfalls, and Hoysala temple stonework in Karnataka.
 <div class="photo-grid">
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/namdroling-monastery-interior.jpg' | relative_url }}" data-alt="Namdroling Monastery, Kushalnagar, Karnataka"><img src="{{ '/assets/images/interests/photography/namdroling-monastery-interior.jpg' | relative_url }}" alt="Namdroling Monastery, Kushalnagar, Karnataka" loading="lazy"></button><figcaption>Namdroling Monastery, Kushalnagar</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/udupi-krishna-temple.jpg' | relative_url }}" data-alt="Udupi Krishna Temple, Udupi, Karnataka"><img src="{{ '/assets/images/interests/photography/udupi-krishna-temple.jpg' | relative_url }}" alt="Udupi Krishna Temple, Udupi, Karnataka" loading="lazy"></button><figcaption>Udupi Krishna Temple, Udupi</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/murudeshwar-shiva-statue.jpg' | relative_url }}" data-alt="Shiva statue, Murudeshwar, Karnataka"><img src="{{ '/assets/images/interests/photography/murudeshwar-shiva-statue.jpg' | relative_url }}" alt="Shiva statue, Murudeshwar, Karnataka" loading="lazy"></button><figcaption>Shiva, Murudeshwar</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/sringeri-shiva-statue.jpg' | relative_url }}" data-alt="Shiva statue, Sringeri Vidyapeetha, Karnataka"><img src="{{ '/assets/images/interests/photography/sringeri-shiva-statue.jpg' | relative_url }}" alt="Shiva statue, Sringeri Vidyapeetha, Karnataka" loading="lazy"></button><figcaption>Shiva, Sringeri Vidyapeetha</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/belur-temple-entrance.jpg' | relative_url }}" data-alt="Chennakeshava Temple, Belur, Karnataka"><img src="{{ '/assets/images/interests/photography/belur-temple-entrance.jpg' | relative_url }}" alt="Chennakeshava Temple, Belur, Karnataka" loading="lazy"></button><figcaption>Chennakeshava Temple, Belur</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/belur-temple-pillars.jpg' | relative_url }}" data-alt="Ornate pillars at Belur temple, Karnataka"><img src="{{ '/assets/images/interests/photography/belur-temple-pillars.jpg' | relative_url }}" alt="Ornate pillars at Belur temple, Karnataka" loading="lazy"></button><figcaption>Ornate pillars, Belur</figcaption></figure>
@@ -128,6 +129,7 @@ Coffee hills, waterfalls, and Hoysala temple stonework in Karnataka.
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/belur-temple-carving.jpg' | relative_url }}" data-alt="Intricate stone carving at Belur temple, Karnataka"><img src="{{ '/assets/images/interests/photography/belur-temple-carving.jpg' | relative_url }}" alt="Intricate stone carving at Belur temple, Karnataka" loading="lazy"></button><figcaption>Intricate Carving, Belur</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/belur-hoysala-emblem.jpg' | relative_url }}" data-alt="Hoysala emblem, Belur temple, Karnataka"><img src="{{ '/assets/images/interests/photography/belur-hoysala-emblem.jpg' | relative_url }}" alt="Hoysala emblem, Belur temple, Karnataka" loading="lazy"></button><figcaption>Hoysala Emblem, Belur</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/belur-stepwell.jpg' | relative_url }}" data-alt="Stepwell at Belur temple, Karnataka"><img src="{{ '/assets/images/interests/photography/belur-stepwell.jpg' | relative_url }}" alt="Stepwell at Belur temple, Karnataka" loading="lazy"></button><figcaption>Stepwell, Belur Temple</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/lakshmi-devi-temple.jpg' | relative_url }}" data-alt="Lakshmi Devi Temple, Doddagaddavalli, Karnataka"><img src="{{ '/assets/images/interests/photography/lakshmi-devi-temple.jpg' | relative_url }}" alt="Lakshmi Devi Temple, Doddagaddavalli, Karnataka" loading="lazy"></button><figcaption>Lakshmi Devi Temple, Doddagaddavalli</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/jog-falls.jpg' | relative_url }}" data-alt="Jog Falls, Karnataka"><img src="{{ '/assets/images/interests/photography/jog-falls.jpg' | relative_url }}" alt="Jog Falls, Karnataka" loading="lazy"></button><figcaption>Jog Falls, Karnataka</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/abbe-falls.jpg' | relative_url }}" data-alt="Abbe Falls, Coorg, Karnataka"><img src="{{ '/assets/images/interests/photography/abbe-falls.jpg' | relative_url }}" alt="Abbe Falls, Coorg, Karnataka" loading="lazy"></button><figcaption>Abbe Falls, Coorg</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/coorg-road.jpg' | relative_url }}" data-alt="Coorg, Karnataka"><img src="{{ '/assets/images/interests/photography/coorg-road.jpg' | relative_url }}" alt="Coorg, Karnataka" loading="lazy"></button><figcaption>Coorg, Karnataka</figcaption></figure>
@@ -145,7 +147,9 @@ document.addEventListener('DOMContentLoaded', function() {
   var markers = [
     [12.430, 75.960, 'Namdroling Monastery, Kushalnagar'],
     [13.340, 74.786, 'Udupi Krishna Temple, Udupi'],
+    [14.094, 74.492, 'Shiva Statue, Murudeshwar'],
     [13.163, 75.864, 'Chennakeshava Temple, Belur'],
+    [13.095844, 76.003822, 'Lakshmi Devi Temple, Doddagaddavalli'],
     [13.418, 75.251, 'Sringeri Vidyapeetha'],
     [14.216, 74.814, 'Jog Falls'],
     [12.390, 75.710, 'Abbe Falls, Coorg']
@@ -235,7 +239,9 @@ document.addEventListener('DOMContentLoaded', function() {
     [30.150, 78.320, 'Himalayan Valley, Char Dham'],
     [12.430, 75.960, 'Namdroling Monastery, Kushalnagar'],
     [13.340, 74.786, 'Udupi Krishna Temple, Udupi'],
+    [14.094, 74.492, 'Shiva Statue, Murudeshwar'],
     [13.163, 75.864, 'Chennakeshava Temple, Belur'],
+    [13.095844, 76.003822, 'Lakshmi Devi Temple, Doddagaddavalli'],
     [13.418, 75.251, 'Sringeri Vidyapeetha'],
     [14.216, 74.814, 'Jog Falls'],
     [12.390, 75.710, 'Abbe Falls, Coorg'],
