@@ -199,6 +199,15 @@ Marble, symmetry, and reflection at the Taj Mahal.
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/sedona-arizona.jpg' | relative_url }}" data-alt="Sedona, Arizona"><img src="{{ '/assets/images/interests/photography/sedona-arizona.jpg' | relative_url }}" alt="Sedona, Arizona" loading="lazy"></button><figcaption>Sedona, Arizona</figcaption></figure>
 </div>
 
+## Gallery — Yosemite, CA
+
+<div class="photo-grid">
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yosemite-merced-river.jpg' | relative_url }}" data-alt="Merced River, Yosemite"><img src="{{ '/assets/images/interests/photography/yosemite-merced-river.jpg' | relative_url }}" alt="Merced River, Yosemite" loading="lazy"></button><figcaption>Merced River, Yosemite</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yosemite-tunnel-view.jpg' | relative_url }}" data-alt="Tunnel View, Yosemite"><img src="{{ '/assets/images/interests/photography/yosemite-tunnel-view.jpg' | relative_url }}" alt="Tunnel View, Yosemite" loading="lazy"></button><figcaption>Tunnel View, Yosemite</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yosemite-el-capitan.jpg' | relative_url }}" data-alt="El Capitan, Yosemite"><img src="{{ '/assets/images/interests/photography/yosemite-el-capitan.jpg' | relative_url }}" alt="El Capitan, Yosemite" loading="lazy"></button><figcaption>El Capitan, Yosemite</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yosemite-valley-1.jpg' | relative_url }}" data-alt="Yosemite Valley, CA"><img src="{{ '/assets/images/interests/photography/yosemite-valley-1.jpg' | relative_url }}" alt="Yosemite Valley, CA" loading="lazy"></button><figcaption>Yosemite Valley, CA</figcaption></figure>
+</div>
+
 ## Photo Locations
 
 Explore the locations behind the photos on the map below.
@@ -216,6 +225,10 @@ document.addEventListener('DOMContentLoaded', function() {
     [38.733, -109.593, 'Arches National Park, UT'],
     [42.868, -122.169, 'Crater Lake, OR'],
     [37.832, -119.467, 'Tenaya Lake, Yosemite'],
+    [37.734, -119.637, 'El Capitan, Yosemite, CA'],
+    [37.716, -119.677, 'Tunnel View, Yosemite, CA'],
+    [37.746, -119.533, 'Merced River, Yosemite, CA'],
+    [37.745, -119.532, 'Yosemite Valley, CA'],
     [39.096, -120.032, 'Lake Tahoe'],
     [46.852, -121.760, 'Mount Rainier, WA'],
     [48.405, -122.643, 'Deception Pass State Park, WA'],
