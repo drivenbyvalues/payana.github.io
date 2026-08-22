@@ -193,6 +193,12 @@ Marble, symmetry, and reflection at the Taj Mahal.
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yellowstone-old-faithful.jpg' | relative_url }}" data-alt="Old Faithful Geyser, Yellowstone"><img src="{{ '/assets/images/interests/photography/yellowstone-old-faithful.jpg' | relative_url }}" alt="Old Faithful Geyser, Yellowstone" loading="lazy"></button><figcaption>Old Faithful Geyser, Yellowstone</figcaption></figure>
 </div>
 
+## Gallery — Sedona, AZ
+
+<div class="photo-grid">
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/sedona-arizona.jpg' | relative_url }}" data-alt="Sedona, Arizona"><img src="{{ '/assets/images/interests/photography/sedona-arizona.jpg' | relative_url }}" alt="Sedona, Arizona" loading="lazy"></button><figcaption>Sedona, Arizona</figcaption></figure>
+</div>
+
 ## Photo Locations
 
 Explore the locations behind the photos on the map below.
@@ -205,6 +211,7 @@ document.addEventListener('DOMContentLoaded', function() {
     [38.746, -109.499, 'Delicate Arch, UT'],
     [36.862, -111.375, 'Antelope Canyon, Page, AZ'],
     [36.879, -111.511, 'Horseshoe Bend, Page, AZ'],
+    [34.869, -111.761, 'Sedona, Arizona'],
     [36.057, -112.109, 'Grand Canyon, Mather Point'],
     [38.733, -109.593, 'Arches National Park, UT'],
     [42.868, -122.169, 'Crater Lake, OR'],
