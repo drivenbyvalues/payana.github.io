@@ -118,7 +118,7 @@ Coffee hills, waterfalls, and Hoysala temple stonework in Karnataka.
 
 <div class="photo-grid">
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/namdroling-monastery-interior.jpg' | relative_url }}" data-alt="Namdroling Monastery, Kushalnagar, Karnataka"><img src="{{ '/assets/images/interests/photography/namdroling-monastery-interior.jpg' | relative_url }}" alt="Namdroling Monastery, Kushalnagar, Karnataka" loading="lazy"></button><figcaption>Namdroling Monastery, Kushalnagar</figcaption></figure>
-  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/namdroling-monastery-reflection.jpg' | relative_url }}" data-alt="Reflection at Namdroling Monastery, Kushalnagar, Karnataka"><img src="{{ '/assets/images/interests/photography/namdroling-monastery-reflection.jpg' | relative_url }}" alt="Reflection at Namdroling Monastery, Kushalnagar, Karnataka" loading="lazy"></button><figcaption>Reflection, Namdroling Monastery, Kushalnagar</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/udupi-krishna-temple.jpg' | relative_url }}" data-alt="Udupi Krishna Temple, Udupi, Karnataka"><img src="{{ '/assets/images/interests/photography/udupi-krishna-temple.jpg' | relative_url }}" alt="Udupi Krishna Temple, Udupi, Karnataka" loading="lazy"></button><figcaption>Udupi Krishna Temple, Udupi</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/sringeri-shiva-statue.jpg' | relative_url }}" data-alt="Shiva statue, Sringeri Vidyapeetha, Karnataka"><img src="{{ '/assets/images/interests/photography/sringeri-shiva-statue.jpg' | relative_url }}" alt="Shiva statue, Sringeri Vidyapeetha, Karnataka" loading="lazy"></button><figcaption>Shiva, Sringeri Vidyapeetha</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/belur-temple-entrance.jpg' | relative_url }}" data-alt="Chennakeshava Temple, Belur, Karnataka"><img src="{{ '/assets/images/interests/photography/belur-temple-entrance.jpg' | relative_url }}" alt="Chennakeshava Temple, Belur, Karnataka" loading="lazy"></button><figcaption>Chennakeshava Temple, Belur</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/belur-temple-pillars.jpg' | relative_url }}" data-alt="Ornate pillars at Belur temple, Karnataka"><img src="{{ '/assets/images/interests/photography/belur-temple-pillars.jpg' | relative_url }}" alt="Ornate pillars at Belur temple, Karnataka" loading="lazy"></button><figcaption>Ornate pillars, Belur</figcaption></figure>
@@ -144,6 +144,7 @@ document.addEventListener('DOMContentLoaded', function() {
   }).addTo(map);
   var markers = [
     [12.430, 75.960, 'Namdroling Monastery, Kushalnagar'],
+    [13.340, 74.786, 'Udupi Krishna Temple, Udupi'],
     [13.163, 75.864, 'Chennakeshava Temple, Belur'],
     [13.418, 75.251, 'Sringeri Vidyapeetha'],
     [14.216, 74.814, 'Jog Falls'],
@@ -233,6 +234,7 @@ document.addEventListener('DOMContentLoaded', function() {
     [14.093, 74.489, 'Murdeshwar Beach, Karnataka'],
     [30.150, 78.320, 'Himalayan Valley, Char Dham'],
     [12.430, 75.960, 'Namdroling Monastery, Kushalnagar'],
+    [13.340, 74.786, 'Udupi Krishna Temple, Udupi'],
     [13.163, 75.864, 'Chennakeshava Temple, Belur'],
     [13.418, 75.251, 'Sringeri Vidyapeetha'],
     [14.216, 74.814, 'Jog Falls'],
