@@ -189,7 +189,8 @@ Marble, symmetry, and reflection at the Taj Mahal.
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/grand-tetons-2.jpg' | relative_url }}" data-alt="Grand Teton National Park"><img src="{{ '/assets/images/interests/photography/grand-tetons-2.jpg' | relative_url }}" alt="Grand Teton National Park" loading="lazy"></button><figcaption>Grand Teton National Park</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/hayden-valley-bison-herd.jpg' | relative_url }}" data-alt="A bison herd, Hayden Valley"><img src="{{ '/assets/images/interests/photography/hayden-valley-bison-herd.jpg' | relative_url }}" alt="A bison herd, Hayden Valley" loading="lazy"></button><figcaption>Bison Herd, Hayden Valley</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/grand-teton-river.jpg' | relative_url }}" data-alt="A mountain river, Grand Teton"><img src="{{ '/assets/images/interests/photography/grand-teton-river.jpg' | relative_url }}" alt="A mountain river, Grand Teton" loading="lazy"></button><figcaption>Mountain River, Grand Teton</figcaption></figure>
-  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yellowstone-elk-mammoth.jpg' | relative_url }}" data-alt="Elk near Mammoth Hot Springs"><img src="{{ '/assets/images/interests/photography/yellowstone-elk-mammoth.jpg' | relative_url }}" alt="Elk near Mammoth Hot Springs" loading="lazy"></button><figcaption>Elk near Mammoth Hot Springs</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yellowstone-grand-prismatic.jpg' | relative_url }}" data-alt="Grand Prismatic Spring, Yellowstone"><img src="{{ '/assets/images/interests/photography/yellowstone-grand-prismatic.jpg' | relative_url }}" alt="Grand Prismatic Spring, Yellowstone" loading="lazy"></button><figcaption>Grand Prismatic Spring, Yellowstone</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yellowstone-old-faithful.jpg' | relative_url }}" data-alt="Old Faithful Geyser, Yellowstone"><img src="{{ '/assets/images/interests/photography/yellowstone-old-faithful.jpg' | relative_url }}" alt="Old Faithful Geyser, Yellowstone" loading="lazy"></button><figcaption>Old Faithful Geyser, Yellowstone</figcaption></figure>
 </div>
 
 ## Photo Locations
@@ -256,6 +257,8 @@ document.addEventListener('DOMContentLoaded', function() {
     [44.718, -110.500, 'Lower Falls, Yellowstone'],
     [44.977, -110.699, 'Mammoth Hot Springs'],
     [44.728, -110.705, 'Norris Geyser Basin'],
+    [44.525, -110.838, 'Grand Prismatic Spring, Yellowstone'],
+    [44.460, -110.828, 'Old Faithful Geyser, Yellowstone'],
     [44.644, -110.441, 'Hayden Valley, Yellowstone'],
     [43.790, -110.682, 'Grand Teton National Park'],
     [43.865, -110.575, 'Grand Teton & Jackson Lake']
