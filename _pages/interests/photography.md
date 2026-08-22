@@ -206,6 +206,8 @@ Marble, symmetry, and reflection at the Taj Mahal.
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yosemite-tunnel-view.jpg' | relative_url }}" data-alt="Tunnel View, Yosemite"><img src="{{ '/assets/images/interests/photography/yosemite-tunnel-view.jpg' | relative_url }}" alt="Tunnel View, Yosemite" loading="lazy"></button><figcaption>Tunnel View, Yosemite</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yosemite-el-capitan.jpg' | relative_url }}" data-alt="El Capitan, Yosemite"><img src="{{ '/assets/images/interests/photography/yosemite-el-capitan.jpg' | relative_url }}" alt="El Capitan, Yosemite" loading="lazy"></button><figcaption>El Capitan, Yosemite</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yosemite-valley-1.jpg' | relative_url }}" data-alt="Yosemite Valley, CA"><img src="{{ '/assets/images/interests/photography/yosemite-valley-1.jpg' | relative_url }}" alt="Yosemite Valley, CA" loading="lazy"></button><figcaption>Yosemite Valley, CA</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yosemite-bridalveil-fall.jpg' | relative_url }}" data-alt="Bridalveil Fall, Yosemite"><img src="{{ '/assets/images/interests/photography/yosemite-bridalveil-fall.jpg' | relative_url }}" alt="Bridalveil Fall, Yosemite" loading="lazy"></button><figcaption>Bridalveil Fall, Yosemite</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yosemite-tunnel-view-summer.jpg' | relative_url }}" data-alt="Tunnel View, Yosemite, Summer"><img src="{{ '/assets/images/interests/photography/yosemite-tunnel-view-summer.jpg' | relative_url }}" alt="Tunnel View, Yosemite, Summer" loading="lazy"></button><figcaption>Tunnel View, Yosemite, Summer</figcaption></figure>
 </div>
 
 ## Photo Locations
@@ -227,6 +229,7 @@ document.addEventListener('DOMContentLoaded', function() {
     [37.832, -119.467, 'Tenaya Lake, Yosemite'],
     [37.734, -119.637, 'El Capitan, Yosemite, CA'],
     [37.716, -119.677, 'Tunnel View, Yosemite, CA'],
+    [37.717, -119.751, 'Bridalveil Fall, Yosemite, CA'],
     [37.746, -119.533, 'Merced River, Yosemite, CA'],
     [37.745, -119.532, 'Yosemite Valley, CA'],
     [39.096, -120.032, 'Lake Tahoe'],
