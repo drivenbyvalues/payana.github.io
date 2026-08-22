@@ -134,6 +134,7 @@ Coffee hills, waterfalls, and Hoysala temple stonework in Karnataka.
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/jog-falls.jpg' | relative_url }}" data-alt="Jog Falls, Karnataka"><img src="{{ '/assets/images/interests/photography/jog-falls.jpg' | relative_url }}" alt="Jog Falls, Karnataka" loading="lazy"></button><figcaption>Jog Falls, Karnataka</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/abbe-falls.jpg' | relative_url }}" data-alt="Abbe Falls, Coorg, Karnataka"><img src="{{ '/assets/images/interests/photography/abbe-falls.jpg' | relative_url }}" alt="Abbe Falls, Coorg, Karnataka" loading="lazy"></button><figcaption>Abbe Falls, Coorg</figcaption></figure>
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/coorg-road.jpg' | relative_url }}" data-alt="Coorg, Karnataka"><img src="{{ '/assets/images/interests/photography/coorg-road.jpg' | relative_url }}" alt="Coorg, Karnataka" loading="lazy"></button><figcaption>Coorg, Karnataka</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/horanadu-annapoorneshwari-temple.jpg' | relative_url }}" data-alt="Horanadu, Karnataka"><img src="{{ '/assets/images/interests/photography/horanadu-annapoorneshwari-temple.jpg' | relative_url }}" alt="Horanadu, Karnataka" loading="lazy"></button><figcaption>Horanadu, Karnataka</figcaption></figure>
 </div>
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
@@ -154,7 +155,8 @@ document.addEventListener('DOMContentLoaded', function() {
     [13.418, 75.251, 'Sringeri Vidyapeetha'],
     [14.225, 76.399, 'Chitradurga Fort, Karnataka'],
     [14.216, 74.814, 'Jog Falls'],
-    [12.390, 75.710, 'Abbe Falls, Coorg']
+    [12.390, 75.710, 'Abbe Falls, Coorg'],
+    [13.268, 75.341, 'Horanadu, Karnataka']
   ];
   markers.forEach(function(m) {
     L.marker([m[0], m[1]]).addTo(map).bindPopup(m[2]);
@@ -248,6 +250,7 @@ document.addEventListener('DOMContentLoaded', function() {
     [14.225, 76.399, 'Chitradurga Fort, Karnataka'],
     [14.216, 74.814, 'Jog Falls'],
     [12.390, 75.710, 'Abbe Falls, Coorg'],
+    [13.268, 75.341, 'Horanadu, Karnataka'],
     [27.175, 78.042, 'Taj Mahal, Agra'],
     [28.524, 77.185, 'Qutb Minar, Delhi'],
     [44.718, -110.500, 'Lower Falls, Yellowstone'],
