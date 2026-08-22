@@ -316,7 +316,7 @@ title: Harish Raghavendra - Platform Product Manager, GitHub
         </article>
         <article class="project-card">
             <h3 class="project-card__title">Photography</h3>
-            <p class="project-card__description">Shot on a Canon 6D (previously a 7D and a Rebel) with L-series glass &mdash; national parks, coastlines, and gardens across a decade of travel.</p>
+            <p class="project-card__description">Shot on a Canon 6D (previously a 7D and a Rebel) with L-series glass &mdash; Yellowstone &amp; Grand Teton, the Himalayas, national parks, coastlines, and gardens across a decade of travel.</p>
             <a href="{{ '/interests/photography/' | relative_url }}" class="project-card__link">Read more</a>
         </article>
         <article class="project-card">
