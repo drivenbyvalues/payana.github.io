@@ -183,6 +183,81 @@ Marble, symmetry, and reflection at the Taj Mahal.
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yellowstone-elk-mammoth.jpg' | relative_url }}" data-alt="Elk near Mammoth Hot Springs"><img src="{{ '/assets/images/interests/photography/yellowstone-elk-mammoth.jpg' | relative_url }}" alt="Elk near Mammoth Hot Springs" loading="lazy"></button><figcaption>Elk near Mammoth Hot Springs</figcaption></figure>
 </div>
 
+## Photo Locations
+
+Explore the locations behind the photos on the map below.
+
+<div id="world-photo-map" style="height: 500px; margin-top: 1.5rem; border-radius: 12px; border: 1px solid #ddd;"></div>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var map = L.map('world-photo-map');
+  var locations = [
+    [38.746, -109.499, 'Delicate Arch, UT'],
+    [36.862, -111.375, 'Antelope Canyon, Page, AZ'],
+    [36.879, -111.511, 'Horseshoe Bend, Page, AZ'],
+    [36.057, -112.109, 'Grand Canyon, Mather Point'],
+    [38.733, -109.593, 'Arches National Park, UT'],
+    [42.868, -122.169, 'Crater Lake, OR'],
+    [37.832, -119.467, 'Tenaya Lake, Yosemite'],
+    [39.096, -120.032, 'Lake Tahoe'],
+    [46.852, -121.760, 'Mount Rainier, WA'],
+    [48.405, -122.643, 'Deception Pass State Park, WA'],
+    [47.542, -121.838, 'Snoqualmie Falls, WA'],
+    [50.116, -122.957, 'Whistler, BC'],
+    [48.563, -123.470, 'Butchart Gardens, Victoria, BC'],
+    [36.617, -121.940, '17-Mile Drive, Pebble Beach, CA'],
+    [36.569, -121.965, 'Lone Cypress, Pebble Beach, CA'],
+    [33.543, -117.783, 'Laguna Beach, CA'],
+    [32.691, -117.178, 'Coronado Beach, CA'],
+    [34.020, -118.831, 'Zuma Beach, CA'],
+    [20.798, -156.332, 'Maui, HI'],
+    [21.280, -157.828, 'Waikiki Beach, HI'],
+    [21.433, -157.820, 'Byodo-In Temple, Oahu, HI'],
+    [32.735, -117.149, 'San Diego Zoo, CA'],
+    [40.713, -74.006, 'New York City Skyline, NY'],
+    [40.706, -73.997, 'Brooklyn Bridge, NY'],
+    [40.707, -73.989, 'Manhattan Bridge, NY'],
+    [40.846, -73.929, 'Washington Bridge, NY'],
+    [40.713, -74.013, 'Freedom Tower, NY'],
+    [37.820, -122.478, 'Golden Gate Bridge, CA'],
+    [37.774, -122.419, 'San Francisco Skyline, CA'],
+    [35.685, -121.168, 'Hearst Castle, CA'],
+    [12.305, 76.655, 'Mysore Palace, India'],
+    [35.251, -112.188, 'Williams, AZ'],
+    [49.295, -123.134, 'Lions Gate Bridge, Vancouver'],
+    [49.296, -123.117, 'Vancouver Skyline & Marina, BC'],
+    [47.621, -122.350, 'Chihuly Garden and Glass, Seattle'],
+    [48.424, -122.337, 'Skagit Valley Tulip Festival, WA'],
+    [12.945, 75.786, 'Sakleshpura, Karnataka'],
+    [11.843, 76.339, 'Kabini, Karnataka'],
+    [14.093, 74.489, 'Murdeshwar Beach, Karnataka'],
+    [30.150, 78.320, 'Himalayan Valley, Char Dham'],
+    [12.430, 75.960, 'Namdroling Monastery, Kushalnagar'],
+    [13.163, 75.864, 'Chennakeshava Temple, Belur'],
+    [13.418, 75.251, 'Sringeri Vidyapeetha'],
+    [14.216, 74.814, 'Jog Falls'],
+    [12.390, 75.710, 'Abbe Falls, Coorg'],
+    [27.175, 78.042, 'Taj Mahal, Agra'],
+    [28.524, 77.185, 'Qutb Minar, Delhi'],
+    [44.718, -110.500, 'Lower Falls, Yellowstone'],
+    [44.977, -110.699, 'Mammoth Hot Springs'],
+    [44.728, -110.705, 'Norris Geyser Basin'],
+    [44.644, -110.441, 'Hayden Valley, Yellowstone'],
+    [43.790, -110.682, 'Grand Teton National Park'],
+    [43.865, -110.575, 'Grand Teton & Jackson Lake']
+  ];
+  var bounds = [];
+  locations.forEach(function(loc) {
+    L.marker([loc[0], loc[1]]).addTo(map).bindPopup(loc[2]);
+    bounds.push([loc[0], loc[1]]);
+  });
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+  }).addTo(map);
+  map.fitBounds(bounds, { padding: [30, 30], maxZoom: 16 });
+});
+</script>
+
 ## More to Come
 
 A few of my shots have also hung on the office walls at Intuit — photos of those coming soon.
