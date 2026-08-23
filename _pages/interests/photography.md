@@ -210,6 +210,39 @@ Marble, symmetry, and reflection at the Taj Mahal.
   <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/yosemite-tunnel-view-summer.jpg' | relative_url }}" data-alt="Tunnel View, Yosemite, Summer"><img src="{{ '/assets/images/interests/photography/yosemite-tunnel-view-summer.jpg' | relative_url }}" alt="Tunnel View, Yosemite, Summer" loading="lazy"></button><figcaption>Tunnel View, Yosemite, Summer</figcaption></figure>
 </div>
 
+## Gallery — Las Vegas, NV
+
+<div class="photo-grid">
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/las-vegas-bellagio.jpg' | relative_url }}" data-alt="Bellagio, Las Vegas"><img src="{{ '/assets/images/interests/photography/las-vegas-bellagio.jpg' | relative_url }}" alt="Bellagio, Las Vegas" loading="lazy"></button><figcaption>Bellagio, Las Vegas</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/las-vegas-panorama.jpg' | relative_url }}" data-alt="Las Vegas Strip"><img src="{{ '/assets/images/interests/photography/las-vegas-panorama.jpg' | relative_url }}" alt="Las Vegas Strip" loading="lazy"></button><figcaption>Las Vegas Strip</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/las-vegas-bellagio-fountains.jpg' | relative_url }}" data-alt="Bellagio Fountains, Las Vegas"><img src="{{ '/assets/images/interests/photography/las-vegas-bellagio-fountains.jpg' | relative_url }}" alt="Bellagio Fountains, Las Vegas" loading="lazy"></button><figcaption>Bellagio Fountains, Las Vegas</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/las-vegas-paris.jpg' | relative_url }}" data-alt="Paris Las Vegas"><img src="{{ '/assets/images/interests/photography/las-vegas-paris.jpg' | relative_url }}" alt="Paris Las Vegas" loading="lazy"></button><figcaption>Paris Las Vegas</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/las-vegas-new-york-new-york.jpg' | relative_url }}" data-alt="New York-New York, Las Vegas"><img src="{{ '/assets/images/interests/photography/las-vegas-new-york-new-york.jpg' | relative_url }}" alt="New York-New York, Las Vegas" loading="lazy"></button><figcaption>New York-New York, Las Vegas</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/las-vegas-venetian.jpg' | relative_url }}" data-alt="The Venetian, Las Vegas"><img src="{{ '/assets/images/interests/photography/las-vegas-venetian.jpg' | relative_url }}" alt="The Venetian, Las Vegas" loading="lazy"></button><figcaption>The Venetian, Las Vegas</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/las-vegas-wynn.jpg' | relative_url }}" data-alt="Wynn Las Vegas"><img src="{{ '/assets/images/interests/photography/las-vegas-wynn.jpg' | relative_url }}" alt="Wynn Las Vegas" loading="lazy"></button><figcaption>Wynn Las Vegas</figcaption></figure>
+</div>
+
+## Gallery — Lake Mead & Hoover Dam, NV/AZ
+
+<div class="photo-grid">
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/hoover-dam-bridge.jpg' | relative_url }}" data-alt="Hoover Dam Bridge, NV/AZ"><img src="{{ '/assets/images/interests/photography/hoover-dam-bridge.jpg' | relative_url }}" alt="Hoover Dam Bridge, NV/AZ" loading="lazy"></button><figcaption>Hoover Dam Bridge, NV/AZ</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/lake-mead-1.jpg' | relative_url }}" data-alt="Lake Mead, NV/AZ"><img src="{{ '/assets/images/interests/photography/lake-mead-1.jpg' | relative_url }}" alt="Lake Mead, NV/AZ" loading="lazy"></button><figcaption>Lake Mead, NV/AZ</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/lake-mead-2.jpg' | relative_url }}" data-alt="Lake Mead, NV/AZ"><img src="{{ '/assets/images/interests/photography/lake-mead-2.jpg' | relative_url }}" alt="Lake Mead, NV/AZ" loading="lazy"></button><figcaption>Lake Mead, NV/AZ</figcaption></figure>
+</div>
+
+## Gallery — Zion & Lake Powell, UT/AZ
+
+<div class="photo-grid">
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/zion-checkerboard-mesa.jpg' | relative_url }}" data-alt="Checkerboard Mesa, Zion National Park"><img src="{{ '/assets/images/interests/photography/zion-checkerboard-mesa.jpg' | relative_url }}" alt="Checkerboard Mesa, Zion National Park" loading="lazy"></button><figcaption>Checkerboard Mesa, Zion National Park</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/zion-checkerboard-mesa-2.jpg' | relative_url }}" data-alt="Checkerboard Mesa, Zion National Park"><img src="{{ '/assets/images/interests/photography/zion-checkerboard-mesa-2.jpg' | relative_url }}" alt="Checkerboard Mesa, Zion National Park" loading="lazy"></button><figcaption>Checkerboard Mesa, Zion National Park</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/zion-national-park-1.jpg' | relative_url }}" data-alt="Zion National Park, UT"><img src="{{ '/assets/images/interests/photography/zion-national-park-1.jpg' | relative_url }}" alt="Zion National Park, UT" loading="lazy"></button><figcaption>Zion National Park, UT</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/zion-national-park-2.jpg' | relative_url }}" data-alt="Zion National Park, UT"><img src="{{ '/assets/images/interests/photography/zion-national-park-2.jpg' | relative_url }}" alt="Zion National Park, UT" loading="lazy"></button><figcaption>Zion National Park, UT</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/zion-national-park-3.jpg' | relative_url }}" data-alt="Zion National Park, UT"><img src="{{ '/assets/images/interests/photography/zion-national-park-3.jpg' | relative_url }}" alt="Zion National Park, UT" loading="lazy"></button><figcaption>Zion National Park, UT</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/lake-powell-1.jpg' | relative_url }}" data-alt="Lake Powell, AZ/UT"><img src="{{ '/assets/images/interests/photography/lake-powell-1.jpg' | relative_url }}" alt="Lake Powell, AZ/UT" loading="lazy"></button><figcaption>Lake Powell, AZ/UT</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/lake-powell-2.jpg' | relative_url }}" data-alt="Lake Powell, AZ/UT"><img src="{{ '/assets/images/interests/photography/lake-powell-2.jpg' | relative_url }}" alt="Lake Powell, AZ/UT" loading="lazy"></button><figcaption>Lake Powell, AZ/UT</figcaption></figure>
+  <figure><button type="button" class="photo-trigger" data-src="{{ '/assets/images/interests/photography/lake-powell-3.jpg' | relative_url }}" data-alt="Lake Powell, AZ/UT"><img src="{{ '/assets/images/interests/photography/lake-powell-3.jpg' | relative_url }}" alt="Lake Powell, AZ/UT" loading="lazy"></button><figcaption>Lake Powell, AZ/UT</figcaption></figure>
+</div>
+
 ## Photo Locations
 
 Explore the locations behind the photos on the map below.
@@ -284,7 +317,13 @@ document.addEventListener('DOMContentLoaded', function() {
     [44.460, -110.828, 'Old Faithful Geyser, Yellowstone'],
     [44.644, -110.441, 'Hayden Valley, Yellowstone'],
     [43.790, -110.682, 'Grand Teton National Park'],
-    [43.865, -110.575, 'Grand Teton & Jackson Lake']
+    [43.865, -110.575, 'Grand Teton & Jackson Lake'],
+    [36.112, -115.174, 'Las Vegas Strip, NV'],
+    [36.015, -114.742, 'Hoover Dam Bridge, NV/AZ'],
+    [36.017, -114.750, 'Lake Mead, NV/AZ'],
+    [37.225, -112.903, 'Checkerboard Mesa, Zion, UT'],
+    [37.282, -112.947, 'Zion National Park, UT'],
+    [36.936, -111.484, 'Lake Powell, AZ/UT']
   ];
   var bounds = [];
   locations.forEach(function(loc) {
